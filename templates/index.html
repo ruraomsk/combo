@@ -1,0 +1,60 @@
+{{define "index"}}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta http-equiv="refresh" content="5">
+    <title>Комбайн</title>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        {{ template "header" }}
+        <aside>
+            <ul class="left-menu">
+                {{ range $name,$device := .Devices }}
+                <li>
+                    <a  href="/edit?id={{$name}}">{{$device}}</a>
+                </li>
+                {{ end}}
+            </ul>
+        </aside>
+        <section>
+            <table id="registers">
+                <caption>
+                    <a>Устройство <span>{{.Device}}</span> </a>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Наименование регистра</th>
+                        <th>Значение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ range $key,$value := .Table }}
+                    <tr>
+                        <td>{{$key}}</td>
+                        <td>{{$value.Description}}</td>
+                        <td>{{$value.Value}}</td>
+                    </tr>
+                    {{ end }}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </div>
+</body>
+
+</html>
+{{ end }}

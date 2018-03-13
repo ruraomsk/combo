@@ -1,0 +1,111 @@
+/* Общий стил враппера */
+  body{
+    height: 100%;
+  }
+#wrapper {
+	max-width: 1660px;
+	margin: auto;
+  }
+ header {
+	padding: auto;
+  }
+/* Левая и правая сторона */
+ aside {
+	float: left;
+  width: 250px;
+  }
+ section {
+ 	margin-left: 280px;
+	padding-bottom: 0px;
+  }
+/* Таблица */
+table{
+  display: table;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  caption {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    color: #039;
+  }
+  th {
+    font-weight: normal;
+    color: #039;
+    border-bottom: 2px solid #6678b1;
+    padding: 0px 5px;
+  }
+  td {
+    color: #669;
+    padding: 0px 5px;
+    transition: .3s linear;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  /*
+  tr:hover td {color: #6699ff;}
+  */
+  /* подвал! */
+  footer {
+    background: #7e7e7e;
+    color: #dbdbdb;
+    font-size: 12px;
+  }
+  
+  footer h3 {
+    font: 16px;
+    color: #fff;
+    border-bottom: 1px solid #919191;
+    margin: 0 0 10px 0;
+  }
+    
+  footer p {
+    margin: 5px 0;
+  }
+  /* 
+  Меню шапки
+  */
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    list-style-position: inside;
+    font: 20px 'Oswald', sans-serif;
+    padding: 10px;
+  }
+  
+  .top-menu li {
+    display: inline-block;
+    padding: 10px 40px;
+    margin: 0;
+  }
+  
+  .top-menu li.active {
+    background: #29c5e6;
+    color: #fff;
+  }
+  
+  .top-menu a {
+    color: #241f1f;
+  }
+  .left-menu li {
+    font: 18px 'Oswald', sans-serif;
+    padding: 10px;
+    color: #141111;
+  }
+  .left-menu a {
+    text-decoration: none;
+    color: #241f1f;
+  }

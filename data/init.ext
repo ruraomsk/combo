@@ -1,0 +1,34 @@
+set false=false
+set true=true
+set zero=0
+set power=0.0   // общая мощность
+set power1=0.0  // канал 1
+set power2=0.0  // канал 2
+set power3=0.0  // канал 3
+set power4=0.0  // канал 4
+set flag1=true
+set flag2=true
+
+// Расчет поканальной и результируюшей мощности
+let power1=FORIF(baz1:R0VN61LZ1,baz2:R0VN01RZ2,baz1:R0VN01RZ1,baz2:R0VN61LZ2,baz1:R0VN01RZ1,baz2:R0VN01RZ2)
+let power2=FORIF(baz1:R0VN62LZ1,baz2:R0VN02RZ2,baz1:R0VN02RZ1,baz2:R0VN62LZ2,baz1:R0VN02RZ1,baz2:R0VN02RZ2)
+let power3=FORIF(baz1:R0VN63LZ1,baz2:R0VN03RZ2,baz1:R0VN03RZ1,baz2:R0VN63LZ2,baz1:R0VN03RZ1,baz2:R0VN03RZ2)
+let power4=FORIF(baz1:R0VN64LZ1,baz2:R0VN04RZ2,baz1:R0VN04RZ1,baz2:R0VN64LZ2,baz1:R0VN04RZ1,baz2:R0VN04RZ2)
+let power=FORMAX(power1,power2,power3,power4)
+
+set taz1=0.0
+set taz2=0.0
+// Расчет температуры по зонам
+let taz1=FORMAX(baz1:A0CT01IZ1,baz2:A0CT01IZ2)
+let taz2=FORMAX(baz1:B0CT01IZ1,baz2:B0CT01IZ2)
+let flag1=NOT(dozs:FLAG1)
+let flag2=NOT(dozs:FLAG2)
+let fout:FD01=FloatStr(taz1,false)
+let fout:FD02=FloatStr(taz2,false)
+let fout:FD03=FloatStr(dozs:DOZA1,flag1)
+let fout:FD04=FloatStr(dozs:DOZA2,flag2)
+let fout:FD05=FloatStr(power,false)
+
+let ctrl:RPULIVE=LIVE(ctrl:RPULIVE)
+let ctrl:RPUCON=true
+//let ctrl:RPUSTATUS=zero
