@@ -13,7 +13,7 @@ func (d *Driver) GetNames() map[string]int {
 	return r
 }
 
-//GetDescription возвращает имена переменных с описанием
+//GetDescription   возвращает имена переменных с описанием
 func (d *Driver) GetDescription() map[string]string {
 	r := make(map[string]string)
 	for name, reg := range d.registers {
