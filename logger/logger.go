@@ -22,11 +22,13 @@ var namelog string
 
 const maxLenPipe = 1000
 
+var work bool
 var db *sql.DB
 var chlog chan logmessage
 
 func logdb(name string, condb string, init bool) {
 	var err error
+	work = false
 	db, err := sql.Open("postgres", condb)
 	if err != nil {
 		cmb.Logger.Printf("logger %s DB %v\n", name, err)
@@ -60,6 +62,7 @@ func logdb(name string, condb string, init bool) {
 		}
 		row.Close()
 		cmb.Logger.Printf("table %s database create ", name)
+		work = true
 	}
 	for {
 		message := <-chlog
@@ -128,6 +131,9 @@ func LoadLogger(logs cmb.Loggers, dbcon string, name string, init bool) {
 	cmb.Logger.Printf("logger %s запущен\n", name)
 }
 func KillOldLog(old time.Time) {
+	if !work {
+		return
+	}
 	req := "delete from " + namelog + " where tm<'" + string(pq.FormatTimestamp(old)) + "';"
 	// println(d.name, req)
 	rows, err := db.Query(req)

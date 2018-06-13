@@ -7,7 +7,7 @@
 		Параметры для соединения с Postgresql	
 		periob срок хранения данных в днях 
 	-->
-	<database ip="localhost" port="5432" base="combo" user="combo" password="combo" period="30" make="false">
+	<database ip="localhost" port="5432" base="combo" user="combo" password="combo" period="30" make="true">
 	</database>
 	<loggers name="log" >
 		<logger port="5510" name="APAXL" description="Левый APAX щита"></logger>
@@ -22,9 +22,12 @@
 			-doza   Дозиметр
 			=rtu 	modbus на RS-485
 	-->
-		<device name="dozs" description="Дозиметр текущие значения" type="doza" step="1000"
-				port="5507" 
-				load="doza.xml"></device>
+<!--		<device name="aknps" description="АКНП Slave" type="slave" step="1000"
+				port="5522" 
+				load="aknp.xml"></device>
+		<device name="aknp" description="АКНП " type="dub" step="1000"
+				ip="192.168.10.30" port="5522" ip2="192.168.20.30" port2="5522" Restart="60"				
+				load="aknp.xml"></device>
 		<device name="dus" description="БАРС ДУ Slave" type="slave" step="1000"
 				port="5502" 
 				load="du.xml"></device>
@@ -34,9 +37,20 @@
 		<device name="baz2s" description="БАРС БАЗ2 Slave" type="slave" step="1000"
 				port="5504" 
 				load="baz2.xml"></device>
-		<device name="ctrls" description="Общий котроль Slave" type="slave" step="1000"  
+		<device name="fouts" description="Цифровые индикаторы Slave" type="slave" step="1000"
 				port="5505" 
+				load="fout.xml"></device>
+		<device name="fout" description="Цифровые индикаторы Вывод" type="mono" step="1000" Restart="60"
+			    port="5505" ip="127.0.0.1"
+				tty="COM1" baud="9600" databits="8" parity="N" stopbits="1"  
+				load="fout.xml"></device>
+		<device name="ctrls" description="Общий контроль Slave" type="slave" step="1000"
+				port="5506" 
 				load="ctrl.xml"></device>
+-->
+		<device name="dozs" description="Дозиметр текущие значения" type="doza" step="1000"
+				port="5507" 
+				load="doza.xml"></device>
 		<device name="du" description="БАРС ДУ DubModbus" type="dub" step="1000"
 				ip="192.168.10.35" port="502" ip2="192.168.20.35" port2="502" Restart="60" 
 				load="du.xml"></device>
@@ -46,18 +60,8 @@
 		<device name="baz2" description="БАРС БАЗ2 DubModbus" type="dub" step="1000" Restart="60"
 				ip="192.168.10.35" port="504" ip2="192.168.20.35" port2="504"
 				load="baz2.xml"></device>
-		<device name="fouts" description="Цифровые индикаторы Slave" type="slave" step="1000"
-				port="5505" 
-				load="fout.xml"></device>
-		<device name="ctrls" description="Общий контроль Slave" type="slave" step="1000"
-				port="5506" 
-				load="ctrl.xml"></device>
-		<device name="fout" description="Цифровые индикаторы Вывод" type="mono" step="1000" Restart="60"
-			    port="5505" ip="127.0.0.1"
-				tty="COM1" baud="9600" databits="8" parity="N" stopbits="1"  
-				load="fout.xml"></device>
 		<device name="ctrl" description="Общий котроль сторона РПУ" type="dub" step="1000" Restart="60"
-				ip="192.168.10.40" port="502" ip2="192.168.10.41" port2="502"
+				ip="192.168.10.41" port="502" ip2="192.168.20.41" port2="502"
 				load="ctrl.xml"></device>
 	</devices>
 	<extends step="1000">

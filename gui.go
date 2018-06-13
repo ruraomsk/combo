@@ -15,6 +15,7 @@ type HTTPDataTable struct {
 	Description string
 	Value       string
 }
+//Index для вывода
 type Index struct {
 	Table   map[string]*HTTPDataTable
 	Devices map[string]string
@@ -115,9 +116,9 @@ func gui() {
 		index.Devices[name] = dev.Description
 	}
 
-	fmt.Println("listering on port :8080")
+	fmt.Println("listering on port :8181")
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("./assets/"))))
 	http.HandleFunc("/", indexHandler)
 
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8181", nil)
 }

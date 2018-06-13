@@ -89,12 +89,12 @@ func main() {
 	go proc.Procedure(Cmb, Drivers)
 
 	for {
-		time.Sleep(8 * time.Hour)
+		time.Sleep(10 * time.Hour)
 		now := time.Now()
 		old := now.AddDate(0, 0, -Cmb.DataBase.Period)
 		for _, rdb := range DBRouters {
 			rdb.KillOld(old)
 		}
-		logger.KillOldLog(old)
+		//logger.KillOldLog(old)
 	}
 }

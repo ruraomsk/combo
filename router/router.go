@@ -191,6 +191,9 @@ func (d *DBRouter) ToString() string {
 // KillOld  удаляет старые записи старше dur
 // delete from table where tm<oldtm;
 func (d *DBRouter) KillOld(old time.Time) {
+	if !d.work {
+		return
+	}
 	d.mu.Lock()
 	defer d.mu.Unlock()
 	req := "delete from " + d.name + " where tm<'" + string(pq.FormatTimestamp(old)) + "';"
