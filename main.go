@@ -84,7 +84,7 @@ func main() {
 
 	}
 
-	go gui()
+	gui()
 
 	go proc.Procedure(Cmb, Drivers)
 

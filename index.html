@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Комбайн</title>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+
+        <header>
+            <div>
+                <h1 style="color:#6f6f6f;" href="/">
+
+                    АВТОМАТИКА
+                    <span style="color:red;">–</span>Э
+                </h1>
+                <aside>
+                </aside>
+                <section>
+                    <nav>
+                        <ul class="top-menu">
+                            <li>
+                                <a href="javascript:reloadTable('reg=coils');">Coil Registers</a>
+                            </li>
+                            <li>
+                                <a href="javascript:reloadTable('reg=di');">Discrets Input</a>
+                            </li>
+                            <li>
+                                <a href="javascript:reloadTable('reg=ir');">Input Registers</a>
+                            </li>
+                            <li>
+                                <a href="javascript:reloadTable('reg=hr');">Holding Registers</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                </section>
+            </div>
+
+        </header>
+
+
+        <aside>
+            <ul class="left-menu">
+
+                <li>
+                    <a href="javascript:reloadTable('','dev=baz1');">БАРС БАЗ1 DubModbus</a>
+                </li>
+
+                <li>
+                    <a href="javascript:reloadTable('','dev=baz2');">БАРС БАЗ2 DubModbus</a>
+                </li>
+
+                <li>
+                    <a href="javascript:reloadTable('','dev=ctrl');">Общий котроль сторона РПУ</a>
+                </li>
+
+                <li>
+                    <a href="javascript:reloadTable('','dev=dozs');">Дозиметр текущие значения</a>
+                </li>
+
+                <li>
+                    <a href="javascript:reloadTable('','dev=du');">БАРС ДУ DubModbus</a>
+                </li>
+
+            </ul>
+        </aside>
+        <section>
+            <p id="table">
+                <script type="text/javascript">
+                    reloadTable();
+                    var currentRegister = "coils";
+                    var currentDevice = "baz1";
+                    var parameters = "";
+                    var timerID = setInterval("reloadTable()", 5000);
+
+                    function reloadTable(reg = "", dev = "") {
+                        if (dev != "") {
+                            currentDevice = dev;
+                        }
+                        if (reg != "") {
+                            currentRegister = reg;
+                        }
+                        parameters = '?' + currentRegister + '&' + currentDevice;
+
+                        var table = ""
+                        var leftMenu = ""
+                        var request = new XMLHttpRequest();
+                        request.open('POST', '/data.json' + parameters, true);
+                        request.onreadystatechange = function (e) {
+                            if (this.readyState == 4) {
+                                if (this.status == 200) {
+                                    var response = JSON.parse(this.responseText);
+
+                                    table += '<table id="registers">';
+                                    table += '<caption>';
+                                    table += '<a>Устройство ';
+                                    table += '<span>' + response.Device + '</span>';
+                                    table += '</a>';
+                                    table += '</caption>';
+                                    table += '<thead>';
+                                    table += ' <tr>';
+                                    table += '<th>Имя</th>';
+                                    table += '<th>Наименование регистра</th>';
+                                    table += '<th>Значение</th>';
+                                    table += '</tr>';
+                                    table += '</thead>';
+                                    table += '<tbody>';
+                                    Object.keys(response.Table).forEach(function (k) {
+                                        table += '<tr><td>' + k + '</td><td>' + response.Table[k].Description + '</td><td>' + response.Table[k].Value + '</td></tr>';
+                                    });
+
+                                    table += '</tbody>';
+                                    table += '<tfoot>';
+                                    table += '<tr>';
+                                    table += '<td> </td>';
+                                    table += '<td> </td>';
+                                    table += '</tr>';
+                                    table += '</tfoot>';
+                                    table += '</table>';
+
+                                    document.getElementById("table").innerHTML = table;
+                                }
+                            }
+                        };
+                        request.send(null);
+                    }
+                </script>
+
+        </section>
+    </div>
+</body>
+
+</html>
