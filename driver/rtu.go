@@ -1,7 +1,6 @@
 package driver
 
 import (
-	"fmt"
 	"ruraomsk/combo/cmb"
 	"sync"
 	"time"
@@ -50,7 +49,7 @@ func rtu(d *Driver) (*RTU, error) {
 	m.master.DataBits = m.con.databits
 	m.master.Parity = m.con.parity
 	m.master.StopBits = m.con.stopbits
-	m.master.Timeout = time.Second
+	m.master.Timeout = 5 * time.Second
 	m.master.SlaveId = 1
 	m.connected = false
 	// m.master.Logger = cmb.Logger
@@ -92,11 +91,11 @@ func (m *RTU) readAllCoils() {
 	}
 
 	m.mu.Lock()
+	defer m.mu.Unlock()
 	//cmb.SwapBuffer(buff)
 	for i := range m.coils {
 		m.coils[i] = getbool(buff, uint16(i))
 	}
-	m.mu.Unlock()
 }
 
 func (m *RTU) readAllDI() {
@@ -113,10 +112,10 @@ func (m *RTU) readAllDI() {
 	//	cmb.SwapBuffer(buff)
 
 	m.mu.Lock()
+	defer m.mu.Unlock()
 	for i := range m.di {
 		m.di[i] = getbool(buff, uint16(i))
 	}
-	m.mu.Unlock()
 }
 
 func (m *RTU) readAllIR() {
@@ -139,12 +138,12 @@ func (m *RTU) readAllIR() {
 		left := 0
 		cmb.SwapBuffer(buff)
 		m.mu.Lock()
+		defer m.mu.Unlock()
 		for i := 0; i < len; i++ {
 			m.ir[pos] = (uint16(buff[left+1]) << 8) | uint16(buff[left])
 			pos++
 			left += 2
 		}
-		m.mu.Unlock()
 		ref += 125
 	}
 }
@@ -169,12 +168,12 @@ func (m *RTU) readAllHR() {
 		left := 0
 		cmb.SwapBuffer(buff)
 		m.mu.Lock()
+		defer m.mu.Unlock()
 		for i := 0; i < len; i++ {
 			m.hr[pos] = (uint16(buff[left+1]) << 8) | uint16(buff[left])
 			pos++
 			left += 2
 		}
-		m.mu.Unlock()
 		ref += 125
 	}
 }
@@ -226,8 +225,6 @@ func (m *RTU) run() {
 	}
 }
 func (m *RTU) writeVariable(reg *Register, value string) (err error) {
-	m.mu.Lock()
-	defer m.mu.Unlock()
 	if !m.work {
 		return
 	}
@@ -237,22 +234,21 @@ func (m *RTU) writeVariable(reg *Register, value string) (err error) {
 	}
 	buf := make([]byte, len(buffer)*2)
 	pos := 0
-	print(reg.name + " [")
+	// print(reg.name + " [")
 	for i := 0; i < len(buffer); i++ {
-		print(buffer[i], "->")
+		// print(buffer[i], "->")
 		buf[pos+1] = byte(buffer[i] & 0xff)
 		buf[pos+0] = byte((buffer[i] >> 8) & 0xff)
-		fmt.Print(buf[pos], buf[pos+1], "-")
+		// fmt.Print(buf[pos], buf[pos+1], "-")
 		pos += 2
 	}
-	println("]")
-	m.mu.Lock()
-	defer m.mu.Unlock()
-	if int(m.master.SlaveId) != reg.unitID {
-		m.master.SlaveId = byte(reg.unitID)
-		println("Id=", m.master.SlaveId)
+	// println("]")
+	m.master.SlaveId = byte(reg.unitID)
+	// fmt.Println("Id=", m.master.SlaveId)
+	// fmt.Println("len=", len(buffer))
+	if len(buffer) == 0 {
+		return
 	}
-
 	if len(buffer) == 1 {
 		// buffer[0] = ((buffer[0] & 0xff) << 8) | ((buffer[0] >> 8) & 0xff)
 		switch reg.regtype {
@@ -276,7 +272,7 @@ func (m *RTU) writeVariable(reg *Register, value string) (err error) {
 	case 2:
 		_, err = m.client.WriteMultipleInputRegisters(uint16(reg.address&0xffff), uint16(len(buffer)), buf)
 	case 3:
-		println(reg.ToString())
+		// fmt.Println(reg.ToString())
 		_, err = m.client.WriteMultipleRegisters(uint16(reg.address&0xffff), uint16(len(buffer)), buf)
 	}
 	return
