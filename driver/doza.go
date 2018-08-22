@@ -13,7 +13,7 @@ import (
 	"ruraomsk/combo/modbus"
 )
 
-//Master структура для мастера TCP modbus
+//Doza структура для мастера TCP modbus
 type Doza struct {
 	master      *modbus.TCPClientHandler
 	client      modbus.Client

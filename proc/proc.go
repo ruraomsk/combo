@@ -33,7 +33,10 @@ func initDatas() {
 func initCodes() {
 	lineCodes = make([]*anyCode, 0)
 }
+
+//Procedure горутина обработки команд
 func Procedure(Cmb *cmb.Combo, drvs map[string]*driver.Driver) {
+	fmt.Println("Начинаем обработку команд...")
 	step = time.Duration(Cmb.Extend.Step) * time.Millisecond
 	drivers = drvs
 	initCodes()
@@ -62,6 +65,7 @@ func mainCycle() {
 	for {
 		loadInputData()
 		for _, line := range lineCodes {
+			// println(line)
 			_, err := line.exec()
 			if err != nil {
 				fmt.Println(err)

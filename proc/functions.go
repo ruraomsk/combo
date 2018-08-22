@@ -156,6 +156,8 @@ func fFSUB(param []string) (res string, err error) {
 	res = strconv.FormatFloat(fbb, 'f', -5, 64)
 	return
 }
+
+//FORIF функиция
 func FORIF(param []string) (res string, err error) {
 	res = "0.0"
 	count := 0
@@ -188,6 +190,8 @@ func FORIF(param []string) (res string, err error) {
 	res = strconv.FormatFloat(sum, 'f', -5, 64)
 	return
 }
+
+//FORMAX функуция
 func FORMAX(param []string) (res string, err error) {
 	res = "0.0"
 	fb := 0.0
@@ -205,6 +209,8 @@ func FORMAX(param []string) (res string, err error) {
 	res = strconv.FormatFloat(fbb, 'f', -5, 64)
 	return
 }
+
+// FloatStr функция
 func FloatStr(param []string) (res string, err error) {
 	res = "0 0 0 0"
 	var b bool

@@ -6,12 +6,14 @@ import (
 	"time"
 )
 
+//LogFile функция
 type LogFile struct {
 	flog *os.File
 	path string
 	date string
 }
 
+//LogOpen функция
 func LogOpen(path string) (log *LogFile, err error) {
 	log = new(LogFile)
 	log.date = time.Now().Format(time.RFC3339)[0:10]

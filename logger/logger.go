@@ -130,6 +130,8 @@ func LoadLogger(logs cmb.Loggers, dbcon string, name string, init bool) {
 	}
 	cmb.Logger.Printf("logger %s запущен\n", name)
 }
+
+//KillOldLog функция
 func KillOldLog(old time.Time) {
 	if !work {
 		return

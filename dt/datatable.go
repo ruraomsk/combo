@@ -107,6 +107,8 @@ func (dt *DataTable) AddRecord(d *Data) {
 	}
 	dt.dataStore = append(dt.dataStore, d)
 }
+
+//ToString тестовое представление таблицы
 func (dt *DataTable) ToString() string {
 
 	s := bytes.NewBufferString(fmt.Sprintf("DataTable %s %d \n", dt.Name, len(dt.dataStore)))

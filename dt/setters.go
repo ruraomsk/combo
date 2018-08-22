@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+//MakeField функция
 func (data *Data) MakeField(ff *fieldFormat) {
 	val := new(Value)
 	val.format = ff.format

@@ -1943,8 +1943,8 @@
             <value name="unitId">1</value>
         </record>
         <record>
-            <value name="name">R0MW12IP1</value>
-            <value name="description">(R0MW12IP1) Переключатель «РЕЖИМ РАБОТЫ»</value>
+            <value name="name">R0MW12IP2</value>
+            <value name="description">(R0MW12IP2) Переключатель ВРЕМЯ СРАБАТЫВАНИЯ от ВУ ИС></value>
             <value name="type">3</value>
             <value name="format">3</value>
             <value name="address">0</value>

@@ -4,6 +4,7 @@ import (
 	"github.com/tbrandon/mbserver"
 )
 
+//Slave Структура
 type Slave struct {
 	server *mbserver.Server
 	name   string
@@ -49,8 +50,8 @@ func (s *Slave) start() {
 func (s *Slave) stop() {
 	s.server.Close()
 }
-func (m *Slave) worked() bool {
-	return m.work
+func (s *Slave) worked() bool {
+	return s.work
 }
 
 func (s *Slave) readAllCoils() {

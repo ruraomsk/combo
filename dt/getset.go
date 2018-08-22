@@ -70,6 +70,7 @@ func (r *Data) GetDate(name string) (time.Time, error) {
 	return time.Now(), errors.New("Not found")
 }
 
+//SetInt функция
 func (r *Data) SetInt(name string, value int) error {
 	val, ok := r.values[name]
 	if ok {
@@ -78,6 +79,8 @@ func (r *Data) SetInt(name string, value int) error {
 	}
 	return errors.New("Not found")
 }
+
+//SetBool функция
 func (r *Data) SetBool(name string, value bool) error {
 	val, ok := r.values[name]
 	if ok {
@@ -86,6 +89,8 @@ func (r *Data) SetBool(name string, value bool) error {
 	}
 	return errors.New("Not found")
 }
+
+//SetFloat функция
 func (r *Data) SetFloat(name string, value float64) error {
 	val, ok := r.values[name]
 	if ok {
@@ -94,6 +99,8 @@ func (r *Data) SetFloat(name string, value float64) error {
 	}
 	return errors.New("Not found")
 }
+
+//SetLong функция
 func (r *Data) SetLong(name string, value int64) error {
 	val, ok := r.values[name]
 	if ok {
@@ -102,6 +109,8 @@ func (r *Data) SetLong(name string, value int64) error {
 	}
 	return errors.New("Not found")
 }
+
+//SetString функция
 func (r *Data) SetString(name string, value string) error {
 	val, ok := r.values[name]
 	if ok {
@@ -110,6 +119,8 @@ func (r *Data) SetString(name string, value string) error {
 	}
 	return errors.New("Not found")
 }
+
+//SetDate функция
 func (r *Data) SetDate(name string, value time.Time) error {
 	val, ok := r.values[name]
 	if ok {

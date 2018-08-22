@@ -52,17 +52,20 @@
 				port="5507" 
 				load="doza.xml"></device>
 		<device name="du" description="БАРС ДУ DubModbus" type="dub" step="1000"
-				ip="192.168.10.35" port="502" ip2="192.168.20.35" port2="502" Restart="60" 
+				ip="192.168.10.35" port="502" ip2="192.168.10.35" port2="502" Restart="60" 
 				load="du.xml"></device>
 		<device name="baz1" description="БАРС БАЗ1 DubModbus" type="dub" step="1000" Restart="60"
-				ip="192.168.10.35" port="503" ip2="192.168.20.35" port2="503"
+				ip="192.168.10.35" port="503" ip2="192.168.10.35" port2="503"
 				load="baz1.xml"></device>
 		<device name="baz2" description="БАРС БАЗ2 DubModbus" type="dub" step="1000" Restart="60"
-				ip="192.168.10.35" port="504" ip2="192.168.20.35" port2="504"
+				ip="192.168.10.35" port="504" ip2="192.168.10.35" port2="504"
 				load="baz2.xml"></device>
 		<device name="ctrl" description="Общий котроль сторона РПУ" type="dub" step="1000" Restart="60"
-				ip="192.168.10.41" port="502" ip2="192.168.20.41" port2="502"
+				ip="192.168.10.41" port="502" ip2="192.168.10.141" port2="502"
 				load="ctrl.xml"></device>
+		<device name="fout" description="Цифровые индикаторы Вывод" type="rtu" step="1000" Restart="60"
+				tty="COM9" baud="38400" databits="8" parity="N" stopbits="1"  
+				load="fout.xml"></device>
 	</devices>
 	<extends step="1000">
 		<load file="init.ext"> </load>

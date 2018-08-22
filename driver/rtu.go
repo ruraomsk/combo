@@ -1,6 +1,7 @@
 package driver
 
 import (
+	"fmt"
 	"ruraomsk/combo/cmb"
 	"sync"
 	"time"
@@ -79,6 +80,10 @@ func (m *RTU) stop() {
 
 func (m *RTU) readAllCoils() {
 	var coils = uint16(len(m.coils))
+	if coils == 0 {
+		return
+	}
+
 	buff, err := m.client.ReadCoils(0, coils)
 	if err != nil {
 		cmb.Logger.Println(err.Error())
@@ -96,6 +101,9 @@ func (m *RTU) readAllCoils() {
 
 func (m *RTU) readAllDI() {
 	var di = uint16(len(m.di))
+	if di == 0 {
+		return
+	}
 	buff, err := m.client.ReadDiscreteInputs(0, di)
 	if err != nil {
 		cmb.Logger.Println(err.Error())
@@ -112,6 +120,9 @@ func (m *RTU) readAllDI() {
 }
 
 func (m *RTU) readAllIR() {
+	if len(m.ir) == 0 {
+		return
+	}
 	ref := uint16(0)
 	for count := len(m.ir); count > 0; count -= 125 {
 		len := count
@@ -139,6 +150,9 @@ func (m *RTU) readAllIR() {
 }
 
 func (m *RTU) readAllHR() {
+	if len(m.hr) == 0 {
+		return
+	}
 	ref := uint16(0)
 	for count := len(m.hr); count > 0; count -= 125 {
 		len := count
@@ -195,10 +209,10 @@ func (m *RTU) run() {
 			return
 		}
 
-		m.readAllCoils()
-		m.readAllDI()
-		m.readAllIR()
-		m.readAllHR()
+		// m.readAllCoils()
+		// m.readAllDI()
+		// m.readAllIR()
+		// m.readAllHR()
 
 		if !m.work {
 			return
@@ -223,19 +237,20 @@ func (m *RTU) writeVariable(reg *Register, value string) (err error) {
 	}
 	buf := make([]byte, len(buffer)*2)
 	pos := 0
-	// print(reg.name + " [")
+	print(reg.name + " [")
 	for i := 0; i < len(buffer); i++ {
-		// print(buffer[i], "->")
+		print(buffer[i], "->")
 		buf[pos+1] = byte(buffer[i] & 0xff)
 		buf[pos+0] = byte((buffer[i] >> 8) & 0xff)
-		// fmt.Print(buf[pos], buf[pos+1], "-")
+		fmt.Print(buf[pos], buf[pos+1], "-")
 		pos += 2
 	}
-	// println("]")
+	println("]")
 	m.mu.Lock()
 	defer m.mu.Unlock()
 	if int(m.master.SlaveId) != reg.unitID {
 		m.master.SlaveId = byte(reg.unitID)
+		println("Id=", m.master.SlaveId)
 	}
 
 	if len(buffer) == 1 {
@@ -261,7 +276,7 @@ func (m *RTU) writeVariable(reg *Register, value string) (err error) {
 	case 2:
 		_, err = m.client.WriteMultipleInputRegisters(uint16(reg.address&0xffff), uint16(len(buffer)), buf)
 	case 3:
-		// println(reg.ToString())
+		println(reg.ToString())
 		_, err = m.client.WriteMultipleRegisters(uint16(reg.address&0xffff), uint16(len(buffer)), buf)
 	}
 	return

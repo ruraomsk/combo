@@ -9,7 +9,7 @@ import (
 	"os"
 	"ruraomsk/combo/dt"
 )
-
+//Logger главная переменная логов
 var Logger *log.Logger
 
 // Combo главная структура программы

@@ -18,7 +18,7 @@ type Register struct {
 	unitID      int
 }
 
-//ToString
+//ToString Вывод в строку
 func (r *Register) ToString() string {
 	return fmt.Sprintf("%s %s %d %d %d %d %d", r.name, r.description, r.regtype, r.format, r.address, r.size, r.unitID)
 }
@@ -36,6 +36,8 @@ func (r *Register) Regtype() int {
 	}
 	return 2
 }
+
+//GetValue Чтение переменной
 func (r *Register) GetValue(buffer []uint16) (res string) {
 	res = ""
 	if r.regtype < 2 {
@@ -57,6 +59,8 @@ func (r *Register) GetValue(buffer []uint16) (res string) {
 	}
 	return
 }
+
+//SetValue уставновить значение переменной
 func (r *Register) SetValue(value string) (buffer []uint16, err error) {
 	// fmt.Println(value)
 	size := r.size
