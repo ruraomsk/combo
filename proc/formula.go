@@ -58,7 +58,7 @@ func convertToDisplay(sres string) (rez []byte) {
 		case ':':
 			b = byte(0x2f)
 		case ' ':
-			b = byte(0x7f)
+			b = byte(0x3f)
 		case ',':
 			b = byte(0xff)
 		case '.':
