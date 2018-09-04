@@ -11,14 +11,19 @@ func outFloat(in float64, blink bool) (buf []uint16) {
 	if in < 0.0 || in > 99999.0 {
 		sres = "99999"
 	} else {
-		if in < 1000.0 {
-			sres = fmt.Sprintf("%5.2f", in)
+		if in < 100.0 {
+			sres = fmt.Sprintf("%5.3f", in)
 		} else {
-			if in < 10000.0 {
-				sres = fmt.Sprintf("%5.1f", in)
+			if in < 1000.0 {
+				sres = fmt.Sprintf("%5.2f", in)
 			} else {
-				sres = fmt.Sprintf("%5.f", in)
+				if in < 10000.0 {
+					sres = fmt.Sprintf("%5.1f", in)
+				} else {
+					sres = fmt.Sprintf("%5.f", in)
+				}
 			}
+
 		}
 	}
 	rbyte := convertToDisplay(sres)
