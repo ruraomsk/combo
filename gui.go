@@ -148,21 +148,27 @@ func responJSON(w http.ResponseWriter, r *http.Request) {
 	}
 	dev, ok := query["dev"]
 	if ok {
-		switch dev[0] {
-		case "baz1":
-			defDevice = "baz1"
-		case "baz2":
-			defDevice = "baz2"
-		case "ctrl":
-			defDevice = "ctrl"
-		case "dozs":
-			defDevice = "dozs"
-		case "du":
-			defDevice = "du"
-		default:
-			defDevice = "baz1"
-		}
+		defDevice = dev[0]
+	} else {
+		defDevice = "baz1"
 	}
+
+	// if ok {
+	// 	switch dev[0] {
+	// 	case "baz1":
+	// 		defDevice = "baz1"
+	// 	case "baz2":
+	// 		defDevice = "baz2"
+	// 	case "ctrl":
+	// 		defDevice = "ctrl"
+	// 	case "dozs":
+	// 		defDevice = "dozs"
+	// 	case "du":
+	// 		defDevice = "du"
+	// 	default:
+	// 		defDevice = "baz1"
+	// 	}
+	// }
 
 	setDevice(defDevice, defRegister)
 	b, err := json.Marshal(index)

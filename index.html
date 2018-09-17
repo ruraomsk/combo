@@ -84,7 +84,7 @@
                                     var response = JSON.parse(this.responseText);
                                     if (!stateDevices) {
                                         Object.keys(response.Devices).forEach(function (k) {
-                                            linkDevices += '<li><a href="javascript:reloadTable(\'\',\'' + k + '\');">' + response.Devices[k] + '</a></li>';
+                                            linkDevices += '<li><a href="javascript:reloadTable(\'\',\'dev=' + k + '\');">' + response.Devices[k] + '</a></li>';
                                         });
                                         stateDevices = 1;
                                         takeDevices();
