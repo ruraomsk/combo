@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
     <title>Комбайн</title>
 </head>
 
@@ -17,7 +16,6 @@
         <header>
             <div>
                 <h1 style="color:#6f6f6f;" href="/">
-
                     АВТОМАТИКА
                     <span style="color:red;">–</span>Э
                 </h1>
@@ -47,30 +45,9 @@
 
         </header>
 
-
         <aside>
             <ul class="left-menu">
-
-                <li>
-                    <a href="javascript:reloadTable('','dev=baz1');">БАРС БАЗ1 DubModbus</a>
-                </li>
-
-                <li>
-                    <a href="javascript:reloadTable('','dev=baz2');">БАРС БАЗ2 DubModbus</a>
-                </li>
-
-                <li>
-                    <a href="javascript:reloadTable('','dev=ctrl');">Общий котроль сторона РПУ</a>
-                </li>
-
-                <li>
-                    <a href="javascript:reloadTable('','dev=dozs');">Дозиметр текущие значения</a>
-                </li>
-
-                <li>
-                    <a href="javascript:reloadTable('','dev=du');">БАРС ДУ DubModbus</a>
-                </li>
-
+                <p id="Devices">
             </ul>
         </aside>
         <section>
@@ -81,6 +58,12 @@
                     var currentDevice = "baz1";
                     var parameters = "";
                     var timerID = setInterval("reloadTable()", 5000);
+                    var linkDevices = "";
+                    var stateDevices = 0
+
+                    function takeDevices() {
+                        document.getElementById("Devices").innerHTML = linkDevices;
+                    }
 
                     function reloadTable(reg = "", dev = "") {
                         if (dev != "") {
@@ -99,6 +82,13 @@
                             if (this.readyState == 4) {
                                 if (this.status == 200) {
                                     var response = JSON.parse(this.responseText);
+                                    if (!stateDevices) {
+                                        Object.keys(response.Devices).forEach(function (k) {
+                                            linkDevices += '<li><a href="javascript:reloadTable(\'\',\'' + k + '\');">' + response.Devices[k] + '</a></li>';
+                                        });
+                                        stateDevices = 1;
+                                        takeDevices();
+                                    }
 
                                     table += '<table id="registers">';
                                     table += '<caption>';
@@ -114,6 +104,7 @@
                                     table += '</tr>';
                                     table += '</thead>';
                                     table += '<tbody>';
+
                                     Object.keys(response.Table).forEach(function (k) {
                                         table += '<tr><td>' + k + '</td><td>' + response.Table[k].Description + '</td><td>' + response.Table[k].Value + '</td></tr>';
                                     });
@@ -134,7 +125,6 @@
                         request.send(null);
                     }
                 </script>
-
         </section>
     </div>
 </body>
