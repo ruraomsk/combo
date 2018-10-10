@@ -49,7 +49,7 @@ func (m *Master) worked() bool {
 func (m *Master) start() {
 	err := m.master.Connect()
 	if err != nil {
-		cmb.Logger.Println(err.Error())
+		cmb.Logger.Println(m.name + " start " + err.Error())
 		return
 	}
 	m.client = modbus.NewClient(m.master)
@@ -73,7 +73,7 @@ func (m *Master) readAllCoils() {
 	}
 	buff, err := m.client.ReadCoils(0, coils)
 	if err != nil {
-		cmb.Logger.Println(err.Error())
+		cmb.Logger.Println(m.name + " coils " + err.Error())
 		m.stop()
 		return
 	}
@@ -93,7 +93,7 @@ func (m *Master) readAllDI() {
 	}
 	buff, err := m.client.ReadDiscreteInputs(0, di)
 	if err != nil {
-		cmb.Logger.Println(err.Error())
+		cmb.Logger.Println(m.name + " di " + err.Error())
 		m.stop()
 		return
 	}
@@ -118,7 +118,7 @@ func (m *Master) readAllIR() {
 		}
 		buff, err := m.client.ReadInputRegisters(ref, uint16(len))
 		if err != nil {
-			cmb.Logger.Println(err.Error())
+			cmb.Logger.Println(m.name + " ir " + err.Error())
 			m.stop()
 			return
 		}
@@ -149,7 +149,7 @@ func (m *Master) readAllHR() {
 		}
 		buff, err := m.client.ReadHoldingRegisters(ref, uint16(len))
 		if err != nil {
-			cmb.Logger.Println(err.Error())
+			cmb.Logger.Println(m.name + " hr " + err.Error())
 			m.stop()
 			return
 		}

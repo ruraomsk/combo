@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <format maxRecords="2147483647">
+        <fields>
+            <field description="Имя" name="name" type="S">
+              <validators>&lt;L=1 50&gt;&lt;R=\w+^^Имя может содержать только буквы, цифры и символы подчеркивания&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Описание" name="description" type="S">
+              <validators>&lt;L=1 200&gt;&lt;R=[^\p{Cntrl}]*^^Описание может содержать только печатные символы&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Тип" name="type" type="I">
+              <selectionValues>
+                <option description="Дискретный выход (Coil)">0</option>
+                <option description="Дискретный вход (Discrete Input)">1</option>
+                <option description="Входной регистр (Input Register)">2</option>
+                <option description="Выходной регистр (Holding Register)">3</option>
+                        </selectionValues>
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Формат" name="format" type="I">
+              <selectionValues>
+                <option description="2-байтный Int Unsigned">2</option>
+                <option description="2-байтный Int Signed">3</option>
+                <option description="4-байтный Int Unsigned">4</option>
+                <option description="4-байтный Int Signed">5</option>
+                <option description="4-байтный Int Unsigned Swapped">6</option>
+                <option description="4-байтный Int Signed Swapped">7</option>
+                <option description="4-байтный Float">8</option>
+                <option description="4-байтный Float Swapped">9</option>
+                <option description="8-байтный Int Signed">11</option>
+                <option description="8-байтный Int Signed Swapped">13</option>
+                <option description="8-байтный Float">14</option>
+                <option description="8-байтный Float Swapped">15</option>
+                <option description="2-байтный BCD">16</option>
+                <option description="4-байтный BCD">17</option>
+                <option description="Символьный">18</option>
+                <option description="Строковый">19</option>
+                </selectionValues>
+                <defaultValue>2</defaultValue>
+            </field>
+            <field description="Десятичный адрес (смещение) регистра"
+                name="address" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Размер" name="size" type="I">
+                <validators>&lt;L=1 255&gt;</validators>
+                <defaultValue>1</defaultValue>
+            </field>
+            <field description="nID" name="nID" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="PType" name="PType" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Bf0" name="Bf0" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="ParData" name="ParData" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="OldData" name="OldData" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Идентификатор устройства (Unit ID)"
+                name="unitId" type="I">
+                <defaultValue>1</defaultValue>
+            </field>
+        </fields>
+    </format>
+    <records>
+        <record>
+            <value name="name">A2IC01UDU</value>
+            <value name="description">(A2IC01UDU) Координата штока РБ1</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">0</value>
+            <value name="nID">1</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">0</value>
+            <value name="OldData">0</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A3IC01UDU</value>
+            <value name="description">(A3IC01UDU) Координата штока ИС1</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">2</value>
+            <value name="nID">2</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">5</value>
+            <value name="OldData">5</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B3IC01UDU</value>
+            <value name="description">(B3IC01UDU) Координата штока ИС2</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">4</value>
+            <value name="nID">3</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">10</value>
+            <value name="OldData">10</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A8IC01UDU</value>
+            <value name="description">(A8IC01UDU) Координата ДС2</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">6</value>
+            <value name="nID">4</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">15</value>
+            <value name="OldData">15</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B8IC01UDU</value>
+            <value name="description">(B8IC01UDU) Координата АЗ2</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">8</value>
+            <value name="nID">5</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">20</value>
+            <value name="OldData">20</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B2IC01UDU</value>
+            <value name="description">(B2IC01UDU) Координата штока РБ2</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">10</value>
+            <value name="nID">6</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">25</value>
+            <value name="OldData">25</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">A1IC01UDU</value>
+            <value name="description">(A1IC01UDU) Координата штока ББ1</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">12</value>
+            <value name="nID">7</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">30</value>
+            <value name="OldData">30</value>
+            <value name="unitId">1</value>
+        </record>
+        <record>
+            <value name="name">B1IC01UDU</value>
+            <value name="description">(B1IC01UDU) Координата штока ББ2</value>
+            <value name="type">2</value>
+            <value name="format">5</value>
+            <value name="address">14</value>
+            <value name="nID">8</value>
+            <value name="PType">135</value>
+            <value name="Bf0">0</value>
+            <value name="ParData">35</value>
+            <value name="OldData">35</value>
+            <value name="unitId">1</value>
+        </record>
+    </records>
+</table>

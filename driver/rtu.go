@@ -62,7 +62,7 @@ func (m *RTU) worked() bool {
 func (m *RTU) start() {
 	err := m.master.Connect()
 	if err != nil {
-		cmb.Logger.Println(err.Error())
+		cmb.Logger.Println(m.name + err.Error())
 		return
 	}
 	m.client = modbus.NewClient(m.master)
@@ -85,7 +85,7 @@ func (m *RTU) readAllCoils() {
 
 	buff, err := m.client.ReadCoils(0, coils)
 	if err != nil {
-		cmb.Logger.Println(err.Error())
+		cmb.Logger.Println(m.name + err.Error())
 		m.stop()
 		return
 	}
@@ -105,7 +105,7 @@ func (m *RTU) readAllDI() {
 	}
 	buff, err := m.client.ReadDiscreteInputs(0, di)
 	if err != nil {
-		cmb.Logger.Println(err.Error())
+		cmb.Logger.Println(m.name + err.Error())
 		m.stop()
 		return
 	}
@@ -130,7 +130,7 @@ func (m *RTU) readAllIR() {
 		}
 		buff, err := m.client.ReadInputRegisters(ref, uint16(len))
 		if err != nil {
-			cmb.Logger.Println(err.Error())
+			cmb.Logger.Println(m.name + err.Error())
 			m.stop()
 			return
 		}
@@ -160,7 +160,7 @@ func (m *RTU) readAllHR() {
 		}
 		buff, err := m.client.ReadHoldingRegisters(ref, uint16(len))
 		if err != nil {
-			cmb.Logger.Println(err.Error())
+			cmb.Logger.Println(m.name + err.Error())
 			m.stop()
 			return
 		}
