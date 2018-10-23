@@ -122,8 +122,8 @@ func (d *DBRouter) loop() {
 		if !d.driver.Status() {
 			continue
 		}
-		d.mu.Lock()
-		defer d.mu.Unlock()
+		// d.mu.Lock()
+		// defer d.mu.Unlock()
 		// fmt.Printf("route %s \n", d.name)
 		values := d.driver.GetValues()
 		t := time.Now()
@@ -136,23 +136,35 @@ func (d *DBRouter) loop() {
 			sv.WriteString(",")
 			ss := strings.Split(value, " ")
 			if len(ss) == 1 {
-				sv.WriteString(value)
+				if strings.ToUpper(value) == "NAN" {
+					sv.WriteString("0")
+				} else {
+					if strings.ToUpper(value) == "4294967096" {
+						sv.WriteString("0")
+					} else {
+						sv.WriteString(value)
+					}
+				}
 			} else {
-				sv.WriteString(ss[0])
+				if strings.ToUpper(ss[0]) == "4294967096" {
+					sv.WriteString("0")
+				} else {
+					sv.WriteString(ss[0])
+				}
 			}
 		}
 		s.WriteString(")")
 		sv.WriteString(");")
-		//println(s.String(), sv.String())
 		s.WriteString(sv.String())
 		rows, err := d.db.Query(s.String())
 		if err != nil {
 			cmb.Logger.Printf("Error write database %s %s\n", d.name, err.Error())
-			// fmt.Println(s.String())
-			d.work = false
-			return
+			cmb.Logger.Printf(s.String(), sv.String(), "\n")
+			// d.work = false
+			// return
+		} else {
+			rows.Close()
 		}
-		rows.Close()
 		// for name, value := range values {
 		// 	ov := old[name]
 		// 	if strings.Compare(ov, value) != 0 {
@@ -163,7 +175,7 @@ func (d *DBRouter) loop() {
 		if !d.work {
 			return
 		}
-		d.mu.Unlock()
+		// d.mu.Unlock()
 
 		//stop := time.Now()
 		//elapsed := stop.Sub(start)

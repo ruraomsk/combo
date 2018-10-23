@@ -22,41 +22,41 @@
 			-doza   Дозиметр
 			=rtu 	modbus на RS-485
 	-->
-		<device name="dozs" description="Дозиметр текущие значения" type="doza" step="1000"
+		<device name="dozs" description="Дозиметр текущие значения" type="doza" step="500"
 				port="5507" 
 				load="doza.xml"></device>
-		<device name="du" description="БАРС ДУ Основной" type="dub" step="1000"
+		<device name="du" description="БАРС ДУ Основной" type="dub" step="500"
 				ip="192.168.10.50" port="502" ip2="192.168.10.150" port2="502" Restart="60" 
 				load="DU.xml"></device>
-		<device name="baz1" description="БАРС БАЗ1 Основной" type="dub" step="1000" Restart="60"
+		<device name="baz1" description="БАРС БАЗ1 Основной" type="dub" step="500" Restart="60"
 				ip="192.168.10.52" port="502" ip2="192.168.10.152" port2="502"
 				load="baz1.xml"></device>
-		<device name="baz1DU" description="БАРС БАЗ1 для ДУ" type="dub" step="1000" Restart="60"
+		<device name="baz1DU" description="БАРС БАЗ1 для ДУ" type="dub" step="500" Restart="60"
 				ip="192.168.10.52" port="503" ip2="192.168.10.152" port2="503"
 				load="SBz1DU.xml"></device>
-		<device name="baz2" description="БАРС БАЗ2 Основной" type="dub" step="1000" Restart="60"
+		<device name="baz2" description="БАРС БАЗ2 Основной" type="dub" step="500" Restart="60"
 				ip="192.168.10.54" port="502" ip2="192.168.10.154" port2="502"
 				load="baz2.xml"></device>
-		<device name="baz2DU" description="БАРС БАЗ2 для ДУ" type="dub" step="1000" Restart="60"
+		<device name="baz2DU" description="БАРС БАЗ2 для ДУ" type="dub" step="500" Restart="60"
 				ip="192.168.10.54" port="504" ip2="192.168.10.154" port2="504"
 				load="SBz2DU.xml"></device>
-		<device name="ctrl" description="Общий котроль сторона РПУ" type="dub" step="1000" Restart="60"
+		<device name="ctrl" description="Общий котроль сторона РПУ" type="dub" step="500" Restart="60"
 				ip="192.168.10.41" port="502" ip2="192.168.10.141" port2="502"
 				load="ctrl.xml"></device>
-		<device name="pti" description="ПТИ БАРС Основной" type="dub" step="1000" Restart="60"
+		<device name="pti" description="ПТИ БАРС Основной" type="dub" step="500" Restart="60"
 				ip="192.168.10.60" port="502" ip2="192.168.10.60" port2="502"
 				load="scm.xml"></device>
-		<device name="ptiBaz1" description="ПТИ БАРС БАЗ1" type="dub" step="1000" Restart="60"
+		<device name="ptiBaz1" description="ПТИ БАРС БАЗ1" type="dub" step="500" Restart="60"
 				ip="192.168.10.60" port="503" ip2="192.168.10.60" port2="503"
 				load="SBz1.xml"></device>
-		<device name="ptiBaz2" description="ПТИ БАРС БАЗ2" type="dub" step="1000" Restart="60"
+		<device name="ptiBaz2" description="ПТИ БАРС БАЗ2" type="dub" step="500" Restart="60"
 				ip="192.168.10.60" port="504" ip2="192.168.10.60" port2="504"
 				load="SBz2.xml"></device>
-		<device name="ptiDU" description="ПТИ БАРС ДУ" type="dub" step="1000" Restart="60"
+		<device name="ptiDU" description="ПТИ БАРС ДУ" type="dub" step="500" Restart="60"
 				ip="192.168.10.60" port="505" ip2="192.168.10.60" port2="505"
 				load="SDu.xml"></device>
 	</devices>
-	<extends step="1000">
+	<extends step="500">
 		<load file="init.ext"> </load>
 		<load file="main.ext"> </load>
 	</extends>
