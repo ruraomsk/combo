@@ -136,7 +136,7 @@ func (d *DBRouter) loop() {
 			sv.WriteString(",")
 			ss := strings.Split(value, " ")
 			if len(ss) == 1 {
-				if strings.ToUpper(value) == "NAN" {
+				if value == "NaN" {
 					sv.WriteString("0")
 				} else {
 					if strings.ToUpper(value) == "4294967096" {
@@ -146,10 +146,14 @@ func (d *DBRouter) loop() {
 					}
 				}
 			} else {
-				if strings.ToUpper(ss[0]) == "4294967096" {
+				if ss[0] == "NaN" {
 					sv.WriteString("0")
 				} else {
-					sv.WriteString(ss[0])
+					if strings.ToUpper(ss[0]) == "4294967096" {
+						sv.WriteString("0")
+					} else {
+						sv.WriteString(ss[0])
+					}
 				}
 			}
 		}
@@ -159,7 +163,7 @@ func (d *DBRouter) loop() {
 		rows, err := d.db.Query(s.String())
 		if err != nil {
 			cmb.Logger.Printf("Error write database %s %s\n", d.name, err.Error())
-			cmb.Logger.Printf(s.String(), sv.String(), "\n")
+			cmb.Logger.Printf(s.String(), "\n")
 			// d.work = false
 			// return
 		} else {
