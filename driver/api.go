@@ -1,7 +1,7 @@
 package driver
 
 import (
-	"ruraomsk/combo/cmb"
+	"rura/combo/cmb"
 )
 
 //GetNames возвращает имена переменных с типом переменной

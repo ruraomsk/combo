@@ -38,6 +38,10 @@ func loadFunc(name string, fu func([]string) (string, error)) {
 // логическое NOT
 func bNOT(param []string) (res string, err error) {
 	res = "false"
+	if len(param[0]) == 0 {
+		return
+	}
+
 	b, err := strconv.ParseBool(param[0])
 	if err != nil {
 		return
@@ -58,6 +62,10 @@ func bAND(param []string) (res string, err error) {
 	b := true
 	bb := true
 	for _, par := range param {
+		if len(par) == 0 {
+			return
+		}
+
 		b, err = strconv.ParseBool(par)
 		if err != nil {
 			return
@@ -73,6 +81,10 @@ func bOR(param []string) (res string, err error) {
 	b := false
 	bb := false
 	for _, par := range param {
+		if len(par) == 0 {
+			return
+		}
+
 		b, err = strconv.ParseBool(par)
 		if err != nil {
 			return
@@ -126,6 +138,9 @@ func fFSUM(param []string) (res string, err error) {
 	fbb := 0.0
 	for _, par := range param {
 		par = cleanBlank(par)
+		if len(par) == 0 {
+			return
+		}
 		fb, err = strconv.ParseFloat(par, 64)
 		if err != nil {
 			return
@@ -142,6 +157,9 @@ func fFSUB(param []string) (res string, err error) {
 	f := true
 	for _, par := range param {
 		par = cleanBlank(par)
+		if len(par) == 0 {
+			return
+		}
 		fb, err = strconv.ParseFloat(par, 64)
 		if err != nil {
 			return
@@ -164,15 +182,27 @@ func FORIF(param []string) (res string, err error) {
 	sum := 0.0
 	for i := 0; i < len(param); i += 3 {
 		var b bool
+		if len(cleanBlank(param[i])) == 0 {
+			return
+		}
+
 		b, err = strconv.ParseBool(cleanBlank(param[i]))
 		if err != nil {
 			return
 		}
 		var v1 float64
 		var v2 float64
-
+		if len(param[i+1]) == 0 {
+			return
+		}
+		if len(cleanBlank(param[i+1])) == 0 {
+			return
+		}
 		v1, err = strconv.ParseFloat(cleanBlank(param[i+1]), 64)
 		if err != nil {
+			return
+		}
+		if len(param[i+2]) == 0 {
 			return
 		}
 		v2, err = strconv.ParseFloat(cleanBlank(param[i+2]), 64)
@@ -198,6 +228,9 @@ func FORMAX(param []string) (res string, err error) {
 	fbb := 0.0 - math.MaxFloat64
 	for _, par := range param {
 		par = cleanBlank(par)
+		if len(par) == 0 {
+			return
+		}
 		fb, err = strconv.ParseFloat(par, 64)
 		if err != nil {
 			return
@@ -215,8 +248,14 @@ func FloatStr(param []string) (res string, err error) {
 	res = "0 0 0 0"
 	var b bool
 	var v float64
+	if len(cleanBlank(param[1])) == 0 {
+		return
+	}
 	b, err = strconv.ParseBool(cleanBlank(param[1]))
 	if err != nil {
+		return
+	}
+	if len(cleanBlank(param[0])) == 0 {
 		return
 	}
 	v, err = strconv.ParseFloat(cleanBlank(param[0]), 64)

@@ -22,6 +22,9 @@ func (v *Value) getLong() int64 {
 
 func (v *Value) getFloat() float64 {
 	if v.format == floattype {
+		if len(v.value) == 0 {
+			return 0.0
+		}
 		res, _ := strconv.ParseFloat(v.value, 64)
 		return float64(res)
 	}
@@ -29,6 +32,9 @@ func (v *Value) getFloat() float64 {
 }
 func (v *Value) getBool() bool {
 	if v.format == booltype {
+		if len(v.value) == 0 {
+			return false
+		}
 		res, _ := strconv.ParseBool(v.value)
 		return res
 	}

@@ -1,11 +1,11 @@
 package driver
 
 import (
-	"ruraomsk/combo/cmb"
+	"rura/combo/cmb"
 	"sync"
 	"time"
 
-	"ruraomsk/combo/modbus"
+	"rura/combo/modbus"
 )
 
 //RTU структура для мастера RTU modbus
@@ -62,7 +62,7 @@ func (m *RTU) worked() bool {
 func (m *RTU) start() {
 	err := m.master.Connect()
 	if err != nil {
-		cmb.Logger.Println(m.name + err.Error())
+		cmb.Logger.Println(m.name + " " + err.Error())
 		return
 	}
 	m.client = modbus.NewClient(m.master)

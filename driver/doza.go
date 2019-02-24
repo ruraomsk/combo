@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"ruraomsk/combo/cmb"
-	"ruraomsk/combo/modbus"
+	"rura/combo/cmb"
+	"rura/combo/modbus"
 )
 
 //Doza структура для мастера TCP modbus
@@ -144,9 +144,15 @@ func workData(m *Doza, conn net.Conn) {
 		cmb.Logger.Printf("Неверное завершение %s %s", m.name, message)
 		return
 	}
+	if len(ss[1]) == 0 {
+		return
+	}
 	v1, err := strconv.ParseFloat(ss[1], 32)
 	if err != nil {
 		cmb.Logger.Printf("Ошибка значения первого канала %s %s %s", m.name, message, err.Error())
+		return
+	}
+	if len(ss[3]) == 0 {
 		return
 	}
 	v2, err := strconv.ParseFloat(ss[3], 32)

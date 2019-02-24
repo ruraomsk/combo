@@ -1,14 +1,14 @@
 package cmb
 
 import (
-	"bytes"
 	"encoding/xml"
 	"fmt"
-	"io"
+	"io/ioutil"
 	"log"
-	"os"
-	"ruraomsk/combo/dt"
+	"rura/combo/dt"
+	"rura/teprol/logger"
 )
+
 //Logger главная переменная логов
 var Logger *log.Logger
 
@@ -53,10 +53,13 @@ type Log struct {
 
 // Server опмсывает параметры самого сервера
 type Server struct {
-	Name        string `xml:"name,attr" json:"name"`
-	Description string `xml:"description,attr" json:"description"`
-	Path        string `xml:"path,attr" json:"path"`
-	Timezone    string `xml:"timezone,attr" json:"timezone"`
+	Name          string `xml:"name,attr" json:"name"`
+	Description   string `xml:"description,attr" json:"description"`
+	Path          string `xml:"path,attr" json:"path"`
+	Timezone      string `xml:"timezone,attr" json:"timezone"`
+	Project       string `xml:"project,attr" json:"project"`
+	MasterStep    int    `xml:"masterstep,attr" json:"masterstep"`
+	MasterRestart int    `xml:"masterrestart,attr" json:"masterrestart"`
 }
 
 // DataBase описывает соединение с базой данных
@@ -91,17 +94,103 @@ type Device struct {
 	DT          *dt.DataTable
 }
 
+//Project описание одного проекта системы
+type Project struct {
+	Subs []Sub `xml:"subs" json:"subs"`
+	// General General `xml:"general" json:"general"`
+}
+
+//General описание заголока проекта
+type General struct {
+	Name        string `xml:"name,attr" json:"name"`
+	Description string `xml:"description,attr" json:"desription"`
+}
+
+//Sub описание одной подсистемы
+type Sub struct {
+	Name        string `xml:"name,attr" json:"name"`
+	Path        string `xml:"path,attr" json:"path"`
+	File        string `xml:"file,attr" json:"file"`
+	Description string `xml:"description,attr" json:"description"`
+	Main        string `xml:"main,attr" json:"main"`
+	Second      string `xml:"second,attr" json:"second"`
+}
+
+//Subsystem полное описание одной подсистемы
+type Subsystem struct {
+	Modbuses []Modbus `xml:"modbus" json:"modbus"`
+}
+
+//Modbus Описание модбасов в подсистеме
+type Modbus struct {
+	Name        string `xml:"name,attr" json:"name"`
+	Description string `xml:"description,attr" json:"description"`
+	Type        string `xml:"type,attr" json:"type"`
+	Port        int    `xml:"port,attr" json:"port"`
+	XML         string `xml:"xml,attr" json:"xml"`
+}
+
 //LoadServer производит загрузку настроечных XML
 func LoadServer(namefile string) (*Combo, error) {
 	sl := new(Combo)
-	buf := bytes.NewBuffer(nil)
-	file, err := os.Open(namefile)
+	buf, err := ioutil.ReadFile(namefile)
 	if err != nil {
+		logger.Error.Println(err.Error())
 		return sl, err
 	}
-	io.Copy(buf, file)
-	file.Close()
-	xml.Unmarshal(buf.Bytes(), &sl)
+	err = xml.Unmarshal(buf, &sl)
+	if err != nil {
+		logger.Error.Println(err.Error())
+		return sl, err
+	}
+	if len(sl.Server.Project) != 0 {
+		pr := new(Project)
+		namefile := sl.Server.Project + "/main.xml"
+		buf, err := ioutil.ReadFile(namefile)
+		if err != nil {
+			logger.Error.Println(err.Error())
+			return sl, err
+		}
+		err = xml.Unmarshal(buf, &pr)
+		if err != nil {
+			logger.Error.Println(err.Error())
+			return sl, err
+		}
+		for _, sub := range pr.Subs {
+			newpath := sl.Server.Project + "/" + sub.Path
+			newfilexml := newpath + "/" + sub.File + ".xml"
+			ssub := new(Subsystem)
+			buf, err := ioutil.ReadFile(newfilexml)
+			if err != nil {
+				logger.Error.Println(err.Error())
+				return sl, err
+			}
+			err = xml.Unmarshal(buf, &ssub)
+			if err != nil {
+				logger.Error.Println(err.Error())
+				return sl, err
+			}
+			for _, mod := range ssub.Modbuses {
+				if mod.Type != "slave" {
+					continue
+				}
+				dev := new(Device)
+				dev.Name = mod.Name
+				dev.Description = sub.Name + ":" + mod.Description
+				dev.DevType = "dub"
+				dev.IP = sub.Main
+				dev.IP2 = sub.Second
+				dev.Port = mod.Port
+				dev.Port2 = mod.Port
+				dev.Step = sl.Server.MasterStep
+				dev.Restart = sl.Server.MasterRestart
+				dev.Load = newpath + "/" + mod.XML + ".xml"
+				sl.Devices.DeviceList = append(sl.Devices.DeviceList, *dev)
+
+			}
+		}
+
+	}
 	return sl, nil
 }
 

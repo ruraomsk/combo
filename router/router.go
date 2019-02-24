@@ -10,8 +10,8 @@ import (
 
 	"github.com/lib/pq"
 
-	"ruraomsk/combo/cmb"
-	"ruraomsk/combo/driver"
+	"rura/combo/cmb"
+	"rura/combo/driver"
 )
 
 // DBRouter роутер одной таблицы

@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"ruraomsk/combo/cmb"
-	"ruraomsk/combo/driver"
+	"rura/combo/cmb"
+	"rura/combo/driver"
 )
 
 // Основной цикл выполнения  процедуры управления

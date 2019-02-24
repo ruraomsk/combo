@@ -1,11 +1,11 @@
 package driver
 
 import (
-	"ruraomsk/combo/cmb"
+	"rura/combo/cmb"
 	"sync"
 	"time"
 
-	"ruraomsk/combo/modbus"
+	"rura/combo/modbus"
 )
 
 //Master структура для мастера TCP modbus

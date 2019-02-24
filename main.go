@@ -7,12 +7,12 @@ import (
 
 	_ "github.com/lib/pq"
 
-	"ruraomsk/combo/cmb"
-	"ruraomsk/combo/driver"
-	"ruraomsk/combo/dt"
-	"ruraomsk/combo/logger"
-	"ruraomsk/combo/proc"
-	"ruraomsk/combo/router"
+	"rura/combo/cmb"
+	"rura/combo/driver"
+	"rura/combo/dt"
+	"rura/combo/logger"
+	"rura/combo/proc"
+	"rura/combo/router"
 )
 
 // Cmb описание всей системы
@@ -33,13 +33,14 @@ func paramSQL() string {
 func main() {
 
 	var err error
-	floger, err := logger.LogOpen("data/")
+	floger, err := logger.LogOpen("log/")
 	if err != nil {
 		fmt.Printf("error opening file logger: %v \n", err)
 	}
 	defer floger.Close()
 
 	cmb.Logger = log.New(floger, "combo:", log.LstdFlags)
+	cmb.Logger.Println("Start working....")
 	Cmb, err = cmb.LoadServer("data/slaves.xml")
 	if err != nil {
 		cmb.Logger.Fatalf("%v\n", err)
@@ -54,7 +55,7 @@ func main() {
 	DBRouters = make(map[string]*router.DBRouter)
 	logger.LoadLogger(Cmb.Loggers, paramSQL(), Cmb.Loggers.Name, clearDB)
 	for _, device := range Cmb.Devices.DeviceList {
-		device.DT, err = dt.LoadTableXML(Cmb.Server.Path + device.Load)
+		device.DT, err = dt.LoadTableXML(Cmb.Server.Path+device.Load, device.Load)
 		if err != nil {
 			cmb.Logger.Fatalf("Не могли загрузить таблицу " + device.Load)
 			return

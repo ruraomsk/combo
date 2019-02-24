@@ -3,8 +3,8 @@ package driver
 import (
 	"bytes"
 	"fmt"
-	"ruraomsk/combo/cmb"
-	"ruraomsk/combo/dt"
+	"rura/combo/cmb"
+	"rura/combo/dt"
 	"time"
 )
 

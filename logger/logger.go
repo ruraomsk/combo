@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"ruraomsk/combo/cmb"
+	"rura/combo/cmb"
 
 	"github.com/lib/pq"
 )

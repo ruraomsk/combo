@@ -126,6 +126,9 @@ func (r *Register) SetValue(value string) (buffer []uint16, err error) {
 				}
 			case 2:
 				var val float64
+				if len(s[i]) == 0 {
+					return
+				}
 				val, err = strconv.ParseFloat(s[i], 32)
 				if err != nil {
 					return

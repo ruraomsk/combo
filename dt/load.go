@@ -6,6 +6,7 @@ import (
 	"encoding/xml"
 	"io"
 	"os"
+	"strings"
 )
 
 // TableXML описывает таблицу настройки регистров Modbus
@@ -77,8 +78,15 @@ func loadFile(mainPath string, xmlf bool) error {
 }
 
 //LoadTableXML загружает таблицу из XML
-func LoadTableXML(mainPath string) (*DataTable, error) {
-	err := loadFile(mainPath, true)
+func LoadTableXML(mainPath string, secondPath string) (*DataTable, error) {
+	var file string
+	if strings.Contains(secondPath, ".xml") {
+		file = secondPath
+	} else {
+		file = mainPath + ".xml"
+	}
+	err := loadFile(file, true)
+
 	//fmt.Println(dt.TableToString())
 	return dt, err
 }
