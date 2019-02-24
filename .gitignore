@@ -1,4 +1,4 @@
 combo.exe
 debug
-data/*.log
 .vscode/
+log/
