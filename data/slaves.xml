@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
 <slave> 
 	<server name="center" description="Сбор всей информации в системе" 
-	path="data/" timezone="Asia/Omsk" project="/home/rura/dataSimul/pr" masterstep="500" masterrestart="60">
+	path="data/" timezone="Asia/Omsk" project="data/pr" masterstep="500" masterrestart="60">
 	</server>
 	<!--
 		Параметры для соединения с Postgresql	
