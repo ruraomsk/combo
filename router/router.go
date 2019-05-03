@@ -47,17 +47,17 @@ func Init(name string, drv *driver.Driver, paramSQL string, init bool) (*DBRoute
 		names := r.driver.GetNames()
 		ss := "drop table if exists " + r.name + ";"
 		cmb.Logger.Println(ss)
-		_, err := r.db.Query(ss)
+		row, err := r.db.Query(ss)
 		if err != nil {
 			cmb.Logger.Printf("Error drop database %s", err.Error())
 			return r, err
 		}
+		row.Close()
 		r.db.Close()
 		if r.db, err = sql.Open("postgres", paramSQL); err != nil {
 			cmb.Logger.Printf("router %s DB %v\n", r.name, err)
 			return r, err
 		}
-		// rows.Close()
 		s := bytes.NewBufferString("create table if not exists " + r.name + " ( tm timestamp primary key not null ")
 
 		//fmt.Printf("router %s len %d", r.name, len(names))
@@ -79,7 +79,7 @@ func Init(name string, drv *driver.Driver, paramSQL string, init bool) (*DBRoute
 		}
 		s.WriteString(");")
 		//println(s.String())
-		row, err := r.db.Query(s.String())
+		row, err = r.db.Query(s.String())
 		if err != nil {
 			cmb.Logger.Printf("Error create database %s", err.Error())
 			return r, err
