@@ -52,6 +52,11 @@ func Init(name string, drv *driver.Driver, paramSQL string, init bool) (*DBRoute
 			cmb.Logger.Printf("Error drop database %s", err.Error())
 			return r, err
 		}
+		r.db.Close()
+		if r.db, err = sql.Open("postgres", paramSQL); err != nil {
+			cmb.Logger.Printf("router %s DB %v\n", r.name, err)
+			return r, err
+		}
 		// rows.Close()
 		s := bytes.NewBufferString("create table if not exists " + r.name + " ( tm timestamp primary key not null ")
 
