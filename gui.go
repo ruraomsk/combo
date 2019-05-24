@@ -126,7 +126,7 @@ func responJSON(w http.ResponseWriter, r *http.Request) {
 	//Register variable hasn't to GLOBAL
 	//Because will be simular change page all users
 	var defRegister = 0
-	var defDevice = "du"
+	var defDevice = "DU"
 
 	mu.Lock()
 	defer mu.Unlock()
@@ -150,7 +150,7 @@ func responJSON(w http.ResponseWriter, r *http.Request) {
 	if ok {
 		defDevice = dev[0]
 	} else {
-		defDevice = "baz1"
+		defDevice = "DU"
 	}
 
 	// if ok {
@@ -206,7 +206,6 @@ func gui() {
 	for name, dev := range Drivers {
 		index.Devices[name] = dev.Description
 	}
-
 	fmt.Println("listering on port :8181")
 	http.Handle("/assets/", http.StripPrefix("/assets/", http.FileServer(http.Dir("./assets/"))))
 	// http.HandleFunc("/", resp)

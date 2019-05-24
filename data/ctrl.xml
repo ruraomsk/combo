@@ -167,6 +167,30 @@
             <value name="address">7</value>
         </record>
         <record>
+            <value name="name">APXIER</value>
+            <value name="description">Праввый пульт ошибки слотов ввода</value>
+            <value name="type">3</value>
+            <value name="address">8</value>
+        </record>
+        <record>
+            <value name="name">APXOER</value>
+            <value name="description">Праввый пульт ошибки слотов вывода</value>
+            <value name="type">3</value>
+            <value name="address">9</value>
+        </record>
+        <record>
+            <value name="name">APXIEL</value>
+            <value name="description">Левый пульт ошибки слотов ввода</value>
+            <value name="type">3</value>
+            <value name="address">10</value>
+        </record>
+        <record>
+            <value name="name">APXOEL</value>
+            <value name="description">Левый пульт ошибки слотов вывода</value>
+            <value name="type">3</value>
+            <value name="address">11</value>
+        </record>
+        <record>
             <value name="name">FR</value>
             <value name="description">Частота для щелкуна</value>
             <value name="type">3</value>

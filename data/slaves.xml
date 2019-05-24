@@ -7,7 +7,7 @@
 		Параметры для соединения с Postgresql	
 		periob срок хранения данных в днях 
 	-->
-	<database ip="localhost" port="5432" base="combo" user="combo" password="combo" period="30" make="true">
+	<database ip="localhost" port="5432" base="combo" user="combo" password="162747" period="30" make="true">
 	</database>
 	<loggers name="log" >
 		<logger port="5510" name="APAXL" description="Левый APAX щита"></logger>
@@ -28,8 +28,8 @@
 		<device name="ctrl" description="Общий котроль сторона РПУ" type="dub" step="500" restart="60"
 				ip="192.168.10.41" port="502" ip2="192.168.10.141" port2="502"
 				load="ctrl"></device>
-		<device name="fout" description="Цифровые индикаторы" type="rtu" step="1000" restart="60" 
-				tty="COM7" baud="38400" databits="8" parity="N" stopbits="1" 
+		<device name="fout" description="Цифровые индикаторы" type="rtu" step="500" restart="60" 
+				tty="COM8" baud="38400" databits="8" parity="N" stopbits="1" 
 				load="fout"></device>
 	</devices>
 	<extends step="500">
