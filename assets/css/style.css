@@ -11,9 +11,11 @@
   }
 /* Левая и правая сторона */
  aside {
-	float: left;
+  height: 800px;
   width: 250px;
-  }
+  overflow-y: scroll;
+  float: left;
+}
  section {
  	margin-left: 280px;
 	padding-bottom: 0px;

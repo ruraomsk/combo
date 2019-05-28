@@ -1,0 +1,1364 @@
+combo:2019/05/28 12:19:36 Start working....
+combo:2019/05/28 12:19:36 logger log запущен
+combo:2019/05/28 12:19:36 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер dozs
+combo:2019/05/28 12:19:36 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер ctrl
+combo:2019/05/28 12:19:36 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер fout
+combo:2019/05/28 12:19:36 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SCM
+combo:2019/05/28 12:19:36 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SBz1
+combo:2019/05/28 12:19:36 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SBz2
+combo:2019/05/28 12:19:36 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SDu
+combo:2019/05/28 12:19:36 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SA1
+combo:2019/05/28 12:19:36 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SA2
+combo:2019/05/28 12:19:36 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SA3
+combo:2019/05/28 12:19:36 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SA4
+combo:2019/05/28 12:19:36 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SRP
+combo:2019/05/28 12:19:36 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DU
+combo:2019/05/28 12:19:36 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnDU
+combo:2019/05/28 12:19:36 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер AKNP1
+combo:2019/05/28 12:19:36 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A1Bz1
+combo:2019/05/28 12:19:36 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A1Bz2
+combo:2019/05/28 12:19:36 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/28 12:19:36 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер Baz1
+combo:2019/05/28 12:19:36 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SBz1DU
+combo:2019/05/28 12:19:36 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/28 12:19:36 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер AKNP3
+combo:2019/05/28 12:19:36 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A3Bz1
+combo:2019/05/28 12:19:36 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A3Bz2
+combo:2019/05/28 12:19:36 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/28 12:19:36 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер Baz2
+combo:2019/05/28 12:19:36 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер SBz2DU
+combo:2019/05/28 12:19:36 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/28 12:19:36 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер AKNP4
+combo:2019/05/28 12:19:36 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A4Bz1
+combo:2019/05/28 12:19:36 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A4Bz2
+combo:2019/05/28 12:19:36 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/28 12:19:36 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер RPU
+combo:2019/05/28 12:19:36 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/28 12:19:36 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер AKNP2
+combo:2019/05/28 12:19:36 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A2Bz1
+combo:2019/05/28 12:19:36 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер A2Bz2
+combo:2019/05/28 12:19:36 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:19:36 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/28 12:19:36 Запустили Драйвер SBz2DU
+combo:2019/05/28 12:19:36 Запустили Драйвер DiagnAKNP4
+combo:2019/05/28 12:19:36 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:19:36 Запустили Драйвер SCM
+combo:2019/05/28 12:19:36 Запустили Драйвер SA3
+combo:2019/05/28 12:19:36 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:19:36 Запустили Драйвер DU
+combo:2019/05/28 12:19:36 Запустили Драйвер DiagnDU
+combo:2019/05/28 12:19:36 Запустили Драйвер SA1
+combo:2019/05/28 12:19:36 Запустили Драйвер SA4
+combo:2019/05/28 12:19:36 Запустили Драйвер A2Bz2
+combo:2019/05/28 12:19:36 Запустили Драйвер DiagnAKNP2
+combo:2019/05/28 12:19:36 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:36 Запустили Драйвер SBz2
+combo:2019/05/28 12:19:36 Запустили Драйвер SRP
+combo:2019/05/28 12:19:36 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:37 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:19:38 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:19:38 Запустили Драйвер RPU
+combo:2019/05/28 12:19:38 Запустили Драйвер A2Bz1
+combo:2019/05/28 12:19:39 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:19:39 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:19:39 Запустили Драйвер ctrl
+combo:2019/05/28 12:19:39 Запустили Драйвер A3Bz1
+combo:2019/05/28 12:19:39 Запустили Драйвер Baz2
+combo:2019/05/28 12:19:39 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:39 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:39 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:19:39 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:19:39 DiagnRPU start dial tcp 192.168.10.31:5003: connect: no route to host
+combo:2019/05/28 12:19:40 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:19:40 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:19:40 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:19:40 Запустили Драйвер DiagnRPU
+combo:2019/05/28 12:19:40 Запустили Драйвер A4Bz2
+combo:2019/05/28 12:19:40 Запустили Драйвер AKNP2
+combo:2019/05/28 12:19:40 Запустили Драйвер SDu
+combo:2019/05/28 12:19:40 Запустили Драйвер A1Bz1
+combo:2019/05/28 12:19:40 Запустили Драйвер A1Bz2
+combo:2019/05/28 12:19:40 Запустили Драйвер DiagnAKNP3
+combo:2019/05/28 12:19:40 fout no such file or directory
+combo:2019/05/28 12:19:40 Запустили Драйвер fout
+combo:2019/05/28 12:19:40 fout no such file or directory
+combo:2019/05/28 12:19:40 Запустили Драйвер DiagnAKNP1
+combo:2019/05/28 12:19:40 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:40 Запустили Драйвер Baz1
+combo:2019/05/28 12:19:40 Запустили Драйвер DiagnBaz1
+combo:2019/05/28 12:19:40 Запустили Драйвер SA2
+combo:2019/05/28 12:19:40 Запустили Драйвер AKNP3
+combo:2019/05/28 12:19:40 Запустили Драйвер DiagnBaz2
+combo:2019/05/28 12:19:40 Запустили Драйвер A4Bz1
+combo:2019/05/28 12:19:40 Запустили Драйвер A3Bz2
+combo:2019/05/28 12:19:40 Запустили Драйвер AKNP4
+combo:2019/05/28 12:19:40 Запустили Драйвер dozs
+combo:2019/05/28 12:19:40 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:40 Запустили Драйвер SBz1
+combo:2019/05/28 12:19:40 Запустили Драйвер AKNP1
+combo:2019/05/28 12:19:40 Запустили Драйвер SBz1DU
+combo:2019/05/28 12:19:40 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:40 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:19:41 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:19:42 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:22:28 Start working....
+combo:2019/05/28 12:22:28 logger log запущен
+combo:2019/05/28 12:22:28 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер dozs
+combo:2019/05/28 12:22:28 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер ctrl
+combo:2019/05/28 12:22:28 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер fout
+combo:2019/05/28 12:22:28 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SCM
+combo:2019/05/28 12:22:28 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SBz1
+combo:2019/05/28 12:22:28 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SBz2
+combo:2019/05/28 12:22:28 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SDu
+combo:2019/05/28 12:22:28 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SA1
+combo:2019/05/28 12:22:28 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SA2
+combo:2019/05/28 12:22:28 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SA3
+combo:2019/05/28 12:22:28 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SA4
+combo:2019/05/28 12:22:28 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SRP
+combo:2019/05/28 12:22:28 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DU
+combo:2019/05/28 12:22:28 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnDU
+combo:2019/05/28 12:22:28 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер AKNP1
+combo:2019/05/28 12:22:28 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A1Bz1
+combo:2019/05/28 12:22:28 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A1Bz2
+combo:2019/05/28 12:22:28 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/28 12:22:28 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер Baz1
+combo:2019/05/28 12:22:28 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SBz1DU
+combo:2019/05/28 12:22:28 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/28 12:22:28 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер AKNP3
+combo:2019/05/28 12:22:28 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A3Bz1
+combo:2019/05/28 12:22:28 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A3Bz2
+combo:2019/05/28 12:22:28 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/28 12:22:28 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер Baz2
+combo:2019/05/28 12:22:28 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер SBz2DU
+combo:2019/05/28 12:22:28 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/28 12:22:28 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер AKNP4
+combo:2019/05/28 12:22:28 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A4Bz1
+combo:2019/05/28 12:22:28 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A4Bz2
+combo:2019/05/28 12:22:28 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/28 12:22:28 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер RPU
+combo:2019/05/28 12:22:28 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/28 12:22:28 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер AKNP2
+combo:2019/05/28 12:22:28 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A2Bz1
+combo:2019/05/28 12:22:28 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер A2Bz2
+combo:2019/05/28 12:22:28 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/28 12:22:28 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/28 12:22:28 Запустили Драйвер SDu
+combo:2019/05/28 12:22:28 Запустили Драйвер SA1
+combo:2019/05/28 12:22:28 Запустили Драйвер DiagnDU
+combo:2019/05/28 12:22:28 Запустили Драйвер AKNP3
+combo:2019/05/28 12:22:28 Запустили Драйвер A3Bz1
+combo:2019/05/28 12:22:28 fout no such file or directory
+combo:2019/05/28 12:22:28 Запустили Драйвер fout
+combo:2019/05/28 12:22:28 fout no such file or directory
+combo:2019/05/28 12:22:28 Запустили Драйвер SBz1
+combo:2019/05/28 12:22:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:22:28 Запустили Драйвер Baz2
+combo:2019/05/28 12:22:28 Запустили Драйвер SBz2DU
+combo:2019/05/28 12:22:28 Запустили Драйвер SA4
+combo:2019/05/28 12:22:28 Запустили Драйвер Baz1
+combo:2019/05/28 12:22:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:22:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:22:28 Запустили Драйвер DiagnAKNP3
+combo:2019/05/28 12:22:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:22:28 Запустили Драйвер DiagnBaz2
+combo:2019/05/28 12:22:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:22:28 Запустили Драйвер A2Bz1
+combo:2019/05/28 12:22:28 Запустили Драйвер DiagnAKNP2
+combo:2019/05/28 12:22:28 Запустили Драйвер SA3
+combo:2019/05/28 12:22:28 Запустили Драйвер A1Bz2
+combo:2019/05/28 12:22:28 Запустили Драйвер DiagnAKNP1
+combo:2019/05/28 12:22:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:22:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:22:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:22:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:22:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:22:29 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:22:30 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:22:30 Запустили Драйвер DiagnRPU
+combo:2019/05/28 12:22:30 Запустили Драйвер AKNP2
+combo:2019/05/28 12:22:30 Запустили Драйвер SCM
+combo:2019/05/28 12:22:30 Запустили Драйвер SRP
+combo:2019/05/28 12:22:30 Запустили Драйвер A1Bz1
+combo:2019/05/28 12:22:30 Запустили Драйвер SBz1DU
+combo:2019/05/28 12:22:30 Запустили Драйвер DiagnBaz1
+combo:2019/05/28 12:22:30 Запустили Драйвер dozs
+combo:2019/05/28 12:22:30 Запустили Драйвер DU
+combo:2019/05/28 12:22:30 Запустили Драйвер A3Bz2
+combo:2019/05/28 12:22:31 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:22:31 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:22:31 Запустили Драйвер ctrl
+combo:2019/05/28 12:22:31 Запустили Драйвер AKNP1
+combo:2019/05/28 12:22:31 Запустили Драйвер SBz2
+combo:2019/05/28 12:22:31 Запустили Драйвер A4Bz1
+combo:2019/05/28 12:22:31 Запустили Драйвер A4Bz2
+combo:2019/05/28 12:22:31 Запустили Драйвер DiagnAKNP4
+combo:2019/05/28 12:22:31 RPU start dial tcp 192.168.10.31:5002: connect: no route to host
+combo:2019/05/28 12:22:32 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:22:32 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:22:32 RPU start dial tcp 192.168.10.131:5002: connect: no route to host
+combo:2019/05/28 12:22:32 Запустили Драйвер RPU
+combo:2019/05/28 12:22:32 Запустили Драйвер A2Bz2
+combo:2019/05/28 12:22:32 Запустили Драйвер SA2
+combo:2019/05/28 12:22:32 Запустили Драйвер AKNP4
+combo:2019/05/28 12:22:33 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:22:34 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:23:28 fout no such file or directory
+combo:2019/05/28 12:23:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:23:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:23:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:23:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:23:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:23:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:23:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:23:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:23:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:23:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:23:33 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:23:33 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:23:34 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:23:35 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:23:36 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:24:28 fout no such file or directory
+combo:2019/05/28 12:24:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:24:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:24:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:24:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:24:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:24:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:24:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:24:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:24:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:24:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:24:34 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:24:35 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:24:36 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:24:37 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:24:38 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:25:28 fout no such file or directory
+combo:2019/05/28 12:25:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:25:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:25:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:25:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:25:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:25:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:25:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:25:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:25:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:25:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:25:35 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:25:37 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:25:38 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:25:39 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:25:40 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:26:28 fout no such file or directory
+combo:2019/05/28 12:26:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:26:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:26:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:26:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:26:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:26:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:26:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:26:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:26:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:26:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:26:36 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:26:39 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:26:40 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:26:41 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:26:42 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:27:28 fout no such file or directory
+combo:2019/05/28 12:27:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:27:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:27:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:27:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:27:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:27:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:27:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:27:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:27:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:27:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:27:37 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:27:41 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:27:42 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:27:43 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:27:44 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:28:28 fout no such file or directory
+combo:2019/05/28 12:28:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:28:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:28:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:28:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:28:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:28:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:28:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:28:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:28:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:28:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:28:38 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:28:43 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:28:44 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:28:45 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:28:46 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:29:28 fout no such file or directory
+combo:2019/05/28 12:29:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:29:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:29:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:29:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:29:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:29:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:29:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:29:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:29:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:29:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:29:39 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:29:45 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:29:46 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:29:47 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:29:48 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:30:28 fout no such file or directory
+combo:2019/05/28 12:30:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:30:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:30:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:30:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:30:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:30:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:30:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:30:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:30:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:30:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:30:40 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:30:47 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:30:48 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:30:49 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:30:50 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:31:28 fout no such file or directory
+combo:2019/05/28 12:31:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:31:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:31:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:31:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:31:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:31:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:31:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:31:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:31:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:31:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:31:41 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:31:49 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:31:50 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:31:51 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:31:52 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:32:28 fout no such file or directory
+combo:2019/05/28 12:32:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:32:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:32:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:32:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:32:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:32:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:32:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:32:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:32:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:32:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:32:42 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:32:51 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:32:52 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:32:53 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:32:54 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:33:28 fout no such file or directory
+combo:2019/05/28 12:33:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:33:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:33:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:33:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:33:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:33:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:33:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:33:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:33:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:33:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:33:43 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:33:53 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:33:54 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:33:55 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:33:56 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:34:28 fout no such file or directory
+combo:2019/05/28 12:34:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:34:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:34:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:34:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:34:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:34:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:34:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:34:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:34:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:34:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:34:44 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:34:55 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:34:56 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:34:57 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:34:58 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:35:28 fout no such file or directory
+combo:2019/05/28 12:35:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:35:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:35:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:35:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:35:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:35:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:35:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:35:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:35:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:35:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:35:45 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:35:57 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:35:58 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:35:59 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:36:00 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:36:28 fout no such file or directory
+combo:2019/05/28 12:36:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:36:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:36:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:36:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:36:28 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:36:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:36:28 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:36:28 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:36:28 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:36:28 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:36:46 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:36:50 DU coils read tcp 192.168.10.112:59108->192.168.10.50:5002: i/o timeout
+combo:2019/05/28 12:36:50 DiagnBaz1 di read tcp 192.168.10.112:41020->192.168.10.52:5005: i/o timeout
+combo:2019/05/28 12:36:51 SA3 ir read tcp 192.168.10.112:55588->192.168.10.60:5008: i/o timeout
+combo:2019/05/28 12:36:51 DiagnBaz1 di read tcp 192.168.10.112:36830->192.168.10.152:5005: i/o timeout
+combo:2019/05/28 12:36:51 SCM coils read tcp 192.168.10.112:53312->192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:51 SCM coils read tcp 192.168.10.112:53314->192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:51 A1Bz2 di read tcp 192.168.10.112:41756->192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:36:51 A1Bz1 di read tcp 192.168.10.112:52018->192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:36:51 SBz1 coils read tcp 192.168.10.112:46314->192.168.10.60:5003: i/o timeout
+combo:2019/05/28 12:36:51 SBz1 coils read tcp 192.168.10.112:46316->192.168.10.60:5003: i/o timeout
+combo:2019/05/28 12:36:51 SBz1DU coils read tcp 192.168.10.112:55398->192.168.10.52:5010: i/o timeout
+combo:2019/05/28 12:36:51 DU di read tcp 192.168.10.112:52058->192.168.10.150:5002: i/o timeout
+combo:2019/05/28 12:36:51 DiagnAKNP1 di read tcp 192.168.10.112:34192->192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:36:51 AKNP1 coils read tcp 192.168.10.112:38520->192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:36:51 DiagnBaz2 di read tcp 192.168.10.112:60458->192.168.10.54:5005: i/o timeout
+combo:2019/05/28 12:36:51 SDu ir read tcp 192.168.10.112:37452->192.168.10.60:5005: i/o timeout
+combo:2019/05/28 12:36:51 SDu ir read tcp 192.168.10.112:37454->192.168.10.60:5005: i/o timeout
+combo:2019/05/28 12:36:51 SRP di read tcp 192.168.10.112:35508->192.168.10.60:5010: i/o timeout
+combo:2019/05/28 12:36:51 SA1 di read tcp 192.168.10.112:39758->192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:36:51 SA1 di read tcp 192.168.10.112:39760->192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:36:51 SA4 di read tcp 192.168.10.112:56172->192.168.10.60:5009: i/o timeout
+combo:2019/05/28 12:36:51 SRP di read tcp 192.168.10.112:35510->192.168.10.60:5010: i/o timeout
+combo:2019/05/28 12:36:51 SBz2 coils read tcp 192.168.10.112:60708->192.168.10.60:5004: i/o timeout
+combo:2019/05/28 12:36:51 SA3 di read tcp 192.168.10.112:55590->192.168.10.60:5008: i/o timeout
+combo:2019/05/28 12:36:51 SA4 di read tcp 192.168.10.112:56170->192.168.10.60:5009: i/o timeout
+combo:2019/05/28 12:36:51 SBz2 coils read tcp 192.168.10.112:60710->192.168.10.60:5004: i/o timeout
+combo:2019/05/28 12:36:51 SA2 di read tcp 192.168.10.112:51782->192.168.10.60:5007: i/o timeout
+combo:2019/05/28 12:36:51 SA2 di read tcp 192.168.10.112:51780->192.168.10.60:5007: i/o timeout
+combo:2019/05/28 12:36:51 AKNP3 di read tcp 192.168.10.112:57860->192.168.10.53:5002: i/o timeout
+combo:2019/05/28 12:36:51 A3Bz1 ir read tcp 192.168.10.112:51152->192.168.10.53:5017: i/o timeout
+combo:2019/05/28 12:36:51 A3Bz2 ir read tcp 192.168.10.112:33458->192.168.10.53:5021: i/o timeout
+combo:2019/05/28 12:36:51 DiagnAKNP3 ir read tcp 192.168.10.112:42758->192.168.10.53:5003: i/o timeout
+combo:2019/05/28 12:36:51 DU di dial tcp 192.168.10.50:5002: i/o timeout
+combo:2019/05/28 12:36:51 DiagnBaz1 ir dial tcp 192.168.10.52:5005: i/o timeout
+combo:2019/05/28 12:36:52 DiagnBaz2 di read tcp 192.168.10.112:41262->192.168.10.154:5005: i/o timeout
+combo:2019/05/28 12:36:52 DiagnBaz1 ir read tcp 192.168.10.112:37546->192.168.10.152:5005: i/o timeout
+combo:2019/05/28 12:36:52 SBz1DU di read tcp 192.168.10.112:46712->192.168.10.152:5010: i/o timeout
+combo:2019/05/28 12:36:52 SCM di dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:52 SCM di dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:52 A1Bz2 ir dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:36:52 A1Bz1 ir dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:36:52 SBz1DU di dial tcp 192.168.10.52:5010: i/o timeout
+combo:2019/05/28 12:36:52 DU ir dial tcp 192.168.10.150:5002: i/o timeout
+combo:2019/05/28 12:36:52 DiagnAKNP1 ir dial tcp 192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:36:52 AKNP1 di dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:36:52 DiagnBaz2 ir dial tcp 192.168.10.54:5005: i/o timeout
+combo:2019/05/28 12:36:52 SRP ir dial tcp 192.168.10.60:5010: i/o timeout
+combo:2019/05/28 12:36:52 SA1 ir dial tcp 192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:36:52 SA1 ir dial tcp 192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:36:52 SA4 ir dial tcp 192.168.10.60:5009: i/o timeout
+combo:2019/05/28 12:36:52 SRP ir dial tcp 192.168.10.60:5010: i/o timeout
+combo:2019/05/28 12:36:52 SA3 ir dial tcp 192.168.10.60:5008: i/o timeout
+combo:2019/05/28 12:36:52 SA4 ir dial tcp 192.168.10.60:5009: i/o timeout
+combo:2019/05/28 12:36:52 SA2 ir dial tcp 192.168.10.60:5007: i/o timeout
+combo:2019/05/28 12:36:52 SA2 ir dial tcp 192.168.10.60:5007: i/o timeout
+combo:2019/05/28 12:36:52 AKNP3 ir dial tcp 192.168.10.53:5002: i/o timeout
+combo:2019/05/28 12:36:52 A3Bz1 hr dial tcp 192.168.10.53:5017: i/o timeout
+combo:2019/05/28 12:36:52 A3Bz2 hr dial tcp 192.168.10.53:5021: i/o timeout
+combo:2019/05/28 12:36:52 DiagnAKNP4 di read tcp 192.168.10.112:51018->192.168.10.55:5003: i/o timeout
+combo:2019/05/28 12:36:52 A4Bz1 di read tcp 192.168.10.112:55402->192.168.10.55:5018: i/o timeout
+combo:2019/05/28 12:36:52 A4Bz2 di read tcp 192.168.10.112:35936->192.168.10.55:5022: i/o timeout
+combo:2019/05/28 12:36:52 AKNP4 coils read tcp 192.168.10.112:42836->192.168.10.55:5002: i/o timeout
+combo:2019/05/28 12:36:52 DU ir dial tcp 192.168.10.50:5002: i/o timeout
+combo:2019/05/28 12:36:52 DiagnAKNP1 di read tcp 192.168.10.112:42524->192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:36:52 A1Bz1 di read tcp 192.168.10.112:45230->192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:36:52 AKNP1 coils read tcp 192.168.10.112:47076->192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:36:52 DiagnAKNP2 di read tcp 192.168.10.112:44032->192.168.10.57:5003: i/o timeout
+combo:2019/05/28 12:36:52 A2Bz2 di read tcp 192.168.10.112:49600->192.168.10.57:5020: i/o timeout
+combo:2019/05/28 12:36:52 AKNP2 coils read tcp 192.168.10.112:54064->192.168.10.57:5002: i/o timeout
+combo:2019/05/28 12:36:52 A2Bz1 di read tcp 192.168.10.112:44198->192.168.10.57:5016: i/o timeout
+combo:2019/05/28 12:36:52 A1Bz2 di read tcp 192.168.10.112:36724->192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:36:53 DiagnBaz2 ir dial tcp 192.168.10.154:5005: i/o timeout
+combo:2019/05/28 12:36:53 SBz1DU ir dial tcp 192.168.10.152:5010: i/o timeout
+combo:2019/05/28 12:36:53 SCM ir dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:53 SCM ir dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:53 A1Bz2 hr dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:36:53 A1Bz1 hr dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:36:53 SBz1DU ir dial tcp 192.168.10.52:5010: i/o timeout
+combo:2019/05/28 12:36:53 DU hr dial tcp 192.168.10.150:5002: i/o timeout
+combo:2019/05/28 12:36:53 AKNP1 ir dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:36:53 SA1 hr dial tcp 192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:36:53 SA1 hr dial tcp 192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:36:53 AKNP3 hr dial tcp 192.168.10.53:5002: i/o timeout
+combo:2019/05/28 12:36:53 DiagnAKNP3 di read tcp 192.168.10.112:50772->192.168.10.153:5003: i/o timeout
+combo:2019/05/28 12:36:53 A3Bz1 di read tcp 192.168.10.112:37550->192.168.10.153:5017: i/o timeout
+combo:2019/05/28 12:36:53 A3Bz2 di read tcp 192.168.10.112:52630->192.168.10.153:5021: i/o timeout
+combo:2019/05/28 12:36:53 AKNP3 coils read tcp 192.168.10.112:51820->192.168.10.153:5002: i/o timeout
+combo:2019/05/28 12:36:53 DiagnAKNP4 ir dial tcp 192.168.10.55:5003: i/o timeout
+combo:2019/05/28 12:36:53 A4Bz1 ir dial tcp 192.168.10.55:5018: i/o timeout
+combo:2019/05/28 12:36:53 A4Bz2 ir dial tcp 192.168.10.55:5022: i/o timeout
+combo:2019/05/28 12:36:53 AKNP4 di dial tcp 192.168.10.55:5002: i/o timeout
+combo:2019/05/28 12:36:53 A4Bz1 di read tcp 192.168.10.112:42426->192.168.10.155:5018: i/o timeout
+combo:2019/05/28 12:36:53 DiagnAKNP4 di read tcp 192.168.10.112:38152->192.168.10.155:5003: i/o timeout
+combo:2019/05/28 12:36:53 A4Bz2 di read tcp 192.168.10.112:46508->192.168.10.155:5022: i/o timeout
+combo:2019/05/28 12:36:53 AKNP4 coils read tcp 192.168.10.112:46282->192.168.10.155:5002: i/o timeout
+combo:2019/05/28 12:36:53 DU hr dial tcp 192.168.10.50:5002: i/o timeout
+combo:2019/05/28 12:36:53 DiagnAKNP1 ir dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:36:53 A1Bz1 ir dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:36:53 AKNP1 di dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:36:53 DiagnAKNP2 ir dial tcp 192.168.10.57:5003: i/o timeout
+combo:2019/05/28 12:36:53 A2Bz2 ir dial tcp 192.168.10.57:5020: i/o timeout
+combo:2019/05/28 12:36:53 AKNP2 di dial tcp 192.168.10.57:5002: i/o timeout
+combo:2019/05/28 12:36:53 A2Bz1 ir dial tcp 192.168.10.57:5016: i/o timeout
+combo:2019/05/28 12:36:53 A1Bz2 ir dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:36:54 SBz1DU hr dial tcp 192.168.10.152:5010: i/o timeout
+combo:2019/05/28 12:36:54 DiagnAKNP2 di read tcp 192.168.10.112:43562->192.168.10.157:5003: i/o timeout
+combo:2019/05/28 12:36:54 A2Bz2 di read tcp 192.168.10.112:37532->192.168.10.157:5020: i/o timeout
+combo:2019/05/28 12:36:54 A2Bz1 di read tcp 192.168.10.112:41260->192.168.10.157:5016: i/o timeout
+combo:2019/05/28 12:36:54 SCM hr dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:54 SCM hr dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:36:54 AKNP2 coils read tcp 192.168.10.112:40148->192.168.10.157:5002: i/o timeout
+combo:2019/05/28 12:36:54 SBz1DU hr dial tcp 192.168.10.52:5010: i/o timeout
+combo:2019/05/28 12:36:54 AKNP1 hr dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:36:54 DiagnAKNP3 ir dial tcp 192.168.10.153:5003: i/o timeout
+combo:2019/05/28 12:36:54 A3Bz1 ir dial tcp 192.168.10.153:5017: i/o timeout
+combo:2019/05/28 12:36:54 A3Bz2 ir dial tcp 192.168.10.153:5021: i/o timeout
+combo:2019/05/28 12:36:54 AKNP3 di dial tcp 192.168.10.153:5002: i/o timeout
+combo:2019/05/28 12:36:54 A4Bz1 hr dial tcp 192.168.10.55:5018: i/o timeout
+combo:2019/05/28 12:36:54 A4Bz2 hr dial tcp 192.168.10.55:5022: i/o timeout
+combo:2019/05/28 12:36:54 AKNP4 ir dial tcp 192.168.10.55:5002: i/o timeout
+combo:2019/05/28 12:36:54 A4Bz1 ir dial tcp 192.168.10.155:5018: i/o timeout
+combo:2019/05/28 12:36:54 DiagnAKNP4 ir dial tcp 192.168.10.155:5003: i/o timeout
+combo:2019/05/28 12:36:54 A4Bz2 ir dial tcp 192.168.10.155:5022: i/o timeout
+combo:2019/05/28 12:36:54 AKNP4 di dial tcp 192.168.10.155:5002: i/o timeout
+combo:2019/05/28 12:36:54 A1Bz1 hr dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:36:54 AKNP1 ir dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:36:54 A2Bz2 hr dial tcp 192.168.10.57:5020: i/o timeout
+combo:2019/05/28 12:36:54 AKNP2 ir dial tcp 192.168.10.57:5002: i/o timeout
+combo:2019/05/28 12:36:54 A2Bz1 hr dial tcp 192.168.10.57:5016: i/o timeout
+combo:2019/05/28 12:36:54 A1Bz2 hr dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:36:55 DiagnAKNP2 ir dial tcp 192.168.10.157:5003: i/o timeout
+combo:2019/05/28 12:36:55 A2Bz2 ir dial tcp 192.168.10.157:5020: i/o timeout
+combo:2019/05/28 12:36:55 A2Bz1 ir dial tcp 192.168.10.157:5016: i/o timeout
+combo:2019/05/28 12:36:55 AKNP2 di dial tcp 192.168.10.157:5002: i/o timeout
+combo:2019/05/28 12:36:55 A3Bz1 hr dial tcp 192.168.10.153:5017: i/o timeout
+combo:2019/05/28 12:36:55 A3Bz2 hr dial tcp 192.168.10.153:5021: i/o timeout
+combo:2019/05/28 12:36:55 AKNP3 ir dial tcp 192.168.10.153:5002: i/o timeout
+combo:2019/05/28 12:36:55 AKNP4 hr dial tcp 192.168.10.55:5002: i/o timeout
+combo:2019/05/28 12:36:55 A4Bz1 hr dial tcp 192.168.10.155:5018: i/o timeout
+combo:2019/05/28 12:36:55 A4Bz2 hr dial tcp 192.168.10.155:5022: i/o timeout
+combo:2019/05/28 12:36:55 AKNP4 ir dial tcp 192.168.10.155:5002: i/o timeout
+combo:2019/05/28 12:36:55 AKNP1 hr dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:36:55 AKNP2 hr dial tcp 192.168.10.57:5002: i/o timeout
+combo:2019/05/28 12:36:56 A2Bz2 hr dial tcp 192.168.10.157:5020: i/o timeout
+combo:2019/05/28 12:36:56 A2Bz1 hr dial tcp 192.168.10.157:5016: i/o timeout
+combo:2019/05/28 12:36:56 AKNP2 ir dial tcp 192.168.10.157:5002: i/o timeout
+combo:2019/05/28 12:36:56 AKNP3 hr dial tcp 192.168.10.153:5002: i/o timeout
+combo:2019/05/28 12:36:56 AKNP4 hr dial tcp 192.168.10.155:5002: i/o timeout
+combo:2019/05/28 12:36:57 AKNP2 hr dial tcp 192.168.10.157:5002: i/o timeout
+combo:2019/05/28 12:36:59 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:37:00 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:37:01 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:37:02 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:37:28 fout no such file or directory
+combo:2019/05/28 12:37:29 SDu start dial tcp 192.168.10.60:5005: i/o timeout
+combo:2019/05/28 12:37:29 SA1 start dial tcp 192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:37:29 AKNP3 start dial tcp 192.168.10.53:5002: i/o timeout
+combo:2019/05/28 12:37:29 A3Bz1 start dial tcp 192.168.10.53:5017: i/o timeout
+combo:2019/05/28 12:37:29 SBz1 start dial tcp 192.168.10.60:5003: i/o timeout
+combo:2019/05/28 12:37:29 SA4 start dial tcp 192.168.10.60:5009: i/o timeout
+combo:2019/05/28 12:37:29 DiagnAKNP3 start dial tcp 192.168.10.53:5003: i/o timeout
+combo:2019/05/28 12:37:29 DiagnBaz2 start dial tcp 192.168.10.54:5005: i/o timeout
+combo:2019/05/28 12:37:29 A2Bz1 start dial tcp 192.168.10.57:5016: i/o timeout
+combo:2019/05/28 12:37:29 DiagnAKNP2 start dial tcp 192.168.10.57:5003: i/o timeout
+combo:2019/05/28 12:37:29 SA3 start dial tcp 192.168.10.60:5008: i/o timeout
+combo:2019/05/28 12:37:29 A1Bz2 start dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:37:29 DiagnAKNP1 start dial tcp 192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:37:29 DiagnDU start dial tcp 192.168.10.50:5006: i/o timeout
+combo:2019/05/28 12:37:29 Baz2 start dial tcp 192.168.10.54:5002: i/o timeout
+combo:2019/05/28 12:37:29 Baz1 start dial tcp 192.168.10.52:5002: i/o timeout
+combo:2019/05/28 12:37:29 SBz2DU start dial tcp 192.168.10.54:5009: i/o timeout
+combo:2019/05/28 12:37:30 SDu start dial tcp 192.168.10.60:5005: i/o timeout
+combo:2019/05/28 12:37:30 SA1 start dial tcp 192.168.10.60:5006: i/o timeout
+combo:2019/05/28 12:37:30 AKNP3 start dial tcp 192.168.10.153:5002: i/o timeout
+combo:2019/05/28 12:37:30 A3Bz1 start dial tcp 192.168.10.153:5017: i/o timeout
+combo:2019/05/28 12:37:30 SBz1 start dial tcp 192.168.10.60:5003: i/o timeout
+combo:2019/05/28 12:37:30 SA4 start dial tcp 192.168.10.60:5009: i/o timeout
+combo:2019/05/28 12:37:30 DiagnAKNP3 start dial tcp 192.168.10.153:5003: i/o timeout
+combo:2019/05/28 12:37:30 DiagnBaz2 start dial tcp 192.168.10.154:5005: i/o timeout
+combo:2019/05/28 12:37:30 A2Bz1 start dial tcp 192.168.10.157:5016: i/o timeout
+combo:2019/05/28 12:37:30 DiagnAKNP2 start dial tcp 192.168.10.157:5003: i/o timeout
+combo:2019/05/28 12:37:30 SA3 start dial tcp 192.168.10.60:5008: i/o timeout
+combo:2019/05/28 12:37:30 A1Bz2 start dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:37:30 DiagnAKNP1 start dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:37:30 DiagnDU start dial tcp 192.168.10.150:5006: i/o timeout
+combo:2019/05/28 12:37:30 Baz2 start dial tcp 192.168.10.154:5002: i/o timeout
+combo:2019/05/28 12:37:30 Baz1 start dial tcp 192.168.10.152:5002: i/o timeout
+combo:2019/05/28 12:37:30 SBz2DU start dial tcp 192.168.10.154:5009: i/o timeout
+combo:2019/05/28 12:37:31 AKNP2 start dial tcp 192.168.10.57:5002: i/o timeout
+combo:2019/05/28 12:37:31 SCM start dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/28 12:37:31 SRP start dial tcp 192.168.10.60:5010: i/o timeout
+combo:2019/05/28 12:37:31 A1Bz1 start dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:37:31 SBz1DU start dial tcp 192.168.10.52:5010: i/o timeout
+combo:2019/05/28 12:37:31 DiagnBaz1 start dial tcp 192.168.10.52:5005: i/o timeout
+combo:2019/05/28 12:37:31 DU start dial tcp 192.168.10.50:5002: i/o timeout
+combo:2019/05/28 12:37:31 A3Bz2 start dial tcp 192.168.10.53:5021: i/o timeout
+combo:2019/05/28 12:37:31 AKNP1 start dial tcp 192.168.10.51:5002: connect: no route to host
+combo:2019/05/28 12:37:31 SBz2 start dial tcp 192.168.10.60:5004: connect: no route to host
+combo:2019/05/28 12:37:31 SCM start dial tcp 192.168.10.60:5002: connect: no route to host
+combo:2019/05/28 12:37:31 SRP start dial tcp 192.168.10.60:5010: connect: no route to host
+combo:2019/05/28 12:37:31 DU start dial tcp 192.168.10.150:5002: connect: no route to host
+combo:2019/05/28 12:37:31 DiagnBaz1 start dial tcp 192.168.10.152:5005: connect: no route to host
+combo:2019/05/28 12:37:31 SBz1DU start dial tcp 192.168.10.152:5010: connect: no route to host
+combo:2019/05/28 12:37:32 AKNP2 start dial tcp 192.168.10.157:5002: i/o timeout
+combo:2019/05/28 12:37:32 A1Bz1 start dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:37:32 A3Bz2 start dial tcp 192.168.10.153:5021: i/o timeout
+combo:2019/05/28 12:37:32 A4Bz1 start dial tcp 192.168.10.55:5018: i/o timeout
+combo:2019/05/28 12:37:32 A4Bz2 start dial tcp 192.168.10.55:5022: i/o timeout
+combo:2019/05/28 12:37:32 DiagnAKNP4 start dial tcp 192.168.10.55:5003: i/o timeout
+combo:2019/05/28 12:37:32 AKNP1 start dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:37:32 SBz2 start dial tcp 192.168.10.60:5004: i/o timeout
+combo:2019/05/28 12:37:33 A4Bz1 start dial tcp 192.168.10.155:5018: i/o timeout
+combo:2019/05/28 12:37:33 A4Bz2 start dial tcp 192.168.10.155:5022: i/o timeout
+combo:2019/05/28 12:37:33 DiagnAKNP4 start dial tcp 192.168.10.155:5003: i/o timeout
+combo:2019/05/28 12:37:33 A2Bz2 start dial tcp 192.168.10.57:5020: i/o timeout
+combo:2019/05/28 12:37:33 SA2 start dial tcp 192.168.10.60:5007: i/o timeout
+combo:2019/05/28 12:37:33 AKNP4 start dial tcp 192.168.10.55:5002: i/o timeout
+combo:2019/05/28 12:37:34 A2Bz2 start dial tcp 192.168.10.157:5020: i/o timeout
+combo:2019/05/28 12:37:34 SA2 start dial tcp 192.168.10.60:5007: i/o timeout
+combo:2019/05/28 12:37:34 AKNP4 start dial tcp 192.168.10.155:5002: i/o timeout
+combo:2019/05/28 12:37:47 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:38:01 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:38:02 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:38:03 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:38:04 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:38:28 fout no such file or directory
+combo:2019/05/28 12:38:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:38:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:38:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:38:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:38:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:38:48 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:39:03 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:39:04 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:39:05 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:39:06 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:39:28 fout no such file or directory
+combo:2019/05/28 12:39:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:39:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:39:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:39:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:39:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:39:49 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:40:05 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:40:06 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:40:07 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:40:08 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:40:28 fout no such file or directory
+combo:2019/05/28 12:40:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:40:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:40:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:40:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:40:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:40:50 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:41:07 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:41:08 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:41:09 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:41:10 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:41:28 fout no such file or directory
+combo:2019/05/28 12:41:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:41:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:41:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:41:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:41:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:41:51 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:42:09 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:42:10 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:42:11 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:42:12 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:42:28 fout no such file or directory
+combo:2019/05/28 12:42:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:42:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:42:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:42:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:42:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:42:32 DU coils EOF
+combo:2019/05/28 12:42:37 DU coils read tcp 192.168.10.112:60274->192.168.10.50:5002: read: connection reset by peer
+combo:2019/05/28 12:42:37 DU di read tcp 192.168.10.112:60578->192.168.10.50:5002: read: connection reset by peer
+combo:2019/05/28 12:42:37 DU ir dial tcp 192.168.10.50:5002: connect: connection refused
+combo:2019/05/28 12:42:37 DU hr dial tcp 192.168.10.50:5002: connect: connection refused
+combo:2019/05/28 12:42:52 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:43:11 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:43:12 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:43:13 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:43:14 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:43:28 fout no such file or directory
+combo:2019/05/28 12:43:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:43:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:43:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:43:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:43:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:43:53 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:44:13 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:44:14 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:44:15 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:44:16 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:44:28 fout no such file or directory
+combo:2019/05/28 12:44:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:44:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:44:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:44:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:44:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:44:54 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:45:15 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:45:16 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:45:17 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:45:18 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:45:28 fout no such file or directory
+combo:2019/05/28 12:45:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:45:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:45:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:45:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:45:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:45:50 AKNP1 coils read tcp 192.168.10.112:39692->192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:45:50 DiagnAKNP1 di read tcp 192.168.10.112:35356->192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:45:50 A1Bz2 di read tcp 192.168.10.112:37892->192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:45:50 A1Bz2 di read tcp 192.168.10.112:42922->192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:45:50 A1Bz1 di read tcp 192.168.10.112:53212->192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:45:50 A1Bz1 di read tcp 192.168.10.112:46424->192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:45:51 AKNP1 coils read tcp 192.168.10.112:48248->192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:45:51 DiagnAKNP1 di read tcp 192.168.10.112:43690->192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:45:51 AKNP1 di dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:45:51 DiagnAKNP1 ir dial tcp 192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:45:51 A1Bz2 ir dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:45:51 A1Bz2 ir dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:45:51 A1Bz1 ir dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:45:51 A1Bz1 ir dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:45:52 AKNP1 di dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:45:52 DiagnAKNP1 ir dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:45:52 AKNP1 ir dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:45:52 A1Bz2 hr dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:45:52 A1Bz2 hr dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:45:52 A1Bz1 hr dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:45:52 A1Bz1 hr dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:45:53 AKNP1 ir dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:45:53 AKNP1 hr dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:45:54 AKNP1 hr dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:45:55 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:46:17 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:46:18 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:46:19 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:46:20 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:46:28 fout no such file or directory
+combo:2019/05/28 12:46:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:46:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:46:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:46:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:46:31 A1Bz2 start dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:46:31 DiagnAKNP1 start dial tcp 192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:46:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:46:32 A1Bz2 start dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:46:32 DiagnAKNP1 start dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:46:33 A1Bz1 start dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:46:33 AKNP1 start dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:46:34 A1Bz1 start dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:46:34 AKNP1 start dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:46:56 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:47:19 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:47:20 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:47:21 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:47:22 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:47:28 fout no such file or directory
+combo:2019/05/28 12:47:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:47:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:47:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:47:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:47:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:47:57 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:48:21 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:48:22 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:48:23 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:48:24 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:48:28 fout no such file or directory
+combo:2019/05/28 12:48:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:48:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:48:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:48:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:48:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:48:58 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:49:23 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:49:24 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:49:25 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:49:26 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:49:28 fout no such file or directory
+combo:2019/05/28 12:49:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:49:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:49:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:49:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:49:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:49:59 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:50:25 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:50:26 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:50:27 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:50:28 fout no such file or directory
+combo:2019/05/28 12:50:28 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:50:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:50:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:50:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:50:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:50:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:50:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:00 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:51:27 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:51:28 fout no such file or directory
+combo:2019/05/28 12:51:28 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:51:29 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:51:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:51:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:51:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:51:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:51:30 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:51:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:51:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:01 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:52:28 fout no such file or directory
+combo:2019/05/28 12:52:29 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:52:30 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:52:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:52:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:52:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:52:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:52:31 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:52:32 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:32 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:52:32 DiagnAKNP1 di read tcp 192.168.10.112:44416->192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:52:32 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:52:33 A1Bz2 di read tcp 192.168.10.112:38622->192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:52:33 AKNP1 coils read tcp 192.168.10.112:48908->192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:52:33 A1Bz1 di read tcp 192.168.10.112:47090->192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:52:33 DiagnAKNP1 ir dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:52:34 A1Bz2 ir dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:52:34 AKNP1 di dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:52:34 A1Bz1 ir dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:52:34 DiagnAKNP1 start dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:52:35 A1Bz2 hr dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:52:35 AKNP1 ir dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:52:35 A1Bz1 hr dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:52:36 AKNP1 hr dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:52:36 A1Bz1 start dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:52:37 AKNP1 start dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:53:02 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:53:28 fout no such file or directory
+combo:2019/05/28 12:53:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:53:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:53:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:53:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:53:31 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:53:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:53:32 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:53:33 A1Bz2 start dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:53:33 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:53:34 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:53:35 DiagnAKNP1 start dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:53:37 A1Bz1 start dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:53:37 AKNP1 start dial tcp 192.168.10.151:5002: connect: no route to host
+combo:2019/05/28 12:54:03 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:54:28 fout no such file or directory
+combo:2019/05/28 12:54:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:54:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:54:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:54:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:54:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:54:33 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:54:34 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:54:35 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:54:36 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:55:04 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:55:28 fout no such file or directory
+combo:2019/05/28 12:55:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:55:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:55:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:55:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:55:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:55:35 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:55:36 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:55:37 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:55:38 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:56:05 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:56:28 fout no such file or directory
+combo:2019/05/28 12:56:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:56:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:56:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:56:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:56:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:56:37 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:56:38 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:56:39 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:56:40 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:57:06 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:57:28 fout no such file or directory
+combo:2019/05/28 12:57:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:57:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:57:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:57:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:57:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:57:39 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:57:40 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:57:41 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:57:42 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:58:07 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:58:28 fout no such file or directory
+combo:2019/05/28 12:58:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:58:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:58:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:58:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:58:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:58:41 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:58:42 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:58:43 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:58:44 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 12:59:08 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 12:59:14 A1Bz2 di read tcp 192.168.10.112:43650->192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:59:14 A1Bz1 di read tcp 192.168.10.112:53878->192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:59:14 AKNP1 coils read tcp 192.168.10.112:40354->192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:59:14 DiagnAKNP1 di read tcp 192.168.10.112:36084->192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:59:14 AKNP1 coils read tcp 192.168.10.112:49376->192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:59:14 A1Bz2 di read tcp 192.168.10.112:39086->192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:59:14 DiagnAKNP1 di read tcp 192.168.10.112:44888->192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:59:14 A1Bz1 di read tcp 192.168.10.112:47560->192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:59:15 A1Bz2 ir dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:59:15 A1Bz1 ir dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:59:15 AKNP1 di dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:59:15 DiagnAKNP1 ir dial tcp 192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:59:15 AKNP1 di dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:59:15 A1Bz2 ir dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:59:15 DiagnAKNP1 ir dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:59:15 A1Bz1 ir dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:59:16 A1Bz2 hr dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:59:16 A1Bz1 hr dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:59:16 AKNP1 ir dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:59:16 AKNP1 ir dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:59:16 A1Bz2 hr dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:59:16 A1Bz1 hr dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:59:17 AKNP1 hr dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:59:17 AKNP1 hr dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:59:28 fout no such file or directory
+combo:2019/05/28 12:59:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:59:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 12:59:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:59:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 12:59:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 12:59:34 A1Bz2 start dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/28 12:59:35 A1Bz2 start dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/28 12:59:36 DiagnAKNP1 start dial tcp 192.168.10.51:5003: i/o timeout
+combo:2019/05/28 12:59:37 DiagnAKNP1 start dial tcp 192.168.10.151:5003: i/o timeout
+combo:2019/05/28 12:59:38 A1Bz1 start dial tcp 192.168.10.51:5015: i/o timeout
+combo:2019/05/28 12:59:38 AKNP1 start dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/28 12:59:39 A1Bz1 start dial tcp 192.168.10.151:5015: i/o timeout
+combo:2019/05/28 12:59:39 AKNP1 start dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/28 12:59:43 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 12:59:44 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 12:59:45 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 12:59:46 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 13:00:09 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 13:00:28 fout no such file or directory
+combo:2019/05/28 13:00:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:00:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:00:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:00:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:00:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:00:45 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 13:00:46 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 13:00:47 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 13:00:48 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 13:01:10 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 13:01:28 fout no such file or directory
+combo:2019/05/28 13:01:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:01:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:01:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:01:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:01:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:01:47 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 13:01:48 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 13:01:49 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 13:01:50 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 13:02:11 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 13:02:28 fout no such file or directory
+combo:2019/05/28 13:02:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:02:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:02:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:02:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:02:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:02:49 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 13:02:50 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 13:02:51 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 13:02:52 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 13:03:12 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 13:03:28 fout no such file or directory
+combo:2019/05/28 13:03:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:03:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:03:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:03:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:03:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:03:51 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 13:03:52 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 13:03:53 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 13:03:54 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 13:04:13 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 13:04:28 fout no such file or directory
+combo:2019/05/28 13:04:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:04:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:04:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:04:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:04:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:04:53 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/28 13:04:54 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/28 13:04:55 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/28 13:04:56 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/28 13:05:14 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/28 13:05:28 fout no such file or directory
+combo:2019/05/28 13:05:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 DiagnBaz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 Baz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:05:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 DiagnDU di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:05:30 Baz2 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:30 SBz2DU coils modbus: exception '2' (illegal data address), function '129'
+combo:2019/05/28 13:05:30 Baz2 hr modbus: exception '2' (illegal data address), function '131'
+combo:2019/05/28 13:05:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
+combo:2019/05/28 13:05:31 DiagnBaz1 di modbus: exception '2' (illegal data address), function '130'
