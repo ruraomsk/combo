@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <format maxRecords="2147483647">
+        <fields>
+            <field description="Имя" name="name" type="S">
+                <validators>&lt;L=1 50&gt;&lt;R=\w+^^Имя может содержать только латинские буквы, цифры и символы подчеркивания&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Описание" name="description" type="S">
+                <validators>&lt;L=1 200&gt;&lt;R=[^\p{Cntrl}]*^^Описание может содержать только печатные символы&gt;</validators>
+                <defaultValue/>
+            </field>
+            <field description="Тип" name="type" type="I">
+                <selectionValues>
+                    <option description="Дискретный выход (Coil)">0</option>
+                    <option description="Дискретный вход (Discrete Input)">1</option>
+                    <option description="Входной регистр (Input Register)">2</option>
+                    <option description="Выходной регистр (Holding Register)">3</option>
+                </selectionValues>
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Формат" name="format" type="I">
+                <selectionValues>
+                    <option description="2-байтный Int Unsigned">2</option>
+                    <option description="2-байтный Int Signed">3</option>
+                    <option description="4-байтный Int Unsigned">4</option>
+                    <option description="4-байтный Int Signed">5</option>
+                    <option description="4-байтный Int Unsigned Swapped">6</option>
+                    <option description="4-байтный Int Signed Swapped">7</option>
+                    <option description="4-байтный Float">8</option>
+                    <option description="4-байтный Float Swapped">9</option>
+                    <option description="8-байтный Int Signed">11</option>
+                    <option description="8-байтный IntSignedSwapped">13</option>
+                    <option description="8-байтный Float">14</option>
+                    <option description="8-байтный FloatSwapped">15</option>
+                    <option description="2-байтный Byte Bcd">16</option>
+                    <option description="4-байтный Bcd">17</option>
+                    <option description="Символьный">18</option>
+                    <option description="Строковый">19</option>
+                </selectionValues>
+                <defaultValue>2</defaultValue>
+            </field>
+            <field description="Адрес регистра (десятичный)"
+                name="address" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Размер" name="size" type="I">
+                <validators contentType="base64">HEweMSAyNTUd</validators>
+                <defaultValue>1</defaultValue>
+            </field>
+            <field description="unitId" name="unitId" type="I">
+                <defaultValue>1</defaultValue>
+            </field>
+        </fields>
+        <bindings>
+            <binding>
+                <reference>format#enabled</reference>
+                <expression>{type} == 2 || {type} == 3</expression>
+            </binding>
+        </bindings>
+    </format>
+    <records>
+        <record>
+            <value name="name">er00</value>
+            <value name="description">Канал 0</value>
+            <value name="type">1</value>
+        </record>
+        <record>
+            <value name="name">er01</value>
+            <value name="description">Канал 1</value>
+            <value name="type">1</value>
+            <value name="address">1</value>
+        </record>
+        <record>
+            <value name="name">er02</value>
+            <value name="description">Канал 2</value>
+            <value name="type">1</value>
+            <value name="address">2</value>
+        </record>
+        <record>
+            <value name="name">er03</value>
+            <value name="description">Канал 3</value>
+            <value name="type">1</value>
+            <value name="address">3</value>
+        </record>
+        <record>
+            <value name="name">er04</value>
+            <value name="description">Канал 4</value>
+            <value name="type">1</value>
+            <value name="address">4</value>
+        </record>
+        <record>
+            <value name="name">er05</value>
+            <value name="description">Канал 5</value>
+            <value name="type">1</value>
+            <value name="address">5</value>
+        </record>
+        <record>
+            <value name="name">er06</value>
+            <value name="description">Канал 6</value>
+            <value name="type">1</value>
+            <value name="address">6</value>
+        </record>
+        <record>
+            <value name="name">er07</value>
+            <value name="description">Канал 7</value>
+            <value name="type">1</value>
+            <value name="address">7</value>
+        </record>
+        <record>
+            <value name="name">er08</value>
+            <value name="description">Канал 8</value>
+            <value name="type">1</value>
+            <value name="address">8</value>
+        </record>
+        <record>
+            <value name="name">er09</value>
+            <value name="description">Канал 9</value>
+            <value name="type">1</value>
+            <value name="address">9</value>
+        </record>
+        <record>
+            <value name="name">er10</value>
+            <value name="description">Канал 10</value>
+            <value name="type">1</value>
+            <value name="address">10</value>
+        </record>
+        <record>
+            <value name="name">er11</value>
+            <value name="description">Канал 11</value>
+            <value name="type">1</value>
+            <value name="address">11</value>
+        </record>
+        <record>
+            <value name="name">er12</value>
+            <value name="description">Канал 12</value>
+            <value name="type">1</value>
+            <value name="address">12</value>
+        </record>
+        <record>
+            <value name="name">er13</value>
+            <value name="description">Канал 13</value>
+            <value name="type">1</value>
+            <value name="address">13</value>
+        </record>
+        <record>
+            <value name="name">er14</value>
+            <value name="description">Канал 14</value>
+            <value name="type">1</value>
+            <value name="address">14</value>
+        </record>
+        <record>
+            <value name="name">er15</value>
+            <value name="description">Канал 15</value>
+            <value name="type">1</value>
+            <value name="address">15</value>
+        </record>
+        <record>
+            <value name="name">er16</value>
+            <value name="description">Канал 16</value>
+            <value name="type">1</value>
+            <value name="address">16</value>
+        </record>
+        <record>
+            <value name="name">er17</value>
+            <value name="description">Канал 17</value>
+            <value name="type">1</value>
+            <value name="address">17</value>
+        </record>
+        <record>
+            <value name="name">er18</value>
+            <value name="description">Канал 18</value>
+            <value name="type">1</value>
+            <value name="address">18</value>
+        </record>
+        <record>
+            <value name="name">er19</value>
+            <value name="description">Канал 19</value>
+            <value name="type">1</value>
+            <value name="address">19</value>
+        </record>
+        <record>
+            <value name="name">er20</value>
+            <value name="description">Канал 20</value>
+            <value name="type">1</value>
+            <value name="address">20</value>
+        </record>
+        <record>
+            <value name="name">er21</value>
+            <value name="description">Канал 21</value>
+            <value name="type">1</value>
+            <value name="address">21</value>
+        </record>
+        <record>
+            <value name="name">er22</value>
+            <value name="description">Канал 22</value>
+            <value name="type">1</value>
+            <value name="address">22</value>
+        </record>
+        <record>
+            <value name="name">er23</value>
+            <value name="description">Канал 23</value>
+            <value name="type">1</value>
+            <value name="address">23</value>
+        </record>
+        <record>
+            <value name="name">enc00</value>
+            <value name="description">Значение канал 0</value>
+            <value name="type">2</value>
+        </record>
+        <record>
+            <value name="name">enc01</value>
+            <value name="description">Значение канал 1</value>
+            <value name="type">2</value>
+            <value name="address">1</value>
+        </record>
+        <record>
+            <value name="name">enc02</value>
+            <value name="description">Значение канал 2</value>
+            <value name="type">2</value>
+            <value name="address">2</value>
+        </record>
+        <record>
+            <value name="name">enc03</value>
+            <value name="description">Значение канал 3</value>
+            <value name="type">2</value>
+            <value name="address">3</value>
+        </record>
+        <record>
+            <value name="name">enc04</value>
+            <value name="description">Значение канал 4</value>
+            <value name="type">2</value>
+            <value name="address">4</value>
+        </record>
+        <record>
+            <value name="name">enc05</value>
+            <value name="description">Значение канал 5</value>
+            <value name="type">2</value>
+            <value name="address">5</value>
+        </record>
+        <record>
+            <value name="name">enc06</value>
+            <value name="description">Значение канал 6</value>
+            <value name="type">2</value>
+            <value name="address">6</value>
+        </record>
+        <record>
+            <value name="name">enc07</value>
+            <value name="description">Значение канал 7</value>
+            <value name="type">2</value>
+            <value name="address">7</value>
+        </record>
+        <record>
+            <value name="name">enc08</value>
+            <value name="description">Значение канал 8</value>
+            <value name="type">2</value>
+            <value name="address">8</value>
+        </record>
+        <record>
+            <value name="name">enc09</value>
+            <value name="description">Значение канал 9</value>
+            <value name="type">2</value>
+            <value name="address">9</value>
+        </record>
+        <record>
+            <value name="name">enc10</value>
+            <value name="description">Значение канал 10</value>
+            <value name="type">2</value>
+            <value name="address">10</value>
+        </record>
+        <record>
+            <value name="name">enc11</value>
+            <value name="description">Значение канал 11</value>
+            <value name="type">2</value>
+            <value name="address">11</value>
+        </record>
+        <record>
+            <value name="name">enc12</value>
+            <value name="description">Значение канал 12</value>
+            <value name="type">2</value>
+            <value name="address">12</value>
+        </record>
+        <record>
+            <value name="name">enc13</value>
+            <value name="description">Значение канал 13</value>
+            <value name="type">2</value>
+            <value name="address">13</value>
+        </record>
+        <record>
+            <value name="name">enc14</value>
+            <value name="description">Значение канал 14</value>
+            <value name="type">2</value>
+            <value name="address">14</value>
+        </record>
+        <record>
+            <value name="name">enc15</value>
+            <value name="description">Значение канал 15</value>
+            <value name="type">2</value>
+            <value name="address">15</value>
+        </record>
+        <record>
+            <value name="name">enc16</value>
+            <value name="description">Значение канал 16</value>
+            <value name="type">2</value>
+            <value name="address">16</value>
+        </record>
+        <record>
+            <value name="name">enc17</value>
+            <value name="description">Значение канал 17</value>
+            <value name="type">2</value>
+            <value name="address">17</value>
+        </record>
+        <record>
+            <value name="name">enc18</value>
+            <value name="description">Значение канал 18</value>
+            <value name="type">2</value>
+            <value name="address">18</value>
+        </record>
+        <record>
+            <value name="name">enc19</value>
+            <value name="description">Значение канал 19</value>
+            <value name="type">2</value>
+            <value name="address">19</value>
+        </record>
+        <record>
+            <value name="name">enc20</value>
+            <value name="description">Значение канал 20</value>
+            <value name="type">2</value>
+            <value name="address">20</value>
+        </record>
+        <record>
+            <value name="name">enc21</value>
+            <value name="description">Значение канал 21</value>
+            <value name="type">2</value>
+            <value name="address">21</value>
+        </record>
+        <record>
+            <value name="name">enc22</value>
+            <value name="description">Значение канал 22</value>
+            <value name="type">2</value>
+            <value name="address">22</value>
+        </record>
+        <record>
+            <value name="name">enc23</value>
+            <value name="description">Значение канал 23</value>
+            <value name="type">2</value>
+            <value name="address">23</value>
+        </record>
+    </records>
+</table>
