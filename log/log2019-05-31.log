@@ -8201,3 +8201,1387 @@ combo:2019/05/31 14:13:34 ssi ir read tcp 192.168.10.30:52865->192.168.10.112:50
 combo:2019/05/31 14:13:34 ssi ir read tcp 192.168.10.30:52866->192.168.10.112:5002: i/o timeout
 combo:2019/05/31 14:13:36 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
 combo:2019/05/31 14:13:37 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:22:36 Start working....
+combo:2019/05/31 14:22:36 logger log запущен
+combo:2019/05/31 14:22:36 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер dozs
+combo:2019/05/31 14:22:36 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер ctrl
+combo:2019/05/31 14:22:36 router ssi DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер ssi
+combo:2019/05/31 14:22:36 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер fout
+combo:2019/05/31 14:22:36 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SCM
+combo:2019/05/31 14:22:36 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SBz1
+combo:2019/05/31 14:22:36 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SBz2
+combo:2019/05/31 14:22:36 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SDu
+combo:2019/05/31 14:22:36 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SA1
+combo:2019/05/31 14:22:36 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SA2
+combo:2019/05/31 14:22:36 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SA3
+combo:2019/05/31 14:22:36 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SA4
+combo:2019/05/31 14:22:36 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SRP
+combo:2019/05/31 14:22:36 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DU
+combo:2019/05/31 14:22:36 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnDU
+combo:2019/05/31 14:22:36 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер AKNP1
+combo:2019/05/31 14:22:36 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A1Bz1
+combo:2019/05/31 14:22:36 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A1Bz2
+combo:2019/05/31 14:22:36 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/31 14:22:36 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер Baz1
+combo:2019/05/31 14:22:36 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SBz1DU
+combo:2019/05/31 14:22:36 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/31 14:22:36 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер AKNP3
+combo:2019/05/31 14:22:36 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A3Bz1
+combo:2019/05/31 14:22:36 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A3Bz2
+combo:2019/05/31 14:22:36 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/31 14:22:36 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер Baz2
+combo:2019/05/31 14:22:36 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер SBz2DU
+combo:2019/05/31 14:22:36 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/31 14:22:36 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер AKNP4
+combo:2019/05/31 14:22:36 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A4Bz1
+combo:2019/05/31 14:22:36 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A4Bz2
+combo:2019/05/31 14:22:36 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/31 14:22:36 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер RPU
+combo:2019/05/31 14:22:36 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/31 14:22:36 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер AKNP2
+combo:2019/05/31 14:22:36 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A2Bz1
+combo:2019/05/31 14:22:36 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер A2Bz2
+combo:2019/05/31 14:22:36 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:22:36 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/31 14:22:36 Запустили Драйвер A1Bz2
+combo:2019/05/31 14:22:36 Запустили Драйвер dozs
+combo:2019/05/31 14:22:37 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:22:37 Запустили Драйвер ctrl
+combo:2019/05/31 14:22:37 Запустили Драйвер SBz2
+combo:2019/05/31 14:22:37 Запустили Драйвер SA1
+combo:2019/05/31 14:22:37 Запустили Драйвер SA4
+combo:2019/05/31 14:22:37 Запустили Драйвер SRP
+combo:2019/05/31 14:22:37 Запустили Драйвер DU
+combo:2019/05/31 14:22:37 Запустили Драйвер SBz1DU
+combo:2019/05/31 14:22:37 Запустили Драйвер DiagnBaz2
+combo:2019/05/31 14:22:37 Запустили Драйвер A2Bz1
+combo:2019/05/31 14:22:37 Запустили Драйвер SCM
+combo:2019/05/31 14:22:37 Запустили Драйвер SA3
+combo:2019/05/31 14:22:37 Запустили Драйвер A2Bz2
+combo:2019/05/31 14:22:37 Запустили Драйвер AKNP1
+combo:2019/05/31 14:22:37 Запустили Драйвер AKNP2
+combo:2019/05/31 14:22:37 Запустили Драйвер SBz1
+combo:2019/05/31 14:22:37 Запустили Драйвер SA2
+combo:2019/05/31 14:22:37 Запустили Драйвер DiagnAKNP1
+combo:2019/05/31 14:22:38 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:22:38 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:22:39 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:22:39 Запустили Драйвер DiagnRPU
+combo:2019/05/31 14:22:39 Запустили Драйвер DiagnDU
+combo:2019/05/31 14:22:39 Запустили Драйвер Baz1
+combo:2019/05/31 14:22:39 Запустили Драйвер DiagnBaz1
+combo:2019/05/31 14:22:39 Запустили Драйвер AKNP3
+combo:2019/05/31 14:22:39 Запустили Драйвер A3Bz1
+combo:2019/05/31 14:22:39 Запустили Драйвер A4Bz2
+combo:2019/05/31 14:22:40 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:22:40 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:22:41 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:22:41 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:22:41 Запустили Драйвер RPU
+combo:2019/05/31 14:22:41 Запустили Драйвер SDu
+combo:2019/05/31 14:22:41 Запустили Драйвер A1Bz1
+combo:2019/05/31 14:22:41 Запустили Драйвер DiagnAKNP3
+combo:2019/05/31 14:22:41 Запустили Драйвер Baz2
+combo:2019/05/31 14:22:41 Запустили Драйвер DiagnAKNP4
+combo:2019/05/31 14:22:41 fout no such file or directory
+combo:2019/05/31 14:22:41 Запустили Драйвер fout
+combo:2019/05/31 14:22:41 fout no such file or directory
+combo:2019/05/31 14:22:41 Запустили Драйвер A3Bz2
+combo:2019/05/31 14:22:41 Запустили Драйвер A4Bz1
+combo:2019/05/31 14:22:41 Запустили Драйвер DiagnAKNP2
+combo:2019/05/31 14:22:41 Запустили Драйвер ssi
+combo:2019/05/31 14:22:41 Запустили Драйвер SBz2DU
+combo:2019/05/31 14:22:41 Запустили Драйвер AKNP4
+combo:2019/05/31 14:22:42 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:22:42 ssi di read tcp 192.168.10.112:57272->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:22:42 ssi di read tcp 192.168.10.112:57274->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:22:43 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:22:43 ssi ir read tcp 192.168.10.112:57286->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:22:43 ssi ir read tcp 192.168.10.112:57288->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:23:39 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:23:41 fout no such file or directory
+combo:2019/05/31 14:23:42 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:23:42 ssi di read tcp 192.168.10.112:57338->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:23:42 ssi di read tcp 192.168.10.112:57340->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:23:43 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:23:43 ssi ir read tcp 192.168.10.112:57344->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:23:43 ssi ir read tcp 192.168.10.112:57346->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:23:44 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:23:45 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:24:40 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:24:41 fout no such file or directory
+combo:2019/05/31 14:24:42 ssi di read tcp 192.168.10.112:57402->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:24:42 ssi di read tcp 192.168.10.112:57404->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:24:43 ssi ir read tcp 192.168.10.112:57408->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:24:43 ssi ir read tcp 192.168.10.112:57406->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:24:44 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:24:45 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:24:46 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:24:47 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:24:56 Start working....
+combo:2019/05/31 14:24:56 logger log запущен
+combo:2019/05/31 14:24:56 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер dozs
+combo:2019/05/31 14:24:56 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер ctrl
+combo:2019/05/31 14:24:56 router ssi DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер ssi
+combo:2019/05/31 14:24:56 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер fout
+combo:2019/05/31 14:24:56 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SCM
+combo:2019/05/31 14:24:56 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SBz1
+combo:2019/05/31 14:24:56 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SBz2
+combo:2019/05/31 14:24:56 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SDu
+combo:2019/05/31 14:24:56 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SA1
+combo:2019/05/31 14:24:56 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SA2
+combo:2019/05/31 14:24:56 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SA3
+combo:2019/05/31 14:24:56 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SA4
+combo:2019/05/31 14:24:56 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SRP
+combo:2019/05/31 14:24:56 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DU
+combo:2019/05/31 14:24:56 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnDU
+combo:2019/05/31 14:24:56 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер AKNP1
+combo:2019/05/31 14:24:56 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A1Bz1
+combo:2019/05/31 14:24:56 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A1Bz2
+combo:2019/05/31 14:24:56 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/31 14:24:56 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер Baz1
+combo:2019/05/31 14:24:56 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SBz1DU
+combo:2019/05/31 14:24:56 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/31 14:24:56 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер AKNP3
+combo:2019/05/31 14:24:56 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A3Bz1
+combo:2019/05/31 14:24:56 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A3Bz2
+combo:2019/05/31 14:24:56 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/31 14:24:56 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер Baz2
+combo:2019/05/31 14:24:56 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер SBz2DU
+combo:2019/05/31 14:24:56 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/31 14:24:56 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер AKNP4
+combo:2019/05/31 14:24:56 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A4Bz1
+combo:2019/05/31 14:24:56 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A4Bz2
+combo:2019/05/31 14:24:56 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/31 14:24:56 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер RPU
+combo:2019/05/31 14:24:56 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/31 14:24:56 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер AKNP2
+combo:2019/05/31 14:24:56 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A2Bz1
+combo:2019/05/31 14:24:56 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер A2Bz2
+combo:2019/05/31 14:24:56 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:24:56 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/31 14:24:56 Запустили Драйвер SBz2DU
+combo:2019/05/31 14:24:56 Запустили Драйвер A1Bz2
+combo:2019/05/31 14:24:56 Запустили Драйвер Baz1
+combo:2019/05/31 14:24:56 Запустили Драйвер A3Bz1
+combo:2019/05/31 14:24:56 Запустили Драйвер dozs
+combo:2019/05/31 14:24:56 fout no such file or directory
+combo:2019/05/31 14:24:56 Запустили Драйвер fout
+combo:2019/05/31 14:24:56 fout no such file or directory
+combo:2019/05/31 14:24:56 Запустили Драйвер DiagnAKNP1
+combo:2019/05/31 14:24:56 Запустили Драйвер DiagnAKNP3
+combo:2019/05/31 14:24:56 Запустили Драйвер AKNP4
+combo:2019/05/31 14:24:56 Запустили Драйвер SA2
+combo:2019/05/31 14:24:56 Запустили Драйвер SA3
+combo:2019/05/31 14:24:56 Запустили Драйвер AKNP3
+combo:2019/05/31 14:24:57 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:24:58 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:24:58 Запустили Драйвер DiagnRPU
+combo:2019/05/31 14:24:58 Запустили Драйвер A2Bz2
+combo:2019/05/31 14:24:58 Запустили Драйвер SCM
+combo:2019/05/31 14:24:58 Запустили Драйвер SRP
+combo:2019/05/31 14:24:58 Запустили Драйвер AKNP1
+combo:2019/05/31 14:24:58 Запустили Драйвер ssi
+combo:2019/05/31 14:24:58 Запустили Драйвер SBz1DU
+combo:2019/05/31 14:24:58 Запустили Драйвер A3Bz2
+combo:2019/05/31 14:24:58 Запустили Драйвер A4Bz2
+combo:2019/05/31 14:24:58 Запустили Драйвер DiagnAKNP4
+combo:2019/05/31 14:24:58 Запустили Драйвер A2Bz1
+combo:2019/05/31 14:24:58 Запустили Драйвер SBz1
+combo:2019/05/31 14:24:58 Запустили Драйвер SDu
+combo:2019/05/31 14:24:58 Запустили Драйвер DU
+combo:2019/05/31 14:24:58 Запустили Драйвер DiagnDU
+combo:2019/05/31 14:24:58 Запустили Драйвер A1Bz1
+combo:2019/05/31 14:24:58 Запустили Драйвер Baz2
+combo:2019/05/31 14:24:58 Запустили Драйвер DiagnBaz2
+combo:2019/05/31 14:24:58 Запустили Драйвер A4Bz1
+combo:2019/05/31 14:24:59 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:24:59 ssi di read tcp 192.168.10.112:57574->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:24:59 ssi di read tcp 192.168.10.112:57576->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:24:59 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:24:59 Запустили Драйвер ctrl
+combo:2019/05/31 14:24:59 Запустили Драйвер SBz2
+combo:2019/05/31 14:24:59 Запустили Драйвер SA1
+combo:2019/05/31 14:24:59 RPU start dial tcp 192.168.10.31:5002: connect: no route to host
+combo:2019/05/31 14:25:00 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:25:00 ssi ir read tcp 192.168.10.112:57640->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:25:00 ssi ir read tcp 192.168.10.112:57638->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:25:00 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:25:00 RPU start dial tcp 192.168.10.131:5002: connect: no route to host
+combo:2019/05/31 14:25:00 Запустили Драйвер RPU
+combo:2019/05/31 14:25:00 Запустили Драйвер AKNP2
+combo:2019/05/31 14:25:00 Запустили Драйвер SA4
+combo:2019/05/31 14:25:00 Запустили Драйвер DiagnBaz1
+combo:2019/05/31 14:25:00 Запустили Драйвер DiagnAKNP2
+combo:2019/05/31 14:25:01 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:25:02 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:25:56 fout no such file or directory
+combo:2019/05/31 14:25:59 ssi di read tcp 192.168.10.112:57724->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:25:59 ssi di read tcp 192.168.10.112:57726->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:26:00 ssi ir read tcp 192.168.10.112:57732->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:26:00 ssi ir read tcp 192.168.10.112:57734->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:26:01 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:26:01 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:26:02 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:26:03 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:26:04 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:26:56 fout no such file or directory
+combo:2019/05/31 14:26:59 ssi di read tcp 192.168.10.112:57800->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:26:59 ssi di read tcp 192.168.10.112:57802->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:27:00 ssi ir read tcp 192.168.10.112:57804->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:27:00 ssi ir read tcp 192.168.10.112:57806->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:27:02 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:27:03 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:27:04 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:27:05 RPU start dial tcp 192.168.10.31:5002: connect: no route to host
+combo:2019/05/31 14:27:06 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:31:38 Start working....
+combo:2019/05/31 14:31:38 logger log запущен
+combo:2019/05/31 14:31:38 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер dozs
+combo:2019/05/31 14:31:38 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер ctrl
+combo:2019/05/31 14:31:38 router ssi DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер ssi
+combo:2019/05/31 14:31:38 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер fout
+combo:2019/05/31 14:31:38 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SCM
+combo:2019/05/31 14:31:38 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SBz1
+combo:2019/05/31 14:31:38 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SBz2
+combo:2019/05/31 14:31:38 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SDu
+combo:2019/05/31 14:31:38 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SA1
+combo:2019/05/31 14:31:38 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SA2
+combo:2019/05/31 14:31:38 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SA3
+combo:2019/05/31 14:31:38 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SA4
+combo:2019/05/31 14:31:38 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SRP
+combo:2019/05/31 14:31:38 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DU
+combo:2019/05/31 14:31:38 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnDU
+combo:2019/05/31 14:31:38 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер AKNP1
+combo:2019/05/31 14:31:38 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A1Bz1
+combo:2019/05/31 14:31:38 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A1Bz2
+combo:2019/05/31 14:31:38 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/31 14:31:38 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер Baz1
+combo:2019/05/31 14:31:38 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SBz1DU
+combo:2019/05/31 14:31:38 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/31 14:31:38 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер AKNP3
+combo:2019/05/31 14:31:38 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A3Bz1
+combo:2019/05/31 14:31:38 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A3Bz2
+combo:2019/05/31 14:31:38 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/31 14:31:38 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер Baz2
+combo:2019/05/31 14:31:38 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер SBz2DU
+combo:2019/05/31 14:31:38 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/31 14:31:38 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер AKNP4
+combo:2019/05/31 14:31:38 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A4Bz1
+combo:2019/05/31 14:31:38 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A4Bz2
+combo:2019/05/31 14:31:38 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/31 14:31:38 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер RPU
+combo:2019/05/31 14:31:38 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/31 14:31:38 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер AKNP2
+combo:2019/05/31 14:31:38 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A2Bz1
+combo:2019/05/31 14:31:38 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер A2Bz2
+combo:2019/05/31 14:31:38 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 14:31:38 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/31 14:31:38 Запустили Драйвер DiagnBaz1
+combo:2019/05/31 14:31:38 Запустили Драйвер Baz2
+combo:2019/05/31 14:31:38 Запустили Драйвер AKNP4
+combo:2019/05/31 14:31:38 Запустили Драйвер AKNP2
+combo:2019/05/31 14:31:38 Запустили Драйвер A2Bz2
+combo:2019/05/31 14:31:38 Запустили Драйвер DiagnDU
+combo:2019/05/31 14:31:38 Запустили Драйвер SBz2
+combo:2019/05/31 14:31:38 Запустили Драйвер SA1
+combo:2019/05/31 14:31:38 Запустили Драйвер SRP
+combo:2019/05/31 14:31:38 Запустили Драйвер DU
+combo:2019/05/31 14:31:38 Запустили Драйвер A4Bz1
+combo:2019/05/31 14:31:38 Запустили Драйвер SCM
+combo:2019/05/31 14:31:38 Запустили Драйвер SBz2DU
+combo:2019/05/31 14:31:38 Запустили Драйвер DiagnAKNP3
+combo:2019/05/31 14:31:39 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:31:40 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:31:40 Запустили Драйвер RPU
+combo:2019/05/31 14:31:40 Запустили Драйвер DiagnBaz2
+combo:2019/05/31 14:31:40 Запустили Драйвер SBz1
+combo:2019/05/31 14:31:40 Запустили Драйвер A1Bz2
+combo:2019/05/31 14:31:40 Запустили Драйвер DiagnAKNP1
+combo:2019/05/31 14:31:40 Запустили Драйвер A3Bz1
+combo:2019/05/31 14:31:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:31:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:31:40 Запустили Драйвер ssi
+combo:2019/05/31 14:31:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:31:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:31:40 Запустили Драйвер SDu
+combo:2019/05/31 14:31:40 Запустили Драйвер SA2
+combo:2019/05/31 14:31:40 Запустили Драйвер AKNP1
+combo:2019/05/31 14:31:40 Запустили Драйвер A1Bz1
+combo:2019/05/31 14:31:40 Запустили Драйвер AKNP3
+combo:2019/05/31 14:31:40 Запустили Драйвер A3Bz2
+combo:2019/05/31 14:31:40 Запустили Драйвер DiagnAKNP2
+combo:2019/05/31 14:31:40 Запустили Драйвер dozs
+combo:2019/05/31 14:31:40 Запустили Драйвер SA4
+combo:2019/05/31 14:31:40 Запустили Драйвер Baz1
+combo:2019/05/31 14:31:40 Запустили Драйвер SBz1DU
+combo:2019/05/31 14:31:41 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:31:41 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:31:42 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:31:42 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:31:42 Запустили Драйвер DiagnRPU
+combo:2019/05/31 14:31:42 Запустили Драйвер SA3
+combo:2019/05/31 14:31:42 fout no such file or directory
+combo:2019/05/31 14:31:42 Запустили Драйвер fout
+combo:2019/05/31 14:31:42 fout no such file or directory
+combo:2019/05/31 14:31:42 Запустили Драйвер A4Bz2
+combo:2019/05/31 14:31:42 Запустили Драйвер DiagnAKNP4
+combo:2019/05/31 14:31:42 Запустили Драйвер A2Bz1
+combo:2019/05/31 14:31:43 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:31:43 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:31:43 Запустили Драйвер ctrl
+combo:2019/05/31 14:31:44 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:31:44 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:32:41 ssi di read tcp 192.168.10.112:58332->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:32:41 ssi di read tcp 192.168.10.112:58334->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:32:42 ssi ir read tcp 192.168.10.112:58338->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:32:42 ssi ir read tcp 192.168.10.112:58336->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 14:32:42 fout no such file or directory
+combo:2019/05/31 14:32:43 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:32:44 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:32:45 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:32:45 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:32:46 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:33:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:33:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:33:42 fout no such file or directory
+combo:2019/05/31 14:33:45 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:33:46 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:33:46 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:33:47 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:33:48 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:34:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:34:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:34:42 fout no such file or directory
+combo:2019/05/31 14:34:47 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:34:47 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:34:48 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:34:49 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:34:50 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:35:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:35:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:35:42 fout no such file or directory
+combo:2019/05/31 14:35:48 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:35:49 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:35:50 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:35:51 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:35:52 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:36:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:36:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:36:42 fout no such file or directory
+combo:2019/05/31 14:36:49 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:36:51 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:36:52 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:36:53 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:36:54 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:37:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:37:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:37:42 fout no such file or directory
+combo:2019/05/31 14:37:50 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:37:53 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:37:54 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:37:55 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:37:56 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:38:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:38:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:38:42 fout no such file or directory
+combo:2019/05/31 14:38:51 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:38:55 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:38:56 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:38:57 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:38:58 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:39:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:39:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:39:42 fout no such file or directory
+combo:2019/05/31 14:39:52 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:39:57 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:39:58 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:39:59 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:40:00 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:40:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:40:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:40:42 fout no such file or directory
+combo:2019/05/31 14:40:53 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:40:59 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:41:00 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:41:01 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:41:02 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:41:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:41:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:41:42 fout no such file or directory
+combo:2019/05/31 14:41:54 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:42:01 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:42:02 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:42:03 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:42:04 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:42:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:42:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:42:42 fout no such file or directory
+combo:2019/05/31 14:42:55 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:43:03 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:43:04 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:43:05 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:43:06 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:43:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:43:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:43:42 fout no such file or directory
+combo:2019/05/31 14:43:56 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:44:05 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:44:06 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:44:07 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:44:08 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:44:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:44:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:44:42 fout no such file or directory
+combo:2019/05/31 14:44:57 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:45:07 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:45:08 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:45:09 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:45:10 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:45:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:45:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:45:42 fout no such file or directory
+combo:2019/05/31 14:45:58 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:46:09 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:46:10 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:46:11 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:46:12 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:46:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:46:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:46:42 fout no such file or directory
+combo:2019/05/31 14:46:59 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:47:11 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:47:12 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:47:13 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:47:14 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:47:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:47:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:47:42 fout no such file or directory
+combo:2019/05/31 14:48:00 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:48:13 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:48:14 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:48:15 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:48:16 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:48:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:48:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:48:42 fout no such file or directory
+combo:2019/05/31 14:49:01 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:49:15 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:49:16 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:49:17 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:49:18 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:49:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:49:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:49:42 fout no such file or directory
+combo:2019/05/31 14:50:02 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:50:17 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:50:18 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:50:19 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:50:20 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:50:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:50:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:50:42 fout no such file or directory
+combo:2019/05/31 14:51:03 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:51:19 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:51:20 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:51:21 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:51:22 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:51:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:51:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:51:42 fout no such file or directory
+combo:2019/05/31 14:52:04 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:52:21 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:52:22 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:52:23 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:52:24 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:52:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:52:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:52:42 fout no such file or directory
+combo:2019/05/31 14:53:05 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:53:23 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:53:24 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:53:25 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:53:26 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:53:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:53:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:53:42 fout no such file or directory
+combo:2019/05/31 14:54:06 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:54:25 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:54:26 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:54:27 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:54:28 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:54:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:54:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:54:42 fout no such file or directory
+combo:2019/05/31 14:55:07 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:55:27 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:55:28 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:55:29 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:55:30 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:55:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:55:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:55:42 fout no such file or directory
+combo:2019/05/31 14:56:08 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:56:29 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:56:30 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:56:31 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:56:32 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:56:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:56:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:56:42 fout no such file or directory
+combo:2019/05/31 14:57:09 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:57:31 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:57:32 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:57:33 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:57:34 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:57:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:57:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:57:42 fout no such file or directory
+combo:2019/05/31 14:58:10 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:58:33 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:58:34 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:58:35 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:58:36 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:58:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:58:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:58:42 fout no such file or directory
+combo:2019/05/31 14:59:11 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 14:59:35 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 14:59:36 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 14:59:37 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 14:59:38 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 14:59:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:59:40 ssi start dial tcp 192.168.10.112:5002: connect: connection refused
+combo:2019/05/31 14:59:42 fout no such file or directory
+combo:2019/05/31 15:00:09 Start working....
+combo:2019/05/31 15:00:09 logger log запущен
+combo:2019/05/31 15:00:09 При попытке слушать порт 5511 listen tcp :5511: bind: address already in use
+combo:2019/05/31 15:00:09 При попытке слушать порт 5510 listen tcp :5510: bind: address already in use
+combo:2019/05/31 15:00:09 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:09 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:09 Не могли загрузить Роутер dozs
+combo:2019/05/31 15:00:09 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:09 Не могли загрузить Роутер ctrl
+combo:2019/05/31 15:00:09 router ssi DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:09 Не могли загрузить Роутер ssi
+combo:2019/05/31 15:00:09 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:09 Не могли загрузить Роутер fout
+combo:2019/05/31 15:00:10 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SCM
+combo:2019/05/31 15:00:10 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SBz1
+combo:2019/05/31 15:00:10 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SBz2
+combo:2019/05/31 15:00:10 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SDu
+combo:2019/05/31 15:00:10 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SA1
+combo:2019/05/31 15:00:10 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SA2
+combo:2019/05/31 15:00:10 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SA3
+combo:2019/05/31 15:00:10 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SA4
+combo:2019/05/31 15:00:10 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SRP
+combo:2019/05/31 15:00:10 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DU
+combo:2019/05/31 15:00:10 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnDU
+combo:2019/05/31 15:00:10 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер AKNP1
+combo:2019/05/31 15:00:10 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A1Bz1
+combo:2019/05/31 15:00:10 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A1Bz2
+combo:2019/05/31 15:00:10 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/31 15:00:10 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер Baz1
+combo:2019/05/31 15:00:10 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SBz1DU
+combo:2019/05/31 15:00:10 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/31 15:00:10 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер AKNP3
+combo:2019/05/31 15:00:10 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A3Bz1
+combo:2019/05/31 15:00:10 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A3Bz2
+combo:2019/05/31 15:00:10 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/31 15:00:10 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер Baz2
+combo:2019/05/31 15:00:10 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер SBz2DU
+combo:2019/05/31 15:00:10 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/31 15:00:10 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер AKNP4
+combo:2019/05/31 15:00:10 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A4Bz1
+combo:2019/05/31 15:00:10 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A4Bz2
+combo:2019/05/31 15:00:10 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/31 15:00:10 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер RPU
+combo:2019/05/31 15:00:10 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/31 15:00:10 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер AKNP2
+combo:2019/05/31 15:00:10 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A2Bz1
+combo:2019/05/31 15:00:10 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер A2Bz2
+combo:2019/05/31 15:00:10 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:10 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/31 15:00:10 Запустили Драйвер SA3
+combo:2019/05/31 15:00:10 Запустили Драйвер DiagnBaz2
+combo:2019/05/31 15:00:10 Запустили Драйвер dozs
+combo:2019/05/31 15:00:10 fout no such file or directory
+combo:2019/05/31 15:00:10 Запустили Драйвер fout
+combo:2019/05/31 15:00:10 fout no such file or directory
+combo:2019/05/31 15:00:10 При попытке слушать :5507 listen tcp :5507: bind: address already in use
+combo:2019/05/31 15:00:10 Запустили Драйвер DiagnDU
+combo:2019/05/31 15:00:10 Запустили Драйвер DiagnAKNP1
+combo:2019/05/31 15:00:10 Запустили Драйвер A4Bz1
+combo:2019/05/31 15:00:11 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:00:11 Запустили Драйвер ctrl
+combo:2019/05/31 15:00:11 Запустили Драйвер DU
+combo:2019/05/31 15:00:11 Запустили Драйвер Baz2
+combo:2019/05/31 15:00:11 Запустили Драйвер DiagnAKNP4
+combo:2019/05/31 15:00:11 Запустили Драйвер A2Bz1
+combo:2019/05/31 15:00:11 Запустили Драйвер A2Bz2
+combo:2019/05/31 15:00:11 Запустили Драйвер SA4
+combo:2019/05/31 15:00:11 Запустили Драйвер SBz1DU
+combo:2019/05/31 15:00:11 Запустили Драйвер AKNP3
+combo:2019/05/31 15:00:11 Запустили Драйвер SBz2DU
+combo:2019/05/31 15:00:11 Запустили Драйвер AKNP4
+combo:2019/05/31 15:00:11 Запустили Драйвер SCM
+combo:2019/05/31 15:00:11 Запустили Драйвер SRP
+combo:2019/05/31 15:00:11 Запустили Драйвер A1Bz1
+combo:2019/05/31 15:00:12 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:00:12 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:00:12 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:00:13 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:00:13 Запустили Драйвер DiagnRPU
+combo:2019/05/31 15:00:13 Запустили Драйвер A3Bz2
+combo:2019/05/31 15:00:13 Запустили Драйвер A4Bz2
+combo:2019/05/31 15:00:13 Запустили Драйвер ssi
+combo:2019/05/31 15:00:13 Запустили Драйвер SA1
+combo:2019/05/31 15:00:13 Запустили Драйвер SA2
+combo:2019/05/31 15:00:13 Запустили Драйвер Baz1
+combo:2019/05/31 15:00:13 Запустили Драйвер A3Bz1
+combo:2019/05/31 15:00:13 Запустили Драйвер SBz2
+combo:2019/05/31 15:00:13 Запустили Драйвер SDu
+combo:2019/05/31 15:00:13 Запустили Драйвер AKNP1
+combo:2019/05/31 15:00:13 Запустили Драйвер DiagnBaz1
+combo:2019/05/31 15:00:13 Запустили Драйвер DiagnAKNP3
+combo:2019/05/31 15:00:13 Запустили Драйвер SBz1
+combo:2019/05/31 15:00:13 Запустили Драйвер A1Bz2
+combo:2019/05/31 15:00:14 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:00:14 ssi di read tcp 192.168.10.112:44702->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:14 ssi di read tcp 192.168.10.112:44704->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:14 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:00:15 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:00:15 ssi ir read tcp 192.168.10.112:44754->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:15 ssi ir read tcp 192.168.10.112:44756->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:15 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:00:15 Запустили Драйвер RPU
+combo:2019/05/31 15:00:15 Запустили Драйвер AKNP2
+combo:2019/05/31 15:00:15 Запустили Драйвер DiagnAKNP2
+combo:2019/05/31 15:00:16 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:00:17 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:00:30 Start working....
+combo:2019/05/31 15:00:30 logger log запущен
+combo:2019/05/31 15:00:30 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер dozs
+combo:2019/05/31 15:00:30 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер ctrl
+combo:2019/05/31 15:00:30 router ssi DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер ssi
+combo:2019/05/31 15:00:30 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер fout
+combo:2019/05/31 15:00:30 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SCM
+combo:2019/05/31 15:00:30 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SBz1
+combo:2019/05/31 15:00:30 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SBz2
+combo:2019/05/31 15:00:30 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SDu
+combo:2019/05/31 15:00:30 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SA1
+combo:2019/05/31 15:00:30 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SA2
+combo:2019/05/31 15:00:30 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SA3
+combo:2019/05/31 15:00:30 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SA4
+combo:2019/05/31 15:00:30 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SRP
+combo:2019/05/31 15:00:30 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DU
+combo:2019/05/31 15:00:30 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnDU
+combo:2019/05/31 15:00:30 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер AKNP1
+combo:2019/05/31 15:00:30 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A1Bz1
+combo:2019/05/31 15:00:30 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A1Bz2
+combo:2019/05/31 15:00:30 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/31 15:00:30 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер Baz1
+combo:2019/05/31 15:00:30 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SBz1DU
+combo:2019/05/31 15:00:30 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/31 15:00:30 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер AKNP3
+combo:2019/05/31 15:00:30 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A3Bz1
+combo:2019/05/31 15:00:30 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A3Bz2
+combo:2019/05/31 15:00:30 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/31 15:00:30 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер Baz2
+combo:2019/05/31 15:00:30 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер SBz2DU
+combo:2019/05/31 15:00:30 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/31 15:00:30 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер AKNP4
+combo:2019/05/31 15:00:30 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A4Bz1
+combo:2019/05/31 15:00:30 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A4Bz2
+combo:2019/05/31 15:00:30 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/31 15:00:30 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер RPU
+combo:2019/05/31 15:00:30 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/31 15:00:30 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер AKNP2
+combo:2019/05/31 15:00:30 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A2Bz1
+combo:2019/05/31 15:00:30 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер A2Bz2
+combo:2019/05/31 15:00:30 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:00:30 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/31 15:00:30 Запустили Драйвер SA4
+combo:2019/05/31 15:00:30 Запустили Драйвер DU
+combo:2019/05/31 15:00:30 Запустили Драйвер Baz1
+combo:2019/05/31 15:00:30 Запустили Драйвер DiagnBaz2
+combo:2019/05/31 15:00:30 Запустили Драйвер AKNP4
+combo:2019/05/31 15:00:30 Запустили Драйвер DiagnAKNP4
+combo:2019/05/31 15:00:30 Запустили Драйвер DiagnAKNP2
+combo:2019/05/31 15:00:30 Запустили Драйвер dozs
+combo:2019/05/31 15:00:30 Запустили Драйвер SRP
+combo:2019/05/31 15:00:30 Запустили Драйвер DiagnAKNP3
+combo:2019/05/31 15:00:31 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:00:32 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:00:32 Запустили Драйвер RPU
+combo:2019/05/31 15:00:32 Запустили Драйвер AKNP2
+combo:2019/05/31 15:00:32 Запустили Драйвер SBz2DU
+combo:2019/05/31 15:00:32 Запустили Драйвер ssi
+combo:2019/05/31 15:00:32 Запустили Драйвер SCM
+combo:2019/05/31 15:00:32 Запустили Драйвер SBz1
+combo:2019/05/31 15:00:32 Запустили Драйвер DiagnDU
+combo:2019/05/31 15:00:32 Запустили Драйвер A1Bz2
+combo:2019/05/31 15:00:32 Запустили Драйвер DiagnAKNP1
+combo:2019/05/31 15:00:32 Запустили Драйвер Baz2
+combo:2019/05/31 15:00:32 Запустили Драйвер A4Bz2
+combo:2019/05/31 15:00:32 Запустили Драйвер SBz2
+combo:2019/05/31 15:00:32 Запустили Драйвер SDu
+combo:2019/05/31 15:00:32 Запустили Драйвер SA3
+combo:2019/05/31 15:00:32 Запустили Драйвер A3Bz1
+combo:2019/05/31 15:00:32 Запустили Драйвер A3Bz2
+combo:2019/05/31 15:00:32 Запустили Драйвер A1Bz1
+combo:2019/05/31 15:00:32 Запустили Драйвер SBz1DU
+combo:2019/05/31 15:00:32 Запустили Драйвер DiagnBaz1
+combo:2019/05/31 15:00:32 Запустили Драйвер A4Bz1
+combo:2019/05/31 15:00:33 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:00:33 ssi di read tcp 192.168.10.112:44924->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:33 ssi di read tcp 192.168.10.112:44926->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:33 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:00:34 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:00:34 ssi ir read tcp 192.168.10.112:45000->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:34 ssi ir read tcp 192.168.10.112:45002->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:00:34 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:00:34 Запустили Драйвер DiagnRPU
+combo:2019/05/31 15:00:34 Запустили Драйвер A2Bz2
+combo:2019/05/31 15:00:35 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:00:35 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:00:35 Запустили Драйвер ctrl
+combo:2019/05/31 15:00:35 Запустили Драйвер AKNP3
+combo:2019/05/31 15:00:35 fout no such file or directory
+combo:2019/05/31 15:00:35 Запустили Драйвер fout
+combo:2019/05/31 15:00:35 fout no such file or directory
+combo:2019/05/31 15:00:35 Запустили Драйвер SA1
+combo:2019/05/31 15:00:35 Запустили Драйвер SA2
+combo:2019/05/31 15:00:35 Запустили Драйвер AKNP1
+combo:2019/05/31 15:00:35 Запустили Драйвер A2Bz1
+combo:2019/05/31 15:00:36 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:00:36 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:01:33 ssi di read tcp 192.168.10.112:45092->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:01:33 ssi di read tcp 192.168.10.112:45094->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:01:34 ssi ir read tcp 192.168.10.112:45098->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:01:34 ssi ir read tcp 192.168.10.112:45096->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:01:35 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:01:35 fout no such file or directory
+combo:2019/05/31 15:01:36 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:01:37 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:01:37 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:01:38 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:02:33 ssi di read tcp 192.168.10.112:45156->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:02:33 ssi di read tcp 192.168.10.112:45158->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:02:34 ssi ir read tcp 192.168.10.112:45160->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:02:34 ssi ir read tcp 192.168.10.112:45162->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:02:35 fout no such file or directory
+combo:2019/05/31 15:02:37 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:02:38 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:02:38 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:02:39 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:02:40 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:03:33 ssi di read tcp 192.168.10.112:45218->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:03:33 ssi di read tcp 192.168.10.112:45220->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:03:34 ssi ir read tcp 192.168.10.112:45224->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:03:34 ssi ir read tcp 192.168.10.112:45226->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:03:35 fout no such file or directory
+combo:2019/05/31 15:03:39 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:03:39 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:03:40 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:03:41 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:03:42 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:04:33 ssi di read tcp 192.168.10.112:45282->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:04:33 ssi di read tcp 192.168.10.112:45284->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:04:34 ssi ir read tcp 192.168.10.112:45288->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:04:34 ssi ir read tcp 192.168.10.112:45286->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:04:35 fout no such file or directory
+combo:2019/05/31 15:04:40 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:04:41 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:04:42 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:04:43 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:04:44 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:05:33 ssi di read tcp 192.168.10.112:45346->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:05:33 ssi di read tcp 192.168.10.112:45348->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:05:34 ssi ir read tcp 192.168.10.112:45352->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:05:34 ssi ir read tcp 192.168.10.112:45354->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:05:35 fout no such file or directory
+combo:2019/05/31 15:05:41 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:05:43 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:05:44 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:05:45 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:05:46 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:06:33 ssi di read tcp 192.168.10.112:45412->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:06:33 ssi di read tcp 192.168.10.112:45414->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:06:34 ssi ir read tcp 192.168.10.112:45418->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:06:34 ssi ir read tcp 192.168.10.112:45420->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:06:35 fout no such file or directory
+combo:2019/05/31 15:06:42 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:06:45 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:06:46 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:06:47 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:06:48 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:07:33 ssi di read tcp 192.168.10.112:45478->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:07:33 ssi di read tcp 192.168.10.112:45480->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:07:34 ssi ir read tcp 192.168.10.112:45484->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:07:34 ssi ir read tcp 192.168.10.112:45482->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:07:35 fout no such file or directory
+combo:2019/05/31 15:07:43 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:07:47 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:07:48 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:07:49 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:07:50 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:08:33 ssi di read tcp 192.168.10.112:45548->192.168.10.248:5002: read: connection reset by peer
+combo:2019/05/31 15:08:33 ssi di read tcp 192.168.10.112:45550->192.168.10.248:5002: read: connection reset by peer
+combo:2019/05/31 15:08:33 ssi ir dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:08:33 ssi ir dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:08:35 fout no such file or directory
+combo:2019/05/31 15:08:44 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:08:49 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:08:50 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:08:51 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:08:52 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:09:33 ssi di read tcp 192.168.10.112:45610->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:09:33 ssi di read tcp 192.168.10.112:45612->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:09:34 ssi ir read tcp 192.168.10.112:45616->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:09:34 ssi ir read tcp 192.168.10.112:45618->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:09:35 fout no such file or directory
+combo:2019/05/31 15:09:45 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:09:51 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:09:52 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:09:53 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:09:54 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:10:33 ssi di read tcp 192.168.10.112:45688->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:10:33 ssi di read tcp 192.168.10.112:45690->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:10:34 ssi ir read tcp 192.168.10.112:45692->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:10:34 ssi ir read tcp 192.168.10.112:45694->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:10:35 fout no such file or directory
+combo:2019/05/31 15:10:46 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:10:53 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:10:54 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:10:55 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:10:56 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:11:33 ssi di read tcp 192.168.10.112:45754->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:11:33 ssi di read tcp 192.168.10.112:45756->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:11:34 ssi ir read tcp 192.168.10.112:45758->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:11:34 ssi ir read tcp 192.168.10.112:45760->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:11:35 fout no such file or directory
+combo:2019/05/31 15:11:47 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:11:55 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:11:56 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:11:57 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:11:58 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:12:33 ssi di read tcp 192.168.10.112:45818->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:12:33 ssi di read tcp 192.168.10.112:45820->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:12:34 ssi ir read tcp 192.168.10.112:45822->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:12:34 ssi ir read tcp 192.168.10.112:45824->192.168.10.248:5002: i/o timeout
+combo:2019/05/31 15:12:35 fout no such file or directory
+combo:2019/05/31 15:12:48 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:12:57 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:12:58 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:12:59 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:13:00 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:13:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:13:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:13:35 fout no such file or directory
+combo:2019/05/31 15:13:49 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:13:59 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:14:00 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:14:01 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:14:02 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:14:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:14:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:14:35 fout no such file or directory
+combo:2019/05/31 15:14:50 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:15:01 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:15:02 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:15:03 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:15:04 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:15:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:15:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:15:35 fout no such file or directory
+combo:2019/05/31 15:15:51 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:16:03 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:16:04 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:16:05 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:16:06 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:16:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:16:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:16:35 fout no such file or directory
+combo:2019/05/31 15:16:52 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:17:05 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:17:06 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:17:07 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:17:08 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:17:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:17:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:17:35 fout no such file or directory
+combo:2019/05/31 15:17:53 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:18:07 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:18:08 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:18:09 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:18:10 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:18:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:18:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:18:35 fout no such file or directory
+combo:2019/05/31 15:18:54 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:19:09 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:19:10 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:19:11 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:19:12 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:19:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:19:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:19:35 fout no such file or directory
+combo:2019/05/31 15:19:55 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:20:11 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:20:12 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:20:13 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:20:14 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:20:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:20:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:20:35 fout no such file or directory
+combo:2019/05/31 15:20:56 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:21:13 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:21:14 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:21:15 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:21:16 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:21:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:21:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:21:35 fout no such file or directory
+combo:2019/05/31 15:21:57 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:22:15 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:22:16 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:22:17 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:22:18 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:22:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:22:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:22:35 fout no such file or directory
+combo:2019/05/31 15:22:58 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:23:17 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:23:18 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:23:19 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:23:20 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:23:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:23:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:23:35 fout no such file or directory
+combo:2019/05/31 15:23:59 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:24:19 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:24:20 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:24:21 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:24:22 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:24:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:24:32 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:24:35 fout no such file or directory
+combo:2019/05/31 15:25:00 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:25:21 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:25:22 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:25:23 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:25:24 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:25:33 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:25:33 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:25:35 fout no such file or directory
+combo:2019/05/31 15:26:01 ctrl start dial tcp 192.168.10.141:502: i/o timeout
+combo:2019/05/31 15:26:23 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:26:24 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:26:25 DiagnRPU start dial tcp 192.168.10.31:5003: i/o timeout
+combo:2019/05/31 15:26:26 DiagnRPU start dial tcp 192.168.10.131:5003: i/o timeout
+combo:2019/05/31 15:26:33 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:26:33 ssi start dial tcp 192.168.10.248:5002: connect: connection refused
+combo:2019/05/31 15:26:35 fout no such file or directory
+combo:2019/05/31 15:28:59 Start working....
+combo:2019/05/31 15:28:59 logger log запущен
+combo:2019/05/31 15:28:59 logger log DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:28:59 router dozs DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:28:59 Не могли загрузить Роутер dozs
+combo:2019/05/31 15:28:59 router ctrl DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:28:59 Не могли загрузить Роутер ctrl
+combo:2019/05/31 15:28:59 router ssi DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:28:59 Не могли загрузить Роутер ssi
+combo:2019/05/31 15:28:59 router fout DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:28:59 Не могли загрузить Роутер fout
+combo:2019/05/31 15:29:00 router SCM DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SCM
+combo:2019/05/31 15:29:00 router SBz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SBz1
+combo:2019/05/31 15:29:00 router SBz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SBz2
+combo:2019/05/31 15:29:00 router SDu DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SDu
+combo:2019/05/31 15:29:00 router SA1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SA1
+combo:2019/05/31 15:29:00 router SA2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SA2
+combo:2019/05/31 15:29:00 router SA3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SA3
+combo:2019/05/31 15:29:00 router SA4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SA4
+combo:2019/05/31 15:29:00 router SRP DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SRP
+combo:2019/05/31 15:29:00 router DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DU
+combo:2019/05/31 15:29:00 router DiagnDU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnDU
+combo:2019/05/31 15:29:00 router AKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер AKNP1
+combo:2019/05/31 15:29:00 router A1Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A1Bz1
+combo:2019/05/31 15:29:00 router A1Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A1Bz2
+combo:2019/05/31 15:29:00 router DiagnAKNP1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnAKNP1
+combo:2019/05/31 15:29:00 router Baz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер Baz1
+combo:2019/05/31 15:29:00 router SBz1DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SBz1DU
+combo:2019/05/31 15:29:00 router DiagnBaz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnBaz1
+combo:2019/05/31 15:29:00 router AKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер AKNP3
+combo:2019/05/31 15:29:00 router A3Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A3Bz1
+combo:2019/05/31 15:29:00 router A3Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A3Bz2
+combo:2019/05/31 15:29:00 router DiagnAKNP3 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnAKNP3
+combo:2019/05/31 15:29:00 router Baz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер Baz2
+combo:2019/05/31 15:29:00 router SBz2DU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер SBz2DU
+combo:2019/05/31 15:29:00 router DiagnBaz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnBaz2
+combo:2019/05/31 15:29:00 router AKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер AKNP4
+combo:2019/05/31 15:29:00 router A4Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A4Bz1
+combo:2019/05/31 15:29:00 router A4Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A4Bz2
+combo:2019/05/31 15:29:00 router DiagnAKNP4 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnAKNP4
+combo:2019/05/31 15:29:00 router RPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер RPU
+combo:2019/05/31 15:29:00 router DiagnRPU DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnRPU
+combo:2019/05/31 15:29:00 router AKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер AKNP2
+combo:2019/05/31 15:29:00 router A2Bz1 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A2Bz1
+combo:2019/05/31 15:29:00 router A2Bz2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер A2Bz2
+combo:2019/05/31 15:29:00 router DiagnAKNP2 DB pq: password authentication failed for user "combo"
+combo:2019/05/31 15:29:00 Не могли загрузить Роутер DiagnAKNP2
+combo:2019/05/31 15:29:01 AKNP3 start dial tcp 192.168.10.53:5002: i/o timeout
+combo:2019/05/31 15:29:02 AKNP3 start dial tcp 192.168.10.153:5002: i/o timeout
+combo:2019/05/31 15:29:02 Запустили Драйвер AKNP3
+combo:2019/05/31 15:29:03 AKNP3 start dial tcp 192.168.10.53:5002: i/o timeout
+combo:2019/05/31 15:29:03 SBz2 start dial tcp 192.168.10.60:5004: i/o timeout
+combo:2019/05/31 15:29:04 AKNP3 start dial tcp 192.168.10.153:5002: i/o timeout
+combo:2019/05/31 15:29:04 SBz2 start dial tcp 192.168.10.60:5004: i/o timeout
+combo:2019/05/31 15:29:04 Запустили Драйвер SBz2
+combo:2019/05/31 15:29:05 DiagnDU start dial tcp 192.168.10.50:5006: i/o timeout
+combo:2019/05/31 15:29:05 SBz2 start dial tcp 192.168.10.60:5004: i/o timeout
+combo:2019/05/31 15:29:06 DiagnDU start dial tcp 192.168.10.150:5006: i/o timeout
+combo:2019/05/31 15:29:06 Запустили Драйвер DiagnDU
+combo:2019/05/31 15:29:06 SBz2 start dial tcp 192.168.10.60:5004: i/o timeout
+combo:2019/05/31 15:29:07 AKNP1 start dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/31 15:29:07 DiagnDU start dial tcp 192.168.10.50:5006: i/o timeout
+combo:2019/05/31 15:29:08 AKNP1 start dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/31 15:29:08 DiagnDU start dial tcp 192.168.10.150:5006: i/o timeout
+combo:2019/05/31 15:29:08 Запустили Драйвер AKNP1
+combo:2019/05/31 15:29:09 AKNP1 start dial tcp 192.168.10.51:5002: i/o timeout
+combo:2019/05/31 15:29:09 A1Bz2 start dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/31 15:29:10 AKNP1 start dial tcp 192.168.10.151:5002: i/o timeout
+combo:2019/05/31 15:29:10 A1Bz2 start dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/31 15:29:10 Запустили Драйвер A1Bz2
+combo:2019/05/31 15:29:11 Baz2 start dial tcp 192.168.10.54:5002: i/o timeout
+combo:2019/05/31 15:29:11 A1Bz2 start dial tcp 192.168.10.51:5019: i/o timeout
+combo:2019/05/31 15:29:12 Baz2 start dial tcp 192.168.10.154:5002: i/o timeout
+combo:2019/05/31 15:29:12 A1Bz2 start dial tcp 192.168.10.151:5019: i/o timeout
+combo:2019/05/31 15:29:12 Запустили Драйвер Baz2
+combo:2019/05/31 15:29:13 DiagnBaz2 start dial tcp 192.168.10.54:5005: i/o timeout
+combo:2019/05/31 15:29:13 Baz2 start dial tcp 192.168.10.54:5002: i/o timeout
+combo:2019/05/31 15:29:14 DiagnBaz2 start dial tcp 192.168.10.154:5005: i/o timeout
+combo:2019/05/31 15:29:14 Запустили Драйвер DiagnBaz2
+combo:2019/05/31 15:29:14 Baz2 start dial tcp 192.168.10.154:5002: i/o timeout
+combo:2019/05/31 15:29:15 AKNP2 start dial tcp 192.168.10.57:5002: i/o timeout
+combo:2019/05/31 15:29:15 DiagnBaz2 start dial tcp 192.168.10.54:5005: i/o timeout
+combo:2019/05/31 15:29:16 AKNP2 start dial tcp 192.168.10.157:5002: i/o timeout
+combo:2019/05/31 15:29:16 Запустили Драйвер AKNP2
+combo:2019/05/31 15:29:16 DiagnBaz2 start dial tcp 192.168.10.154:5005: i/o timeout
+combo:2019/05/31 15:29:17 SDu start dial tcp 192.168.10.60:5005: i/o timeout
+combo:2019/05/31 15:29:17 AKNP2 start dial tcp 192.168.10.57:5002: i/o timeout
+combo:2019/05/31 15:29:18 SDu start dial tcp 192.168.10.60:5005: i/o timeout
+combo:2019/05/31 15:29:18 Запустили Драйвер SDu
+combo:2019/05/31 15:29:18 AKNP2 start dial tcp 192.168.10.157:5002: i/o timeout
+combo:2019/05/31 15:29:19 SA4 start dial tcp 192.168.10.60:5009: i/o timeout
+combo:2019/05/31 15:29:19 SDu start dial tcp 192.168.10.60:5005: i/o timeout
+combo:2019/05/31 15:29:19 SDu start dial tcp 192.168.10.60:5005: connect: no route to host
+combo:2019/05/31 15:29:19 SA4 start dial tcp 192.168.10.60:5009: connect: no route to host
+combo:2019/05/31 15:29:19 Запустили Драйвер SA4
+combo:2019/05/31 15:29:20 DU start dial tcp 192.168.10.50:5002: i/o timeout
+combo:2019/05/31 15:29:20 SA4 start dial tcp 192.168.10.60:5009: i/o timeout
+combo:2019/05/31 15:29:21 DU start dial tcp 192.168.10.150:5002: i/o timeout
+combo:2019/05/31 15:29:21 Запустили Драйвер DU
+combo:2019/05/31 15:29:21 fout no such file or directory
+combo:2019/05/31 15:29:21 Запустили Драйвер fout
+combo:2019/05/31 15:29:21 fout no such file or directory
+combo:2019/05/31 15:29:21 SA4 start dial tcp 192.168.10.60:5009: i/o timeout
+combo:2019/05/31 15:29:22 DiagnBaz1 start dial tcp 192.168.10.52:5005: i/o timeout
+combo:2019/05/31 15:29:22 DU start dial tcp 192.168.10.50:5002: i/o timeout
+combo:2019/05/31 15:29:23 DiagnBaz1 start dial tcp 192.168.10.152:5005: i/o timeout
+combo:2019/05/31 15:29:23 Запустили Драйвер DiagnBaz1
+combo:2019/05/31 15:29:23 DU start dial tcp 192.168.10.150:5002: i/o timeout
+combo:2019/05/31 15:29:24 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:29:24 DiagnBaz1 start dial tcp 192.168.10.52:5005: i/o timeout
+combo:2019/05/31 15:29:25 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:29:25 Запустили Драйвер RPU
+combo:2019/05/31 15:29:25 DiagnBaz1 start dial tcp 192.168.10.152:5005: i/o timeout
+combo:2019/05/31 15:29:26 Baz1 start dial tcp 192.168.10.52:5002: i/o timeout
+combo:2019/05/31 15:29:26 RPU start dial tcp 192.168.10.31:5002: i/o timeout
+combo:2019/05/31 15:29:27 RPU start dial tcp 192.168.10.131:5002: i/o timeout
+combo:2019/05/31 15:29:27 Baz1 start dial tcp 192.168.10.152:5002: i/o timeout
+combo:2019/05/31 15:29:27 Запустили Драйвер Baz1
+combo:2019/05/31 15:29:28 A4Bz1 start dial tcp 192.168.10.55:5018: i/o timeout
+combo:2019/05/31 15:29:28 Baz1 start dial tcp 192.168.10.52:5002: i/o timeout
+combo:2019/05/31 15:29:29 A4Bz1 start dial tcp 192.168.10.155:5018: i/o timeout
+combo:2019/05/31 15:29:29 Запустили Драйвер A4Bz1
+combo:2019/05/31 15:29:29 Baz1 start dial tcp 192.168.10.152:5002: i/o timeout
+combo:2019/05/31 15:29:29 Запустили Драйвер ssi
+combo:2019/05/31 15:29:30 A4Bz1 start dial tcp 192.168.10.55:5018: i/o timeout
+combo:2019/05/31 15:29:30 ssi di read tcp 192.168.10.112:35204->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 15:29:30 ssi di read tcp 192.168.10.112:35208->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 15:29:30 SBz1DU start dial tcp 192.168.10.52:5010: i/o timeout
+combo:2019/05/31 15:29:31 A4Bz1 start dial tcp 192.168.10.155:5018: i/o timeout
+combo:2019/05/31 15:29:31 ssi ir read tcp 192.168.10.112:35220->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 15:29:31 ssi ir read tcp 192.168.10.112:35222->192.168.10.112:5002: i/o timeout
+combo:2019/05/31 15:29:31 SBz1DU start dial tcp 192.168.10.152:5010: i/o timeout
+combo:2019/05/31 15:29:31 Запустили Драйвер SBz1DU
+combo:2019/05/31 15:29:32 SBz2DU start dial tcp 192.168.10.54:5009: i/o timeout
+combo:2019/05/31 15:29:32 SBz1DU start dial tcp 192.168.10.52:5010: i/o timeout
+combo:2019/05/31 15:29:33 SBz2DU start dial tcp 192.168.10.154:5009: i/o timeout
+combo:2019/05/31 15:29:33 Запустили Драйвер SBz2DU
+combo:2019/05/31 15:29:33 SBz1DU start dial tcp 192.168.10.152:5010: i/o timeout
+combo:2019/05/31 15:29:34 DiagnAKNP3 start dial tcp 192.168.10.53:5003: i/o timeout
+combo:2019/05/31 15:29:34 SBz2DU start dial tcp 192.168.10.54:5009: i/o timeout
+combo:2019/05/31 15:29:35 DiagnAKNP3 start dial tcp 192.168.10.153:5003: i/o timeout
+combo:2019/05/31 15:29:35 Запустили Драйвер DiagnAKNP3
+combo:2019/05/31 15:29:35 SBz2DU start dial tcp 192.168.10.154:5009: i/o timeout
+combo:2019/05/31 15:29:36 DiagnAKNP3 start dial tcp 192.168.10.53:5003: i/o timeout
+combo:2019/05/31 15:29:36 DiagnAKNP4 start dial tcp 192.168.10.55:5003: i/o timeout
+combo:2019/05/31 15:29:37 DiagnAKNP3 start dial tcp 192.168.10.153:5003: i/o timeout
+combo:2019/05/31 15:29:37 DiagnAKNP4 start dial tcp 192.168.10.155:5003: i/o timeout
+combo:2019/05/31 15:29:37 Запустили Драйвер DiagnAKNP4
+combo:2019/05/31 15:29:38 A2Bz2 start dial tcp 192.168.10.57:5020: i/o timeout
+combo:2019/05/31 15:29:38 DiagnAKNP4 start dial tcp 192.168.10.55:5003: i/o timeout
+combo:2019/05/31 15:29:39 A2Bz2 start dial tcp 192.168.10.157:5020: i/o timeout
+combo:2019/05/31 15:29:39 Запустили Драйвер A2Bz2
+combo:2019/05/31 15:29:39 DiagnAKNP4 start dial tcp 192.168.10.155:5003: i/o timeout
+combo:2019/05/31 15:29:40 A2Bz2 start dial tcp 192.168.10.57:5020: i/o timeout
+combo:2019/05/31 15:29:40 SCM start dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/31 15:29:41 A2Bz2 start dial tcp 192.168.10.157:5020: i/o timeout
+combo:2019/05/31 15:29:41 SCM start dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/31 15:29:41 Запустили Драйвер SCM
+combo:2019/05/31 15:29:42 SBz1 start dial tcp 192.168.10.60:5003: i/o timeout
+combo:2019/05/31 15:29:42 SCM start dial tcp 192.168.10.60:5002: i/o timeout
+combo:2019/05/31 15:29:42 SBz1 start dial tcp 192.168.10.60:5003: connect: no route to host
+combo:2019/05/31 15:29:42 Запустили Драйвер SBz1
+combo:2019/05/31 15:29:42 SCM start dial tcp 192.168.10.60:5002: connect: no route to host
+combo:2019/05/31 15:29:43 A3Bz1 start dial tcp 192.168.10.53:5017: i/o timeout
+combo:2019/05/31 15:29:43 SBz1 start dial tcp 192.168.10.60:5003: i/o timeout
+combo:2019/05/31 15:29:44 A3Bz1 start dial tcp 192.168.10.153:5017: i/o timeout
+combo:2019/05/31 15:29:44 Запустили Драйвер A3Bz1
+combo:2019/05/31 15:29:44 SBz1 start dial tcp 192.168.10.60:5003: i/o timeout
+combo:2019/05/31 15:29:45 SA2 start dial tcp 192.168.10.60:5007: i/o timeout
+combo:2019/05/31 15:29:45 A3Bz1 start dial tcp 192.168.10.53:5017: i/o timeout
+combo:2019/05/31 15:29:45 SA2 start dial tcp 192.168.10.60:5007: connect: no route to host
+combo:2019/05/31 15:29:45 Запустили Драйвер SA2
+combo:2019/05/31 15:29:46 A3Bz1 start dial tcp 192.168.10.153:5017: i/o timeout
+combo:2019/05/31 15:29:46 SA3 start dial tcp 192.168.10.60:5008: i/o timeout
+combo:2019/05/31 15:29:46 SA2 start dial tcp 192.168.10.60:5007: i/o timeout
+combo:2019/05/31 15:29:47 SA3 start dial tcp 192.168.10.60:5008: i/o timeout
+combo:2019/05/31 15:29:47 Запустили Драйвер SA3
+combo:2019/05/31 15:29:47 SA2 start dial tcp 192.168.10.60:5007: i/o timeout

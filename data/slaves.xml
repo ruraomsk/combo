@@ -32,7 +32,7 @@
 				ip="192.168.10.112" port="5002" ip2="192.168.10.112" port2="5002"
 				load="ssi"></device>
 		<device name="fout" description="Цифровые индикаторы" type="rtu" step="500" restart="60" 
-				tty="COM8" baud="38400" databits="8" parity="N" stopbits="1" 
+				tty="/dev/ttyUSB0" baud="38400" databits="8" parity="N" stopbits="1" 
 				load="fout"></device>
 	</devices>
 	<extends step="500">
