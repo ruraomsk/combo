@@ -107,81 +107,83 @@ func workData(m *Doza, conn net.Conn) {
 	var message string
 	defer conn.Close()
 	buff := make([]byte, 1024)
-	n, err := conn.Read(buff)
-	if err != nil {
-		if strings.Compare(err.Error(), "EOF") != 0 {
-			cmb.Logger.Printf("Ошибка приема %s %s", m.name, err.Error())
+	for true {
+		n, err := conn.Read(buff)
+		if err != nil {
+			if strings.Compare(err.Error(), "EOF") != 0 {
+				cmb.Logger.Printf("Ошибка приема %s %s", m.name, err.Error())
+				return
+			}
+		}
+		message = string(buff[:n])
+		// handle the connection
+		// err = gob.NewDecoder(conn).Decode(&message)
+		//bb := make([]byte, 56)
+		// conn.Read(bb)
+		// fmt.Println("=", message)
+		ss := strings.Split(message, " ")
+		if len(ss) != 6 {
+			cmb.Logger.Printf("Неверное сообщение %s %s", m.name, message)
 			return
 		}
-	}
-	message = string(buff[:n])
-	// handle the connection
-	// err = gob.NewDecoder(conn).Decode(&message)
-	//bb := make([]byte, 56)
-	// conn.Read(bb)
-	// fmt.Println("=", message)
-	ss := strings.Split(message, " ")
-	if len(ss) != 6 {
-		cmb.Logger.Printf("Неверное сообщение %s %s", m.name, message)
-		return
-	}
-	for i := 0; i < len(ss); i++ {
-		s := ss[i]
-		for {
-			j := strings.LastIndex(s, " ")
-			if j < 0 {
-				break
+		for i := 0; i < len(ss); i++ {
+			s := ss[i]
+			for {
+				j := strings.LastIndex(s, " ")
+				if j < 0 {
+					break
+				}
+				s = s[0:j]
 			}
-			s = s[0:j]
+			ss[i] = s
 		}
-		ss[i] = s
-	}
-	if strings.Compare(ss[0], "[") != 0 {
-		cmb.Logger.Printf("Неверное начало %s %s", m.name, message)
-		return
-	}
-	if strings.Compare(ss[5], "]") != 0 {
-		cmb.Logger.Printf("Неверное завершение %s %s", m.name, message)
-		return
-	}
-	if len(ss[1]) == 0 {
-		return
-	}
-	v1, err := strconv.ParseFloat(ss[1], 32)
-	if err != nil {
-		cmb.Logger.Printf("Ошибка значения первого канала %s %s %s", m.name, message, err.Error())
-		return
-	}
-	if len(ss[3]) == 0 {
-		return
-	}
-	v2, err := strconv.ParseFloat(ss[3], 32)
-	if err != nil {
-		cmb.Logger.Printf("Ошибка значения второго канала %s %s %s", m.name, message, err.Error())
-		return
-	}
-	b1, err := strconv.ParseBool(ss[2])
-	if err != nil {
-		cmb.Logger.Printf("Ошибка состояния первого канала %s %s %s", m.name, message, err.Error())
-		return
-	}
-	b2, err := strconv.ParseBool(ss[4])
-	if err != nil {
-		cmb.Logger.Printf("Ошибка состояния второго канала %s %s %s", m.name, message, err.Error())
-		return
-	}
-	// fmt.Printf("v1=%f v2=%f", v1, v2)
-	m.mu.Lock()
-	defer m.mu.Unlock()
-	m.di[0] = b1
-	m.di[1] = b2
-	buf := toBuffer(float32(v1))
-	for i := 0; i < 2; i++ {
-		m.ir[i] = buf[i]
-	}
-	buf = toBuffer(float32(v2))
-	for i := 0; i < 2; i++ {
-		m.ir[2+i] = buf[i]
+		if strings.Compare(ss[0], "[") != 0 {
+			cmb.Logger.Printf("Неверное начало %s %s", m.name, message)
+			return
+		}
+		if strings.Compare(ss[5], "]") != 0 {
+			cmb.Logger.Printf("Неверное завершение %s %s", m.name, message)
+			return
+		}
+		if len(ss[1]) == 0 {
+			return
+		}
+		v1, err := strconv.ParseFloat(ss[1], 32)
+		if err != nil {
+			cmb.Logger.Printf("Ошибка значения первого канала %s %s %s", m.name, message, err.Error())
+			return
+		}
+		if len(ss[3]) == 0 {
+			return
+		}
+		v2, err := strconv.ParseFloat(ss[3], 32)
+		if err != nil {
+			cmb.Logger.Printf("Ошибка значения второго канала %s %s %s", m.name, message, err.Error())
+			return
+		}
+		b1, err := strconv.ParseBool(ss[2])
+		if err != nil {
+			cmb.Logger.Printf("Ошибка состояния первого канала %s %s %s", m.name, message, err.Error())
+			return
+		}
+		b2, err := strconv.ParseBool(ss[4])
+		if err != nil {
+			cmb.Logger.Printf("Ошибка состояния второго канала %s %s %s", m.name, message, err.Error())
+			return
+		}
+		// fmt.Printf("v1=%f v2=%f", v1, v2)
+		m.mu.Lock()
+		m.di[0] = b1
+		m.di[1] = b2
+		buf := toBuffer(float32(v1))
+		for i := 0; i < 2; i++ {
+			m.ir[i] = buf[i]
+		}
+		buf = toBuffer(float32(v2))
+		for i := 0; i < 2; i++ {
+			m.ir[2+i] = buf[i]
+		}
+		m.mu.Unlock()
 	}
 }
 func toBuffer(val float32) (buffer []uint16) {
