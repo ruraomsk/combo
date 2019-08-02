@@ -114,6 +114,8 @@ func workData(m *Doza, conn net.Conn) {
 				cmb.Logger.Printf("Ошибка приема %s %s", m.name, err.Error())
 				return
 			}
+			time.Sleep(1 * time.Second)
+			continue
 		}
 		message = string(buff[:n])
 		// handle the connection
