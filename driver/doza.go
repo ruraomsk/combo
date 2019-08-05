@@ -143,7 +143,7 @@ func workData(m *Doza, conn net.Conn) {
 			cmb.Logger.Printf("Неверное начало %s %s", m.name, message)
 			return
 		}
-		if strings.Compare(ss[5], "]") != 0 {
+		if !strings.Contains(ss[5], "]") {
 			cmb.Logger.Printf("Неверное завершение %s %s", m.name, message)
 			return
 		}
