@@ -33,7 +33,7 @@ func paramSQL() string {
 func main() {
 
 	var err error
-	floger, err := logger.LogOpen("log/")
+	floger, err := logger.LogOpen("/home/rura/log/combo/")
 	if err != nil {
 		fmt.Printf("error opening file logger: %v \n", err)
 	}
