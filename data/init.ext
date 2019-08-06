@@ -19,8 +19,8 @@ let power=FORMAX(power1,power2,power3,power4)
 set taz1=0.0
 set taz2=0.0
 // Расчет температуры по зонам
-let taz1=FORMAX(Baz1:A0CT01IZ1,Baz2:A0CT01IZ2)
-let taz2=FORMAX(Baz1:B0CT01IZ1,Baz2:B0CT01IZ2)
+let taz1=RPU:A0CT01IRP
+let taz2=RPU:B0CT01IRP
 let flag1=NOT(dozs:FLAG1)
 let flag2=NOT(dozs:FLAG2)
 let fout:FD01=FloatStr(taz1,false)
