@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <format maxRecords="2147483647">
+        <fields>
+            <field description="Имя" name="name" type="S">
+                <validators contentType="base64">HEweMSA1MB0cUh5cdyteXtCY0LzRjyDQvNC+0LbQtdGCINGB0L7QtNC10YDQttCw0YLRjCDRgtC+0LvRjNC60L4g0LvQsNGC0LjQvdGB0LrQuNC1INCx0YPQutCy0YssINGG0LjRhNGA0Ysg0Lgg0YHQuNC80LLQvtC70Ysg0L/QvtC00YfQtdGA0LrQuNCy0LDQvdC40Y8d</validators>
+                <defaultValue/>
+            </field>
+            <field description="Описание" name="description" type="S">
+                <validators contentType="base64">HEweMSAyMDAdHFIeW15ccHtDbnRybH1dKl5e0J7Qv9C40YHQsNC90LjQtSDQvNC+0LbQtdGCINGB0L7QtNC10YDQttCw0YLRjCDRgtC+0LvRjNC60L4g0L/QtdGH0LDRgtC90YvQtSDRgdC40LzQstC+0LvRix0=</validators>
+                <defaultValue/>
+            </field>
+            <field description="Тип" name="type" type="I">
+                <selectionValues>
+                    <option description="Дискретный выход (Coil)">0</option>
+                    <option description="Дискретный вход (Discrete Input)">1</option>
+                    <option description="Входной регистр (Input Register)">2</option>
+                    <option description="Выходной регистр (Holding Register)">3</option>
+                </selectionValues>
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Формат" name="format" type="I">
+                <selectionValues>
+                    <option description="2-байтный Int Unsigned">2</option>
+                    <option description="2-байтный Int Signed">3</option>
+                    <option description="4-байтный Int Unsigned">4</option>
+                    <option description="4-байтный Int Signed">5</option>
+                    <option description="4-байтный Int Unsigned Swapped">6</option>
+                    <option description="4-байтный Int Signed Swapped">7</option>
+                    <option description="4-байтный Float">8</option>
+                    <option description="4-байтный Float Swapped">9</option>
+                    <option description="8-байтный Int Signed">11</option>
+                    <option description="8-байтный IntSignedSwapped">13</option>
+                    <option description="8-байтный Float">14</option>
+                    <option description="8-байтный FloatSwapped">15</option>
+                    <option description="2-байтный Byte Bcd">16</option>
+                    <option description="4-байтный Bcd">17</option>
+                    <option description="Символьный">18</option>
+                    <option description="Строковый">19</option>
+                </selectionValues>
+                <defaultValue>2</defaultValue>
+            </field>
+            <field description="Адрес регистра (десятичный)"
+                name="address" type="I">
+                <defaultValue>0</defaultValue>
+            </field>
+            <field description="Размер" name="size" type="I">
+                <validators contentType="base64">HEweMSAyNTUd</validators>
+                <defaultValue>1</defaultValue>
+            </field>
+            <field description="unitId" name="unitId" type="I">
+                <defaultValue>1</defaultValue>
+            </field>
+        </fields>
+        <bindings>
+            <binding>
+                <reference>format#enabled</reference>
+                <expression>{type} == 2 || {type} == 3</expression>
+            </binding>
+        </bindings>
+    </format>
+    <records>
+        <record>
+            <value name="name">START01</value>
+            <value name="description">Признак запуска счета по каналу 01</value>
+        </record>
+        <record>
+            <value name="name">START02</value>
+            <value name="description">Признак запуска счета по каналу 02</value>
+            <value name="address">1</value>
+        </record>
+        <record>
+            <value name="name">START03</value>
+            <value name="description">Признак запуска счета по каналу 03</value>
+            <value name="address">2</value>
+        </record>
+        <record>
+            <value name="name">START04</value>
+            <value name="description">Признак запуска счета по каналу 04</value>
+            <value name="address">3</value>
+        </record>
+        <record>
+            <value name="name">START05</value>
+            <value name="description">Признак запуска счета по каналу 05</value>
+            <value name="address">4</value>
+        </record>
+        <record>
+            <value name="name">START06</value>
+            <value name="description">Признак запуска счета по каналу 06</value>
+            <value name="address">5</value>
+        </record>
+        <record>
+            <value name="name">START07</value>
+            <value name="description">Признак запуска счета по каналу 07</value>
+            <value name="address">6</value>
+        </record>
+        <record>
+            <value name="name">START08</value>
+            <value name="description">Признак запуска счета по каналу 08</value>
+            <value name="address">7</value>
+        </record>
+        <record>
+            <value name="name">START09</value>
+            <value name="description">Признак запуска счета по каналу 09</value>
+            <value name="address">8</value>
+        </record>
+        <record>
+            <value name="name">START10</value>
+            <value name="description">Признак запуска счета по каналу 10</value>
+            <value name="address">9</value>
+        </record>
+        <record>
+            <value name="name">START11</value>
+            <value name="description">Признак запуска счета по каналу 11</value>
+            <value name="address">10</value>
+        </record>
+        <record>
+            <value name="name">START12</value>
+            <value name="description">Признак запуска счета по каналу 12</value>
+            <value name="address">11</value>
+        </record>
+        <record>
+            <value name="name">START13</value>
+            <value name="description">Признак запуска счета по каналу 13</value>
+            <value name="address">12</value>
+        </record>
+        <record>
+            <value name="name">START14</value>
+            <value name="description">Признак запуска счета по каналу 14</value>
+            <value name="address">13</value>
+        </record>
+        <record>
+            <value name="name">START15</value>
+            <value name="description">Признак запуска счета по каналу 15</value>
+            <value name="address">14</value>
+        </record>
+        <record>
+            <value name="name">START16</value>
+            <value name="description">Признак запуска счета по каналу 16</value>
+            <value name="address">15</value>
+        </record>
+        <record>
+            <value name="name">START17</value>
+            <value name="description">Признак запуска счета по каналу 17</value>
+            <value name="address">16</value>
+        </record>
+        <record>
+            <value name="name">START18</value>
+            <value name="description">Признак запуска счета по каналу 18</value>
+            <value name="address">17</value>
+        </record>
+        <record>
+            <value name="name">START19</value>
+            <value name="description">Признак запуска счета по каналу 19</value>
+            <value name="address">18</value>
+        </record>
+        <record>
+            <value name="name">START20</value>
+            <value name="description">Признак запуска счета по каналу 20</value>
+            <value name="address">19</value>
+        </record>
+        <record>
+            <value name="name">START21</value>
+            <value name="description">Признак запуска счета по каналу 21</value>
+            <value name="address">20</value>
+        </record>
+        <record>
+            <value name="name">START22</value>
+            <value name="description">Признак запуска счета по каналу 22</value>
+            <value name="address">21</value>
+        </record>
+        <record>
+            <value name="name">START23</value>
+            <value name="description">Признак запуска счета по каналу 23</value>
+            <value name="address">22</value>
+        </record>
+        <record>
+            <value name="name">START24</value>
+            <value name="description">Признак запуска счета по каналу 24</value>
+            <value name="address">23</value>
+        </record>
+
+        <record>
+            <value name="name">STATUS01</value>
+            <value name="description">Состояние расчета по каналу 01</value>
+            <value name="type">1</value>
+        </record>
+        <record>
+            <value name="name">STATUS02</value>
+            <value name="description">Состояние расчета по каналу 02</value>
+            <value name="type">1</value>
+            <value name="address">1</value>
+        </record>
+        <record>
+            <value name="name">STATUS03</value>
+            <value name="description">Состояние расчета по каналу 03</value>
+            <value name="type">1</value>
+            <value name="address">2</value>
+        </record>
+        <record>
+            <value name="name">STATUS04</value>
+            <value name="description">Состояние расчета по каналу 04</value>
+            <value name="type">1</value>
+            <value name="address">3</value>
+        </record>
+        <record>
+            <value name="name">STATUS05</value>
+            <value name="description">Состояние расчета по каналу 05</value>
+            <value name="type">1</value>
+            <value name="address">4</value>
+        </record>
+        <record>
+            <value name="name">STATUS06</value>
+            <value name="description">Состояние расчета по каналу 06</value>
+            <value name="type">1</value>
+            <value name="address">5</value>
+        </record>
+        <record>
+            <value name="name">STATUS07</value>
+            <value name="description">Состояние расчета по каналу 07</value>
+            <value name="type">1</value>
+            <value name="address">6</value>
+        </record>
+        <record>
+            <value name="name">STATUS08</value>
+            <value name="description">Состояние расчета по каналу 08</value>
+            <value name="type">1</value>
+            <value name="address">7</value>
+        </record>
+        <record>
+            <value name="name">STATUS09</value>
+            <value name="description">Состояние расчета по каналу 09</value>
+            <value name="type">1</value>
+            <value name="address">8</value>
+        </record>
+        <record>
+            <value name="name">STATUS10</value>
+            <value name="description">Состояние расчета по каналу 10</value>
+            <value name="type">1</value>
+            <value name="address">9</value>
+        </record>
+        <record>
+            <value name="name">STATUS11</value>
+            <value name="description">Состояние расчета по каналу 11</value>
+            <value name="type">1</value>
+            <value name="address">10</value>
+        </record>
+        <record>
+            <value name="name">STATUS12</value>
+            <value name="description">Состояние расчета по каналу 12</value>
+            <value name="type">1</value>
+            <value name="address">11</value>
+        </record>
+        <record>
+            <value name="name">STATUS13</value>
+            <value name="description">Состояние расчета по каналу 13</value>
+            <value name="type">1</value>
+            <value name="address">12</value>
+        </record>
+        <record>
+            <value name="name">STATUS14</value>
+            <value name="description">Состояние расчета по каналу 14</value>
+            <value name="type">1</value>
+            <value name="address">13</value>
+        </record>
+        <record>
+            <value name="name">STATUS15</value>
+            <value name="description">Состояние расчета по каналу 15</value>
+            <value name="type">1</value>
+            <value name="address">14</value>
+        </record>
+        <record>
+            <value name="name">STATUS16</value>
+            <value name="description">Состояние расчета по каналу 16</value>
+            <value name="type">1</value>
+            <value name="address">15</value>
+        </record>
+        <record>
+            <value name="name">STATUS17</value>
+            <value name="description">Состояние расчета по каналу 17</value>
+            <value name="type">1</value>
+            <value name="address">16</value>
+        </record>
+        <record>
+            <value name="name">STATUS18</value>
+            <value name="description">Состояние расчета по каналу 18</value>
+            <value name="type">1</value>
+            <value name="address">17</value>
+        </record>
+        <record>
+            <value name="name">STATUS19</value>
+            <value name="description">Состояние расчета по каналу 19</value>
+            <value name="type">1</value>
+            <value name="address">18</value>
+        </record>
+        <record>
+            <value name="name">STATUS20</value>
+            <value name="description">Состояние расчета по каналу 20</value>
+            <value name="type">1</value>
+            <value name="address">19</value>
+        </record>
+        <record>
+            <value name="name">STATUS21</value>
+            <value name="description">Состояние расчета по каналу 21</value>
+            <value name="type">1</value>
+            <value name="address">20</value>
+        </record>
+        <record>
+            <value name="name">STATUS22</value>
+            <value name="description">Состояние расчета по каналу 22</value>
+            <value name="type">1</value>
+            <value name="address">21</value>
+        </record>
+        <record>
+            <value name="name">STATUS23</value>
+            <value name="description">Состояние расчета по каналу 23</value>
+            <value name="type">1</value>
+            <value name="address">22</value>
+        </record>
+        <record>
+            <value name="name">STATUS24</value>
+            <value name="description">Состояние расчета по каналу 24</value>
+            <value name="type">1</value>
+            <value name="address">23</value>
+        </record>
+        <record>
+            <value name="name">VALUE01</value>
+            <value name="description">Значение по каналу 01</value>
+            <value name="type">2</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE02</value>
+            <value name="description">Значение по каналу 02</value>
+            <value name="type">2</value>
+            <value name="address">2</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE03</value>
+            <value name="description">Значение по каналу 03</value>
+            <value name="type">2</value>
+            <value name="address">4</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE04</value>
+            <value name="description">Значение по каналу 04</value>
+            <value name="type">2</value>
+            <value name="address">6</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE05</value>
+            <value name="description">Значение по каналу 05</value>
+            <value name="type">2</value>
+            <value name="address">8</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE06</value>
+            <value name="description">Значение по каналу 06</value>
+            <value name="type">2</value>
+            <value name="address">10</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE07</value>
+            <value name="description">Значение по каналу 07</value>
+            <value name="type">2</value>
+            <value name="address">12</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE08</value>
+            <value name="description">Значение по каналу 08</value>
+            <value name="type">2</value>
+            <value name="address">14</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE09</value>
+            <value name="description">Значение по каналу 09</value>
+            <value name="type">2</value>
+            <value name="address">16</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE10</value>
+            <value name="description">Значение по каналу 10</value>
+            <value name="type">2</value>
+            <value name="address">18</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE11</value>
+            <value name="description">Значение по каналу 11</value>
+            <value name="type">2</value>
+            <value name="address">20</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE12</value>
+            <value name="description">Значение по каналу 12</value>
+            <value name="type">2</value>
+            <value name="address">22</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE13</value>
+            <value name="description">Значение по каналу 13</value>
+            <value name="type">2</value>
+            <value name="address">24</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE14</value>
+            <value name="description">Значение по каналу 14</value>
+            <value name="type">2</value>
+            <value name="address">26</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE15</value>
+            <value name="description">Значение по каналу 15</value>
+            <value name="type">2</value>
+            <value name="address">28</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE16</value>
+            <value name="description">Значение по каналу 16</value>
+            <value name="type">2</value>
+            <value name="address">30</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE17</value>
+            <value name="description">Значение по каналу 17</value>
+            <value name="type">2</value>
+            <value name="address">32</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE18</value>
+            <value name="description">Значение по каналу 18</value>
+            <value name="type">2</value>
+            <value name="address">34</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE19</value>
+            <value name="description">Значение по каналу 19</value>
+            <value name="type">2</value>
+            <value name="address">36</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE20</value>
+            <value name="description">Значение по каналу 20</value>
+            <value name="type">2</value>
+            <value name="address">38</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE21</value>
+            <value name="description">Значение по каналу 21</value>
+            <value name="type">2</value>
+            <value name="address">40</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE22</value>
+            <value name="description">Значение по каналу 22</value>
+            <value name="type">2</value>
+            <value name="address">42</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE23</value>
+            <value name="description">Значение по каналу 23</value>
+            <value name="type">2</value>
+            <value name="address">44</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">VALUE24</value>
+            <value name="description">Значение по каналу 24</value>
+            <value name="type">2</value>
+            <value name="address">46</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">A01</value>
+            <value name="description">Коэффицент A по каналу 01</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+        </record>
+        <record>
+            <value name="name">B01</value>
+            <value name="description">Коэффицент B по каналу 01</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">2</value>
+        </record>
+        <record>
+            <value name="name">A02</value>
+            <value name="description">Коэффицент A по каналу 02</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">4</value>
+        </record>
+        <record>
+            <value name="name">B02</value>
+            <value name="description">Коэффицент B по каналу 02</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">6</value>
+        </record>
+        <record>
+            <value name="name">A03</value>
+            <value name="description">Коэффицент A по каналу 03</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">8</value>
+        </record>
+        <record>
+            <value name="name">B03</value>
+            <value name="description">Коэффицент B по каналу 03</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">10</value>
+        </record>
+        <record>
+            <value name="name">A04</value>
+            <value name="description">Коэффицент A по каналу 04</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">12</value>
+        </record>
+        <record>
+            <value name="name">B04</value>
+            <value name="description">Коэффицент B по каналу 04</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">14</value>
+        </record>
+        <record>
+            <value name="name">A05</value>
+            <value name="description">Коэффицент A по каналу 05</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">16</value>
+        </record>
+        <record>
+            <value name="name">B05</value>
+            <value name="description">Коэффицент B по каналу 05</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">18</value>
+        </record>
+        <record>
+            <value name="name">A06</value>
+            <value name="description">Коэффицент A по каналу 06</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">20</value>
+        </record>
+        <record>
+            <value name="name">B06</value>
+            <value name="description">Коэффицент B по каналу 06</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">22</value>
+        </record>
+        <record>
+            <value name="name">A07</value>
+            <value name="description">Коэффицент A по каналу 07</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">24</value>
+        </record>
+        <record>
+            <value name="name">B07</value>
+            <value name="description">Коэффицент B по каналу 07</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">26</value>
+        </record>
+        <record>
+            <value name="name">A08</value>
+            <value name="description">Коэффицент A по каналу 08</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">28</value>
+        </record>
+        <record>
+            <value name="name">B08</value>
+            <value name="description">Коэффицент B по каналу 08</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">30</value>
+        </record>
+        <record>
+            <value name="name">A09</value>
+            <value name="description">Коэффицент A по каналу 09</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">32</value>
+        </record>
+        <record>
+            <value name="name">B09</value>
+            <value name="description">Коэффицент B по каналу 09</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">34</value>
+        </record>
+        <record>
+            <value name="name">A10</value>
+            <value name="description">Коэффицент A по каналу 10</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">36</value>
+        </record>
+        <record>
+            <value name="name">B10</value>
+            <value name="description">Коэффицент B по каналу 10</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">38</value>
+        </record>
+        <record>
+            <value name="name">A11</value>
+            <value name="description">Коэффицент A по каналу 11</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">40</value>
+        </record>
+        <record>
+            <value name="name">B11</value>
+            <value name="description">Коэффицент B по каналу 11</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">42</value>
+        </record>
+        <record>
+            <value name="name">A12</value>
+            <value name="description">Коэффицент A по каналу 12</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">44</value>
+        </record>
+        <record>
+            <value name="name">B12</value>
+            <value name="description">Коэффицент B по каналу 12</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">46</value>
+        </record>
+        <record>
+            <value name="name">A13</value>
+            <value name="description">Коэффицент A по каналу 13</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">48</value>
+        </record>
+        <record>
+            <value name="name">B13</value>
+            <value name="description">Коэффицент B по каналу 13</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">50</value>
+        </record>
+        <record>
+            <value name="name">A14</value>
+            <value name="description">Коэффицент A по каналу 14</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">52</value>
+        </record>
+        <record>
+            <value name="name">B14</value>
+            <value name="description">Коэффицент B по каналу 14</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">54</value>
+        </record>
+        <record>
+            <value name="name">A15</value>
+            <value name="description">Коэффицент A по каналу 15</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">56</value>
+        </record>
+        <record>
+            <value name="name">B15</value>
+            <value name="description">Коэффицент B по каналу 15</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">58</value>
+        </record>
+        <record>
+            <value name="name">A16</value>
+            <value name="description">Коэффицент A по каналу 16</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">60</value>
+        </record>
+        <record>
+            <value name="name">B16</value>
+            <value name="description">Коэффицент B по каналу 16</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">62</value>
+        </record>
+        <record>
+            <value name="name">A17</value>
+            <value name="description">Коэффицент A по каналу 17</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">64</value>
+        </record>
+        <record>
+            <value name="name">B17</value>
+            <value name="description">Коэффицент B по каналу 17</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">68</value>
+        </record>
+        <record>
+            <value name="name">A18</value>
+            <value name="description">Коэффицент A по каналу 18</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">70</value>
+        </record>
+        <record>
+            <value name="name">B18</value>
+            <value name="description">Коэффицент B по каналу 18</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">72</value>
+        </record>
+        <record>
+            <value name="name">A19</value>
+            <value name="description">Коэффицент A по каналу 19</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">74</value>
+        </record>
+        <record>
+            <value name="name">B19</value>
+            <value name="description">Коэффицент B по каналу 19</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">76</value>
+        </record>
+        <record>
+            <value name="name">A20</value>
+            <value name="description">Коэффицент A по каналу 20</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">78</value>
+        </record>
+        <record>
+            <value name="name">B20</value>
+            <value name="description">Коэффицент B по каналу 20</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">80</value>
+        </record>
+        <record>
+            <value name="name">A21</value>
+            <value name="description">Коэффицент A по каналу 21</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">82</value>
+        </record>
+        <record>
+            <value name="name">B21</value>
+            <value name="description">Коэффицент B по каналу 21</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">84</value>
+        </record>
+        <record>
+            <value name="name">A22</value>
+            <value name="description">Коэффицент A по каналу 22</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">86</value>
+        </record>
+        <record>
+            <value name="name">B22</value>
+            <value name="description">Коэффицент B по каналу 22</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">88</value>
+        </record>
+        <record>
+            <value name="name">A23</value>
+            <value name="description">Коэффицент A по каналу 23</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">90</value>
+        </record>
+        <record>
+            <value name="name">B23</value>
+            <value name="description">Коэффицент B по каналу 23</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">92</value>
+        </record>
+        <record>
+            <value name="name">A24</value>
+            <value name="description">Коэффицент A по каналу 24</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">94</value>
+        </record>
+        <record>
+            <value name="name">B24</value>
+            <value name="description">Коэффицент B по каналу 24</value>
+            <value name="type">3</value>
+            <value name="format">8</value>
+            <value name="address">96</value>
+        </record>
+    </records>
+</table>
