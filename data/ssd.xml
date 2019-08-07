@@ -725,105 +725,105 @@
             <value name="description">Коэффицент B по каналу 17</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">68</value>
+            <value name="address">66</value>
         </record>
         <record>
             <value name="name">A18</value>
             <value name="description">Коэффицент A по каналу 18</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">70</value>
+            <value name="address">68</value>
         </record>
         <record>
             <value name="name">B18</value>
             <value name="description">Коэффицент B по каналу 18</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">72</value>
+            <value name="address">70</value>
         </record>
         <record>
             <value name="name">A19</value>
             <value name="description">Коэффицент A по каналу 19</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">74</value>
+            <value name="address">72</value>
         </record>
         <record>
             <value name="name">B19</value>
             <value name="description">Коэффицент B по каналу 19</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">76</value>
+            <value name="address">74</value>
         </record>
         <record>
             <value name="name">A20</value>
             <value name="description">Коэффицент A по каналу 20</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">78</value>
+            <value name="address">76</value>
         </record>
         <record>
             <value name="name">B20</value>
             <value name="description">Коэффицент B по каналу 20</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">80</value>
+            <value name="address">78</value>
         </record>
         <record>
             <value name="name">A21</value>
             <value name="description">Коэффицент A по каналу 21</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">82</value>
+            <value name="address">80</value>
         </record>
         <record>
             <value name="name">B21</value>
             <value name="description">Коэффицент B по каналу 21</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">84</value>
+            <value name="address">82</value>
         </record>
         <record>
             <value name="name">A22</value>
             <value name="description">Коэффицент A по каналу 22</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">86</value>
+            <value name="address">84</value>
         </record>
         <record>
             <value name="name">B22</value>
             <value name="description">Коэффицент B по каналу 22</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">88</value>
+            <value name="address">86</value>
         </record>
         <record>
             <value name="name">A23</value>
             <value name="description">Коэффицент A по каналу 23</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">90</value>
+            <value name="address">88</value>
         </record>
         <record>
             <value name="name">B23</value>
             <value name="description">Коэффицент B по каналу 23</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">92</value>
+            <value name="address">90</value>
         </record>
         <record>
             <value name="name">A24</value>
             <value name="description">Коэффицент A по каналу 24</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">94</value>
+            <value name="address">92</value>
         </record>
         <record>
             <value name="name">B24</value>
             <value name="description">Коэффицент B по каналу 24</value>
             <value name="type">3</value>
             <value name="format">8</value>
-            <value name="address">96</value>
+            <value name="address">94</value>
         </record>
     </records>
 </table>
