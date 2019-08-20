@@ -179,7 +179,6 @@
             <value name="description">Признак запуска счета по каналу 24</value>
             <value name="address">23</value>
         </record>
-
         <record>
             <value name="name">STATUS01</value>
             <value name="description">Состояние расчета по каналу 01</value>
@@ -333,162 +332,162 @@
             <value name="name">VALUE02</value>
             <value name="description">Значение по каналу 02</value>
             <value name="type">2</value>
-            <value name="address">2</value>
             <value name="format">8</value>
+            <value name="address">2</value>
         </record>
         <record>
             <value name="name">VALUE03</value>
             <value name="description">Значение по каналу 03</value>
             <value name="type">2</value>
-            <value name="address">4</value>
             <value name="format">8</value>
+            <value name="address">4</value>
         </record>
         <record>
             <value name="name">VALUE04</value>
             <value name="description">Значение по каналу 04</value>
             <value name="type">2</value>
-            <value name="address">6</value>
             <value name="format">8</value>
+            <value name="address">6</value>
         </record>
         <record>
             <value name="name">VALUE05</value>
             <value name="description">Значение по каналу 05</value>
             <value name="type">2</value>
-            <value name="address">8</value>
             <value name="format">8</value>
+            <value name="address">8</value>
         </record>
         <record>
             <value name="name">VALUE06</value>
             <value name="description">Значение по каналу 06</value>
             <value name="type">2</value>
-            <value name="address">10</value>
             <value name="format">8</value>
+            <value name="address">10</value>
         </record>
         <record>
             <value name="name">VALUE07</value>
             <value name="description">Значение по каналу 07</value>
             <value name="type">2</value>
-            <value name="address">12</value>
             <value name="format">8</value>
+            <value name="address">12</value>
         </record>
         <record>
             <value name="name">VALUE08</value>
             <value name="description">Значение по каналу 08</value>
             <value name="type">2</value>
-            <value name="address">14</value>
             <value name="format">8</value>
+            <value name="address">14</value>
         </record>
         <record>
             <value name="name">VALUE09</value>
             <value name="description">Значение по каналу 09</value>
             <value name="type">2</value>
-            <value name="address">16</value>
             <value name="format">8</value>
+            <value name="address">16</value>
         </record>
         <record>
             <value name="name">VALUE10</value>
             <value name="description">Значение по каналу 10</value>
             <value name="type">2</value>
-            <value name="address">18</value>
             <value name="format">8</value>
+            <value name="address">18</value>
         </record>
         <record>
             <value name="name">VALUE11</value>
             <value name="description">Значение по каналу 11</value>
             <value name="type">2</value>
-            <value name="address">20</value>
             <value name="format">8</value>
+            <value name="address">20</value>
         </record>
         <record>
             <value name="name">VALUE12</value>
             <value name="description">Значение по каналу 12</value>
             <value name="type">2</value>
-            <value name="address">22</value>
             <value name="format">8</value>
+            <value name="address">22</value>
         </record>
         <record>
             <value name="name">VALUE13</value>
             <value name="description">Значение по каналу 13</value>
             <value name="type">2</value>
-            <value name="address">24</value>
             <value name="format">8</value>
+            <value name="address">24</value>
         </record>
         <record>
             <value name="name">VALUE14</value>
             <value name="description">Значение по каналу 14</value>
             <value name="type">2</value>
-            <value name="address">26</value>
             <value name="format">8</value>
+            <value name="address">26</value>
         </record>
         <record>
             <value name="name">VALUE15</value>
             <value name="description">Значение по каналу 15</value>
             <value name="type">2</value>
-            <value name="address">28</value>
             <value name="format">8</value>
+            <value name="address">28</value>
         </record>
         <record>
             <value name="name">VALUE16</value>
             <value name="description">Значение по каналу 16</value>
             <value name="type">2</value>
-            <value name="address">30</value>
             <value name="format">8</value>
+            <value name="address">30</value>
         </record>
         <record>
             <value name="name">VALUE17</value>
             <value name="description">Значение по каналу 17</value>
             <value name="type">2</value>
-            <value name="address">32</value>
             <value name="format">8</value>
+            <value name="address">32</value>
         </record>
         <record>
             <value name="name">VALUE18</value>
             <value name="description">Значение по каналу 18</value>
             <value name="type">2</value>
-            <value name="address">34</value>
             <value name="format">8</value>
+            <value name="address">34</value>
         </record>
         <record>
             <value name="name">VALUE19</value>
             <value name="description">Значение по каналу 19</value>
             <value name="type">2</value>
-            <value name="address">36</value>
             <value name="format">8</value>
+            <value name="address">36</value>
         </record>
         <record>
             <value name="name">VALUE20</value>
             <value name="description">Значение по каналу 20</value>
             <value name="type">2</value>
-            <value name="address">38</value>
             <value name="format">8</value>
+            <value name="address">38</value>
         </record>
         <record>
             <value name="name">VALUE21</value>
             <value name="description">Значение по каналу 21</value>
             <value name="type">2</value>
-            <value name="address">40</value>
             <value name="format">8</value>
+            <value name="address">40</value>
         </record>
         <record>
             <value name="name">VALUE22</value>
             <value name="description">Значение по каналу 22</value>
             <value name="type">2</value>
-            <value name="address">42</value>
             <value name="format">8</value>
+            <value name="address">42</value>
         </record>
         <record>
             <value name="name">VALUE23</value>
             <value name="description">Значение по каналу 23</value>
             <value name="type">2</value>
-            <value name="address">44</value>
             <value name="format">8</value>
+            <value name="address">44</value>
         </record>
         <record>
             <value name="name">VALUE24</value>
             <value name="description">Значение по каналу 24</value>
             <value name="type">2</value>
-            <value name="address">46</value>
             <value name="format">8</value>
+            <value name="address">46</value>
         </record>
         <record>
             <value name="name">A01</value>
