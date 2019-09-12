@@ -53,6 +53,7 @@ var table TableXML
 
 func loadFile(path string, xmlf bool) error {
 	dt = NewDT(path)
+	table = *new(TableXML)
 	buffer, err := ioutil.ReadFile(path)
 	if err != nil {
 		return err
