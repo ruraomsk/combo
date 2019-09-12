@@ -11,12 +11,14 @@ import (
 // Упрощено описание
 type DataTable struct {
 	Name       string
-	fields     map[string]fieldFormat
+	fields     map[string]FieldFormat
 	dataStore  []Data
 	MaxRecords int
+	table      TableXML
 }
 
-type fieldFormat struct {
+//FieldFormat формат поля
+type FieldFormat struct {
 	name         string
 	description  string
 	format       string
@@ -30,7 +32,7 @@ type Data struct {
 
 // AddField добавление описания поля
 func (dt *DataTable) AddField(name string, description string, format string, defaultValue string) {
-	var ff fieldFormat
+	var ff FieldFormat
 	ff.name = name
 	ff.description = description
 	ff.format = format
@@ -43,7 +45,7 @@ func NewDT(name string) DataTable {
 	var dt DataTable
 	dt.Name = name
 	dt.dataStore = make([]Data, 0)
-	dt.fields = make(map[string]fieldFormat)
+	dt.fields = make(map[string]FieldFormat)
 	return dt
 }
 
@@ -99,11 +101,8 @@ func (dt *DataTable) ToString() string {
 }
 
 //MakeField функция
-func (data *Data) MakeField(ff fieldFormat) {
+func (data *Data) MakeField(ff FieldFormat) {
 	data.values[ff.name] = ""
-	if len(ff.defaultValue) > 0 {
-		data.SetString(ff.name, ff.defaultValue)
-	}
 	switch ff.format {
 	case "I":
 		data.SetInt(ff.name, 0)
@@ -117,7 +116,8 @@ func (data *Data) MakeField(ff fieldFormat) {
 		data.SetDate(ff.name, time.Now())
 	case "S":
 		data.SetString(ff.name, "")
-	default:
-		return
+	}
+	if len(ff.defaultValue) > 0 {
+		data.values[ff.name] = ff.defaultValue
 	}
 }

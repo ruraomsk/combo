@@ -9,7 +9,8 @@ import (
 
 // TableXML описывает таблицу настройки регистров Modbus
 type TableXML struct {
-	Format FormatXML `xml:"format" json:"format"`
+	XMLName xml.Name  `xml:"table"`
+	Format  FormatXML `xml:"format" json:"format"`
 	//	Recods Records `xml:"records" json:"records"`
 	RecordListXML []RecordXML `xml:"records>record" json:"record"`
 }
@@ -33,7 +34,13 @@ type FieldXML struct {
 	Type           string `xml:"type,attr" json:"type"`
 	Validators     string `xml:"validators,omitempty"`
 	SelectionValue string `xml:"selectionValue,omitempty"`
-	DefaultValue   string `xml:"defaultValue,omitempty" json:"defaultValue"`
+	// DefaultValue   string `xml:"defaultValue,attr,chardata" json:"defaultValue"`
+	DefaultValue DefValue `xml:"defaultValue,omitempty" json:"defaultValue"`
+}
+
+//DefValue значение по умолчанию
+type DefValue struct {
+	Value string `xml:",chardata"`
 }
 
 // RecordXML описывает отдельное поле
@@ -49,22 +56,20 @@ type ValueXML struct {
 
 // DataTable описание таблицы
 var dt DataTable
-var table TableXML
 
 func loadFile(path string, xmlf bool) error {
 	dt = NewDT(path)
-	table = *new(TableXML)
 	buffer, err := ioutil.ReadFile(path)
 	if err != nil {
 		return err
 	}
 	if xmlf {
-		err = xml.Unmarshal(buffer, &table)
+		err = xml.Unmarshal(buffer, &dt.table)
 		if err != nil {
 			return err
 		}
 	} else {
-		err = json.Unmarshal(buffer, &table)
+		err = json.Unmarshal(buffer, &dt.table)
 		if err != nil {
 			return err
 		}
@@ -92,12 +97,12 @@ func LoadTableJSON(mainPath string) (DataTable, error) {
 	return dt, err
 }
 func makeFormatTable() {
-	for _, field := range table.Format.FieldsXML.FieldListXML {
-		dt.AddField(field.Name, field.Description, field.Type, field.DefaultValue)
+	for _, field := range dt.table.Format.FieldsXML.FieldListXML {
+		dt.AddField(field.Name, field.Description, field.Type, field.DefaultValue.Value)
 	}
 }
 func loadDataValues() {
-	for _, rec := range table.RecordListXML {
+	for _, rec := range dt.table.RecordListXML {
 		data := dt.NewRecord()
 		for _, val := range rec.ValueListXML {
 			_, ok := data.values[val.Name]
