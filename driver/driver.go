@@ -44,7 +44,7 @@ type Driver struct {
 }
 
 // Init подготавливает драйвер к работе
-func Init(name string, DT *dt.DataTable, dev cmb.Device) (*Driver, error) {
+func Init(name string, DT dt.DataTable, dev cmb.Device) (*Driver, error) {
 	driver := new(Driver)
 	driver.name = name
 	driver.Description = dev.Description

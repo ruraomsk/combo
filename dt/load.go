@@ -1,11 +1,9 @@
 package dt
 
 import (
-	"bytes"
 	"encoding/json"
 	"encoding/xml"
-	"io"
-	"os"
+	"io/ioutil"
 	"strings"
 )
 
@@ -50,49 +48,45 @@ type ValueXML struct {
 }
 
 // DataTable описание таблицы
-var dt *DataTable
-var table *TableXML
+var dt DataTable
+var table TableXML
 
-func loadFile(mainPath string, xmlf bool) error {
-	dt = NewDT(mainPath)
-	buffer := bytes.NewBuffer(nil)
-	file, err := os.Open(mainPath)
+func loadFile(path string, xmlf bool) error {
+	dt = NewDT(path)
+	buffer, err := ioutil.ReadFile(path)
 	if err != nil {
 		return err
 	}
-	io.Copy(buffer, file)
-	file.Close()
-	table = new(TableXML)
 	if xmlf {
-		xml.Unmarshal(buffer.Bytes(), table)
+		err = xml.Unmarshal(buffer, &table)
+		if err != nil {
+			return err
+		}
+	} else {
+		err = json.Unmarshal(buffer, &table)
+		if err != nil {
+			return err
+		}
+
 	}
-	if !xmlf {
-		json.Unmarshal(buffer.Bytes(), table)
-	}
-	// fmt.Println(table)
 	makeFormatTable()
 	loadDataValues()
-	//fmt.Printf(device.DataTable.ToString())
 	return nil
-
 }
 
 //LoadTableXML загружает таблицу из XML
-func LoadTableXML(mainPath string, secondPath string) (*DataTable, error) {
-	var file string
-	if strings.Contains(secondPath, ".xml") {
-		file = secondPath
-	} else {
-		file = mainPath + ".xml"
+func LoadTableXML(path string) (DataTable, error) {
+	if !strings.Contains(path, ".xml") {
+		path += ".xml"
 	}
-	err := loadFile(file, true)
+	err := loadFile(path, true)
 
 	//fmt.Println(dt.TableToString())
 	return dt, err
 }
 
 //LoadTableJSON загружает таблицу из JSON
-func LoadTableJSON(mainPath string) (*DataTable, error) {
+func LoadTableJSON(mainPath string) (DataTable, error) {
 	err := loadFile(mainPath, false)
 	return dt, err
 }
@@ -105,10 +99,9 @@ func loadDataValues() {
 	for _, rec := range table.RecordListXML {
 		data := dt.NewRecord()
 		for _, val := range rec.ValueListXML {
-			sv, ok := data.values[val.Name]
+			_, ok := data.values[val.Name]
 			if ok {
-				sv.setValue(val.Value)
-				data.values[val.Name] = sv
+				data.values[val.Name] = val.Value
 			}
 		}
 		dt.AddRecord(data)

@@ -9,7 +9,7 @@ func (dt *DataTable) TableToString() string {
 	s += "\n"
 	for _, rec := range dt.dataStore {
 		for _, ff := range dt.fields {
-			s += rec.values[ff.name].value + "\t"
+			s += rec.values[ff.name] + "\t"
 		}
 		s += "\n"
 	}

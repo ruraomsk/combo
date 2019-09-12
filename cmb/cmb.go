@@ -91,7 +91,7 @@ type Device struct {
 	DataBits    int    `xml:"databits,attr" json:"databits"`
 	Parity      string `xml:"parity,attr" json:"parity"`
 	StopBits    int    `xml:"stopbits,attr" jspn:"stopbits"`
-	DT          *dt.DataTable
+	DT          dt.DataTable
 }
 
 //Project описание одного проекта системы
