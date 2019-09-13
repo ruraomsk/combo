@@ -8,7 +8,7 @@ import (
 
 // GetInt чтение поля записи по имени
 func (r *Data) GetInt(name string) (int, error) {
-	val, ok := r.values[name]
+	val, ok := r.Values[name]
 	if ok {
 		return strconv.Atoi(val)
 	}
@@ -18,7 +18,7 @@ func (r *Data) GetInt(name string) (int, error) {
 
 // GetBool чтение поля записи по имени
 func (r *Data) GetBool(name string) (bool, error) {
-	val, ok := r.values[name]
+	val, ok := r.Values[name]
 	if ok {
 		return strconv.ParseBool(val)
 	}
@@ -27,7 +27,7 @@ func (r *Data) GetBool(name string) (bool, error) {
 
 // GetFloat чтение поля записи по имени
 func (r *Data) GetFloat(name string) (float64, error) {
-	val, ok := r.values[name]
+	val, ok := r.Values[name]
 	if ok {
 		return strconv.ParseFloat(val, 64)
 	}
@@ -36,7 +36,7 @@ func (r *Data) GetFloat(name string) (float64, error) {
 
 // GetLong чтение поля записи по имени
 func (r *Data) GetLong(name string) (int64, error) {
-	val, ok := r.values[name]
+	val, ok := r.Values[name]
 	if ok {
 		return strconv.ParseInt(val, 10, 64)
 	}
@@ -45,7 +45,7 @@ func (r *Data) GetLong(name string) (int64, error) {
 
 // GetString чтение поля записи по имени
 func (r *Data) GetString(name string) (ret string, err error) {
-	val, ok := r.values[name]
+	val, ok := r.Values[name]
 	if ok {
 		return val, nil
 	}
@@ -56,7 +56,7 @@ func (r *Data) GetString(name string) (ret string, err error) {
 
 // GetDate чтение поля записи по имени
 func (r *Data) GetDate(name string) (time.Time, error) {
-	val, ok := r.values[name]
+	val, ok := r.Values[name]
 	if ok {
 		return time.Parse(time.RFC3339Nano, val)
 	}
@@ -65,9 +65,9 @@ func (r *Data) GetDate(name string) (time.Time, error) {
 
 //SetInt функция
 func (r *Data) SetInt(name string, value int) error {
-	_, ok := r.values[name]
+	_, ok := r.Values[name]
 	if ok {
-		r.values[name] = strconv.Itoa(value)
+		r.Values[name] = strconv.Itoa(value)
 		return nil
 	}
 	return errors.New("Not found field " + name)
@@ -75,9 +75,9 @@ func (r *Data) SetInt(name string, value int) error {
 
 //SetBool функция
 func (r *Data) SetBool(name string, value bool) error {
-	_, ok := r.values[name]
+	_, ok := r.Values[name]
 	if ok {
-		r.values[name] = strconv.FormatBool(value)
+		r.Values[name] = strconv.FormatBool(value)
 		return nil
 	}
 	return errors.New("Not found field " + name)
@@ -85,9 +85,9 @@ func (r *Data) SetBool(name string, value bool) error {
 
 //SetFloat функция
 func (r *Data) SetFloat(name string, value float64) error {
-	_, ok := r.values[name]
+	_, ok := r.Values[name]
 	if ok {
-		r.values[name] = strconv.FormatFloat(value, 'f', 5, 64)
+		r.Values[name] = strconv.FormatFloat(value, 'f', 5, 64)
 		return nil
 	}
 	return errors.New("Not found field " + name)
@@ -95,9 +95,9 @@ func (r *Data) SetFloat(name string, value float64) error {
 
 //SetLong функция
 func (r *Data) SetLong(name string, value int64) error {
-	_, ok := r.values[name]
+	_, ok := r.Values[name]
 	if ok {
-		r.values[name] = strconv.FormatInt(value, 10)
+		r.Values[name] = strconv.FormatInt(value, 10)
 		return nil
 	}
 	return errors.New("Not found field " + name)
@@ -105,9 +105,9 @@ func (r *Data) SetLong(name string, value int64) error {
 
 //SetString функция
 func (r *Data) SetString(name string, value string) error {
-	_, ok := r.values[name]
+	_, ok := r.Values[name]
 	if ok {
-		r.values[name] = value
+		r.Values[name] = value
 		return nil
 	}
 	return errors.New("Not found  field " + name)
@@ -115,9 +115,9 @@ func (r *Data) SetString(name string, value string) error {
 
 //SetDate функция
 func (r *Data) SetDate(name string, value time.Time) error {
-	_, ok := r.values[name]
+	_, ok := r.Values[name]
 	if ok {
-		r.values[name] = value.Format(time.RFC3339Nano)
+		r.Values[name] = value.Format(time.RFC3339Nano)
 		return nil
 	}
 	return errors.New("Not found")

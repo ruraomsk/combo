@@ -1,6 +1,7 @@
 package dt
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"os"
 
@@ -10,17 +11,17 @@ import (
 //TableToString функция
 func (dt *DataTable) TableToString() string {
 	var s string
-	names := make([]string, len(dt.fields))
+	names := make([]string, len(dt.Fields))
 	i := 0
-	for _, f := range dt.fields {
-		s += f.name + "\t"
-		names[i] = f.name
+	for _, f := range dt.Fields {
+		s += f.Name + "\t"
+		names[i] = f.Name
 		i++
 	}
 	s += "\n"
-	for _, rec := range dt.dataStore {
+	for _, rec := range dt.DataStore {
 		for _, ff := range names {
-			s += rec.values[ff] + "\t"
+			s += rec.Values[ff] + "\t"
 		}
 		s += "\n"
 	}
@@ -31,10 +32,10 @@ func (dt *DataTable) TableToString() string {
 //TableToXML выгружает таблицу в XML
 func (dt *DataTable) TableToXML() error {
 	dt.table.RecordListXML = make([]RecordXML, 0)
-	for _, rec := range dt.dataStore {
+	for _, rec := range dt.DataStore {
 		var rlx RecordXML
 		rlx.ValueListXML = make([]ValueXML, 0)
-		for name, value := range rec.values {
+		for name, value := range rec.Values {
 			var rxml ValueXML
 			rxml.Name = name
 			rxml.Value = value
@@ -57,4 +58,9 @@ func (dt *DataTable) TableToXML() error {
 	defer file.Close()
 	_, err = file.Write(result)
 	return err
+}
+
+//ToJSON вывод таблицы в JSON
+func (dt *DataTable) ToJSON() ([]byte, error) {
+	return json.Marshal(dt)
 }

@@ -11,54 +11,54 @@ import (
 // Упрощено описание
 type DataTable struct {
 	Name       string
-	fields     map[string]FieldFormat
-	dataStore  []Data
+	Fields     map[string]FieldFormat
+	DataStore  []Data
 	MaxRecords int
 	table      TableXML
 }
 
 //FieldFormat формат поля
 type FieldFormat struct {
-	name         string
-	description  string
-	format       string
-	defaultValue string
+	Name         string
+	Description  string
+	Format       string
+	DefaultValue string
 }
 
 // Data собственно дата
 type Data struct {
-	values map[string]string
+	Values map[string]string
 }
 
 // AddField добавление описания поля
 func (dt *DataTable) AddField(name string, description string, format string, defaultValue string) {
 	var ff FieldFormat
-	ff.name = name
-	ff.description = description
-	ff.format = format
-	ff.defaultValue = defaultValue
-	dt.fields[name] = ff
+	ff.Name = name
+	ff.Description = description
+	ff.Format = format
+	ff.DefaultValue = defaultValue
+	dt.Fields[name] = ff
 }
 
 // NewDT создает новую таблицу данных
 func NewDT(name string) DataTable {
 	var dt DataTable
 	dt.Name = name
-	dt.dataStore = make([]Data, 0)
-	dt.fields = make(map[string]FieldFormat)
+	dt.DataStore = make([]Data, 0)
+	dt.Fields = make(map[string]FieldFormat)
 	return dt
 }
 
 // Len возвращает кол-во записей в таблице
 func (dt *DataTable) Len() int {
-	return len(dt.dataStore)
+	return len(dt.DataStore)
 }
 
 // ReadRecod возвращает прочитанную запись из таблице
 func (dt *DataTable) ReadRecod(nomer int) (Data, error) {
 	var d Data
 	if nomer >= 0 && nomer < dt.Len() {
-		d = dt.dataStore[nomer]
+		d = dt.DataStore[nomer]
 		return d, nil
 	}
 	return d, errors.New("Номер записи вне таблицы")
@@ -67,8 +67,8 @@ func (dt *DataTable) ReadRecod(nomer int) (Data, error) {
 // NewRecord создает  запись
 func (dt *DataTable) NewRecord() Data {
 	var rec Data
-	rec.values = make(map[string]string)
-	for _, df := range dt.fields {
+	rec.Values = make(map[string]string)
+	for _, df := range dt.Fields {
 		rec.MakeField(df)
 	}
 	return rec
@@ -76,22 +76,22 @@ func (dt *DataTable) NewRecord() Data {
 
 //AddRecord записывает запись в таблицу
 func (dt *DataTable) AddRecord(d Data) {
-	if dt.dataStore == nil {
-		dt.dataStore = make([]Data, 0)
+	if dt.DataStore == nil {
+		dt.DataStore = make([]Data, 0)
 	}
-	dt.dataStore = append(dt.dataStore, d)
+	dt.DataStore = append(dt.DataStore, d)
 }
 
 //ToString тестовое представление таблицы
 func (dt *DataTable) ToString() string {
 
-	s := bytes.NewBufferString(fmt.Sprintf("DataTable %s %d \n", dt.Name, len(dt.dataStore)))
-	for _, field := range dt.fields {
-		s.WriteString(field.name + ":" + field.description + " " + field.format + "\n")
+	s := bytes.NewBufferString(fmt.Sprintf("DataTable %s %d \n", dt.Name, len(dt.DataStore)))
+	for _, field := range dt.Fields {
+		s.WriteString(field.Name + ":" + field.Description + " " + field.Format + "\n")
 	}
 	for i := 0; i < dt.Len(); i++ {
 		record, _ := dt.ReadRecod(i)
-		for _, value := range record.values {
+		for _, value := range record.Values {
 			s.WriteString(value + " ")
 		}
 
@@ -102,22 +102,22 @@ func (dt *DataTable) ToString() string {
 
 //MakeField функция
 func (data *Data) MakeField(ff FieldFormat) {
-	data.values[ff.name] = ""
-	switch ff.format {
+	data.Values[ff.Name] = ""
+	switch ff.Format {
 	case "I":
-		data.SetInt(ff.name, 0)
+		data.SetInt(ff.Name, 0)
 	case "B":
-		data.SetBool(ff.name, false)
+		data.SetBool(ff.Name, false)
 	case "F":
-		data.SetFloat(ff.name, 0.0)
+		data.SetFloat(ff.Name, 0.0)
 	case "L":
-		data.SetLong(ff.name, 0)
+		data.SetLong(ff.Name, 0)
 	case "D":
-		data.SetDate(ff.name, time.Now())
+		data.SetDate(ff.Name, time.Now())
 	case "S":
-		data.SetString(ff.name, "")
+		data.SetString(ff.Name, "")
 	}
-	if len(ff.defaultValue) > 0 {
-		data.values[ff.name] = ff.defaultValue
+	if len(ff.DefaultValue) > 0 {
+		data.Values[ff.Name] = ff.DefaultValue
 	}
 }
