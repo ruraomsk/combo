@@ -55,7 +55,7 @@ func main() {
 	DBRouters = make(map[string]*router.DBRouter)
 	logger.LoadLogger(Cmb.Loggers, paramSQL(), Cmb.Loggers.Name, clearDB)
 	for _, device := range Cmb.Devices.DeviceList {
-		device.DT, err = dt.LoadTableXML(Cmb.Server.Path + device.Load)
+		device.DT, err = dt.LoadTableXML(device.Load)
 		if err != nil {
 			cmb.Logger.Fatalf("Не могли загрузить таблицу " + device.Load)
 			return

@@ -143,6 +143,10 @@ func LoadServer(namefile string) (*Combo, error) {
 		logger.Error.Println(err.Error())
 		return sl, err
 	}
+	for i, dev := range sl.Devices.DeviceList {
+		dev.Load = sl.Server.Path + dev.Load
+		sl.Devices.DeviceList[i] = dev
+	}
 	if len(sl.Server.Project) != 0 {
 		pr := new(Project)
 		namefile := sl.Server.Project + "/main.xml"
